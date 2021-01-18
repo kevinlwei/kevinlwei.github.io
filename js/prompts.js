@@ -53,11 +53,10 @@ var portfolio = `Here's a few of my past projects:
 \t
 \t<a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a>: my latest white paper on regulating MLAI bias, published by the Day One Project (a project of the Federation of American Scientists)
 \t<a href="https://www.digitalocean.com/blog/how-startups-can-overcome-obstacles-in-their-cloud" target="_blank">How startups can overcome obstacles in their cloud journey</a>: a DigitalOcean blog post on some recent startup research we conducted
-\t<a href="https://dumpingsagainsthate.com" target="_blank">Dumpings Against Hate</a>: a digital media campaign that's raised $60,000+ to date for relief for NYC Chinatowns' small businesses during COVID-19
-\t<a href="https://planamag.com/only-one-candidate-will-protect-flushing-and-its-not-the-dishonest-cop-backed-by-luxury-real-estate/" target="_blank">Only one candidate will protect flushing, and it's not the dishonest cop backed by luxury real estate>/a>: an op-ed in Plan A Magazine
+\t<a href="https://dumplingsagainsthate.com" target="_blank">Dumpings Against Hate</a>: a digital media campaign that's raised $63,000+ to date for relief for NYC Chinatowns' small businesses during COVID-19
+\t<a href="https://planamag.com/only-one-candidate-will-protect-flushing-and-its-not-the-dishonest-cop-backed-by-luxury-real-estate/" target="_blank">Only one candidate will protect flushing, and it's not the dishonest cop backed by luxury real estate</a>: an op-ed in Plan A Magazine
 \t<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment</a> (2017): here's internet infrastructure startup DigitalOcean's comment to the FCC in support of net neutrality, which I wrote back in 2017
 \t<a href="http://www.fantasyliterature.com/author-interviews/n-k-jemisin/" target="_blank">N.K. Jemisin Interview</a> (2016): here's me interviewing NYT-bestselling fantasy author N.K. Jemisin about her Broken Earth trilogy
-\t<a href="https://github.com/kevinlwei" target="_blank">GitHub</a>: my code snippets :)
 \t 
 \t
 You can also read about my advocacy work in the press:
