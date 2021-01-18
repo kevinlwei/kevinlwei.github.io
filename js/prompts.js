@@ -58,14 +58,14 @@ var portfolio = `Here's a few of my past projects:
 \t<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment</a> (2017): here's internet infrastructure startup DigitalOcean's comment to the FCC in support of net neutrality, which I wrote back in 2017
 \t<a href="http://www.fantasyliterature.com/author-interviews/n-k-jemisin/" target="_blank">N.K. Jemisin Interview</a> (2016): here's me interviewing NYT-bestselling fantasy author N.K. Jemisin about her Broken Earth trilogy
 \t 
+\tYou can also read about my advocacy work in the press:
 \t
-You can also read about my advocacy work in the press:
-<a href="https://www.businessinsider.com/democrats-door-knock-campaign-election-republicans-biden-voters-2020-12" target="_blank">Democrats' decision to avoid in-person events with voters cost them in 2020. But it could set them up for bigger wins in the long run.</a>, <em>Business Insider</em>
-<a href=https://nypost.com/2020/06/10/youth-programs-say-de-blasios-plan-to-use-nypd-funds-is-nonsense/"" target="_blank">Youth programs say de Blasio plan to reallocate NYPD funds is nonsense </a>, <em>New York Post,</em>
-<a href="https://www.columbiaspectator.com/news/2020/05/03/new-york-city-cancels-its-summer-program-that-employs-75000-youths/" target="_blank">New York City cancels its summer program that employs 75,000 youths </a>, <em>Columbia Spectator</em>
-<a href="https://citylimits.org/2020/04/28/in-fight-to-save-summer-youth-employment-advocates-push-city-to-let-teens-work-remotely/" target="_blank">In Fight to Save Summer Youth Employment, Advocates Push City to Let Teens Work Remotely</a>, <em>City Limits</em>
-<a href="https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400" target="_blank">New York’s Chinatown Businesses Struggle to Survive Coronavirus Shutdown </a>, <em>Wall Street Journal</em>
-<a href="https://gothamist.com/food/dumplings-against-hate-want-you-to-show-some-love-to-nycs-chinatowns" target="_blank">“Dumplings Against Hate” Want You To Show Some Love To NYC's Chinatowns</a>, <em>Gothamist</em>
+\t<a href="https://www.businessinsider.com/democrats-door-knock-campaign-election-republicans-biden-voters-2020-12" target="_blank">Democrats' decision to avoid in-person events with voters cost them in 2020. But it could set them up for bigger wins in the long run.</a>, <em>Business Insider</em>
+\t<a href=https://nypost.com/2020/06/10/youth-programs-say-de-blasios-plan-to-use-nypd-funds-is-nonsense/"" target="_blank">Youth programs say de Blasio plan to reallocate NYPD funds is nonsense </a>, <em>New York Post,</em>
+\t<a href="https://www.columbiaspectator.com/news/2020/05/03/new-york-city-cancels-its-summer-program-that-employs-75000-youths/" target="_blank">New York City cancels its summer program that employs 75,000 youths </a>, <em>Columbia Spectator</em>
+\t<a href="https://citylimits.org/2020/04/28/in-fight-to-save-summer-youth-employment-advocates-push-city-to-let-teens-work-remotely/" target="_blank">In Fight to Save Summer Youth Employment, Advocates Push City to Let Teens Work Remotely</a>, <em>City Limits</em>
+\t<a href="https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400" target="_blank">New York’s Chinatown Businesses Struggle to Survive Coronavirus Shutdown </a>, <em>Wall Street Journal</em>
+\t<a href="https://gothamist.com/food/dumplings-against-hate-want-you-to-show-some-love-to-nycs-chinatowns" target="_blank">“Dumplings Against Hate” Want You To Show Some Love To NYC's Chinatowns</a>, <em>Gothamist</em>
 \t Type <span class = "special">help</span> for more commands.`;
 
 var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on.
