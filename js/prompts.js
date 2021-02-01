@@ -17,7 +17,7 @@ var intro = `Right now, I'm the Digital Director for NYS Assemblymember <a href=
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: <span class="special">digital strategist</span>, <span class="special">policy advocate</span>, and <span class="special">data scientist</span> based in NYC. I work on political campaigns (focused on NYC 2021), as well as advocacy on education, economic + racial equity, tech policy, and LGBTQ+ rights. Currently the Digital Director for <a href="https://danquart.com/" target="_blank">Assemblymember Dan Quart</a>. Shoot me a message at hi@kevinlwei.com :)
+var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: <span class="special">digital strategist</span>, <span class="special">policy advocate</span>, and <span class="special">technologist</span> based in NYC. I'm extremely involved in NYC political advocacy, as well as advocacy around education, economic + racial equity, tech policy, and LGBTQ+ rights. Currently the Digital Director for <a href="https://danquart.com/" target="_blank">Assemblymember Dan Quart</a>. Shoot me a message at hi@kevinlwei.com :)
 \t
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
