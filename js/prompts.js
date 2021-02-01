@@ -11,9 +11,9 @@ cats: display ascii art of cats ;)
 
 var intro = `Right now, I'm the Digital Director for NYS Assemblymember <a href="https://danquart.com/" target="_blank">Dan Quart</a>'s campaign for Manhattan District Attorney in 2021. I'm also a Code for Equity Fellow with <a href="https://www.impactlabs.io/fellowship" target="_blank">Impact Labs</a>, a Trainer (Digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>, and the Startups Manager for <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, where I'm scaling out our education access and startup programs. Check out <a href="https://www.digitalocean.com/the-spin-up/" target="_blank">the Spin Up</a>, DigitalOcean and a16z's new program to expand computer science education to historically underrepresented communities! 
 \t
-\tAdditionally, I serve on the National Endorsements Board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a>, the New York State Assembly'e Asian American & Pacific Islander Task Force Advisory Board, the Young Voter Advisory Board of civictech startup <a href="https://motivote.us/" target="_blank">Motivote</a>, and the <a href="https://myd.nyc" target="_blank">Manhattan Young Democrats</a> Executive Board (where I'm also a political director).
+\tAdditionally, I serve on the National Endorsements Board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a>, the New York State Assembly'e Asian American & Pacific Islander Task Force Advisory Board, the Young Voter Advisory Board of civictech startup <a href="https://motivote.us/" target="_blank">Motivote</a>, the <a href="https://myd.nyc" target="_blank">Manhattan Young Democrats</a> Executive Board (where I'm also a political director), and the Organizing Committee of the NYC-DSA's Tech Action Working Group.
 \t 
-\tPreviously, I was a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund, and a 2018 Beto Senate campaign staffer. When time permits, I'm an avid Overwatch player and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/" target="_blank">FantasyLiterature.com</a>). Formerly Math-Stat + Economics @ Columbia, now CS grad student @ Georgia Tech (OMSCS). 
+\tPreviously, I was a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC for my political work in NYC, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund (where we helped flip the Virginia state legislature for the Democrats in 2019), and a 2018 Beto Senate campaign staffer (where I helped develop a specialized statewide volunteer program). When time permits, I'm an avid Overwatch player and science fiction fan (reviewer at <a href="http://www.fantasyliterature.com/" target="_blank">FantasyLiterature.com</a>). Formerly Math-Stat + Economics @ Columbia, now CS grad student @ Georgia Tech (OMSCS). 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
@@ -44,8 +44,7 @@ var help = [{
   description: "Clear the screen"
 }];
 
-var social = `<a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
-\t<a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">LinkedIn</a>
+var social = `<a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a> (on a Twitter-cation as of late 2020)
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
@@ -53,7 +52,7 @@ var portfolio = `Here's a few of my past projects:
 \t
 \t<a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a>: my latest white paper on regulating MLAI bias, published by the Day One Project (a project of the Federation of American Scientists)
 \t<a href="https://www.digitalocean.com/blog/how-startups-can-overcome-obstacles-in-their-cloud" target="_blank">How startups can overcome obstacles in their cloud journey</a>: a DigitalOcean blog post on some recent startup research we conducted
-\t<a href="https://dumplingsagainsthate.com" target="_blank">Dumpings Against Hate</a>: a digital media campaign that's raised $63,000+ to date for relief for NYC Chinatowns' small businesses during COVID-19
+\t<a href="https://dumplingsagainsthate.com" target="_blank">Dumplings Against Hate</a>: a digital media campaign that's raised $63,000+ to date for relief for NYC Chinatowns' small businesses during COVID-19
 \t<a href="https://planamag.com/only-one-candidate-will-protect-flushing-and-its-not-the-dishonest-cop-backed-by-luxury-real-estate/" target="_blank">Only one candidate will protect flushing, and it's not the dishonest cop backed by luxury real estate</a>: an op-ed in Plan A Magazine
 \t<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment</a> (2017): here's internet infrastructure startup DigitalOcean's comment to the FCC in support of net neutrality, which I wrote back in 2017
 \t<a href="http://www.fantasyliterature.com/author-interviews/n-k-jemisin/" target="_blank">N.K. Jemisin Interview</a> (2016): here's me interviewing NYT-bestselling fantasy author N.K. Jemisin about her Broken Earth trilogy
