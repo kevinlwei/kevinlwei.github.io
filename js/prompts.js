@@ -9,7 +9,7 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `Right now, I'm the Startups Manager at <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a> and an incoming 2023 <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar<a>. I'm also a Trainer (Digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>. Check out <a href="https://www.digitalocean.com/the-spin-up/" target="_blank">the Spin Up</a>, DigitalOcean and a16z's new program to expand computer science education to historically underrepresented communities! 
+var intro = `Right now, I'm the Startups Manager at <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a> and an incoming 2023 <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a>. I'm also a Trainer (Digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>. Check out <a href="https://www.digitalocean.com/the-spin-up/" target="_blank">the Spin Up</a>, DigitalOcean and a16z's new program to expand computer science education to historically underrepresented communities! 
 \t
 \tAdditionally, I serve on the National Endorsements Board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a> and the Organizing Committee of the <a href="https://techaction.nyc/" target="_blank">NYC-DSA Tech Action Working Group</a>.
 \t 
