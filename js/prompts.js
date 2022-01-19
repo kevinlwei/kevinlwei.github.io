@@ -46,6 +46,8 @@ var help = [{
 
 var social = `<a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a> (on a Twitter-cation as of late 2020)
 \t 
+\t <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">Linkedin</a>
+\t
 \t Type <span class = "special">help</span> for more commands.`;
 
 var portfolio = `Here's a few of my past projects:
