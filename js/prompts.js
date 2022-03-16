@@ -9,15 +9,15 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `Right now, I'm the Startups Manager at <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a> and an incoming 2023 <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a>. I'm also a Trainer (Digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>. Check out <a href="https://www.digitalocean.com/the-spin-up/" target="_blank">the Spin Up</a>, DigitalOcean and a16z's new program to expand computer science education to historically underrepresented communities! 
+var intro = `Right now, I'm a Senior Marketing Manager at <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a> and an incoming 2023 <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a>. I'm also a trainer (digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>. 
 \t
-\tAdditionally, I serve on the National Endorsements Board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a> and the Organizing Committee of the <a href="https://techaction.nyc/" target="_blank">NYC-DSA Tech Action Working Group</a>.
+\tAdditionally, I serve on the national endorsements board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a> and the Organizing Committee of the <a href="https://techaction.nyc/" target="_blank">NYC-DSA Tech Action Working Group</a>.
 \t 
-\tPreviously, I was a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC for my political work in NYC, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund (where we helped flip the Virginia state legislature for the Democrats in 2019), and a 2018 Beto Senate campaign staffer (where I helped develop a specialized statewide volunteer program). When time permits, I'm an avid Overwatch player and science fiction fan. Formerly Math-Stat + Economics @ Columbia, now CS grad student @ Georgia Tech (OMSCS). 
+\tPreviously, I was a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC for my political work in NYC, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund (where we helped flip the Virginia state legislature for the Democrats in 2019), and a 2018 Beto Senate campaign staffer (where I helped develop a specialized statewide volunteer program). Formerly Math-Stat + Economics @ Columbia, now CS grad student @ Georgia Tech (OMSCS). 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: <span class="special">digital strategist</span>, <span class="special">policy advocate</span>, and <span class="special">technologist</span> based in NYC. I'm extremely involved in NYC political advocacy, as well as advocacy around education, economic + racial equity, tech policy, and LGBTQ+ rights. Currently the Startups Manager @ DigitalOcean and incoming Schwarzman Scholar. Shoot me a message at hi@kevinlwei.com :)
+var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: a <span class="special">policy advocate</span>, <span class="special">technologist</span>, and <span class="special">effective altruist</span> based in NYC. I'm interested in issues (at the intersection of) economic + racial equity, tech policy, LGBTQ+ rights, and EA. Currently a Senior Startups Manager @ DigitalOcean and incoming Schwarzman Scholar. Feel free to grab some time on my <a href="https://calendly.com/kevinlwei" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
 \t
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
@@ -70,7 +70,7 @@ var portfolio = `Here's a few of my past projects:
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on.
+var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>, or just directly schedule some time on my <a href="https://calendly.com/kevinlwei" target="_blank">Calendly</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on.
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
