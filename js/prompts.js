@@ -44,7 +44,9 @@ var help = [{
   description: "Clear the screen"
 }];
 
-var social = `<a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a> (on a Twitter-cation as of late 2020)
+var social = ` <a rel="me" href="https://mastodon.social/@kwei" target="_blank">Mastodon</a>
+\t 
+\t <a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
 \t 
 \t <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">Linkedin</a>
 \t
