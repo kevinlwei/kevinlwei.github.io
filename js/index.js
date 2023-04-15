@@ -1,12 +1,12 @@
 $(document).ready(function() {
-	var jqconsole = $("#console").jqconsole("", "kevin> ");
+	var jqconsole = $("#console").jqconsole("", "kwei> ");
   jqconsole.Write("<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>', 'jqconsole-output', false);
 
 	var process = (input) => {
 		var parsed = input.split(" ");
 		var commands = [
 			[["help", "?", "ls"], buildLambda("help")],
-			[["hello", "kevin", "hi", "mission", "description", "why", "intro", "info"], buildLambda("intro")],
+			[["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info"], buildLambda("intro")],
 			[["social", "links"], buildLambda("social")],
       [["portfolio", "projects"], buildLambda("portfolio")],
 			[["contact"], buildLambda("contact")],
