@@ -9,15 +9,15 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `Right now, I'm a 2023 <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> and based in Beijing until June 2023. I'm also a trainer (digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>. 
+var intro = `Right now, I'm a first-year at Harvard Law School. I'm also a trainer (digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>. 
 \t
-\tAdditionally, I serve on the national endorsements board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a> and the Organizing Committee of the <a href="https://techaction.nyc/" target="_blank">NYC-DSA Tech Action Working Group</a>.
+\tAdditionally, I serve on the national endorsements board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a>.
 \t 
-\tPreviously, I was a Senior Marketing Manager at <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC for my political work in NYC, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund (where we helped flip the Virginia state legislature for the Democrats in 2019), and a 2018 Beto Senate campaign staffer (where I helped develop a specialized statewide volunteer program). Formerly Math-Stat + Economics @ Columbia and OMSCS @ Georgia Tech. 
+\tPreviously, I was a <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> in Beijing, <a href="https://www.schwarzmanscholars.org/" target="_blank">a Summer Fellow at the Centre for the Governance of AI</a>, a Senior Marketing Manager at cloud infrastructure provider <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC for my political work in NYC, a member of the Organizing Committee of the <a href="https://techaction.nyc/" target="_blank">NYC-DSA Tech Action Working Group</a>, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund (where we helped flip the Virginia state legislature for the Democrats in 2019), and a 2018 Beto Senate campaign staffer (where I helped develop a specialized statewide volunteer program). Formerly Math-Stat + Economics @ Columbia and OMSCS @ Georgia Tech. 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: a <span class="special">policy advocate</span>, <span class="special">technologist</span>, and <span class="special">effective altruist</span> based in NYC. I'm interested in issues (at the intersection of) economic + racial equity, tech policy & AI governance, and EA. Currently a Schwarzman Scholar. Feel free to grab some time on my <a href="https://calendly.com/kevinlwei" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
+var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: a <span class="special">policy researcher</span>, <span class="special">technologist</span>, and <span class="special">effective altruist</span> based in Boston. I'm interested in issues (at the intersection of) tech policy & AI governance, economic + racial equity, and EA. Currently a first-year at Harvard Law. Feel free to grab some time on my <a href="https://calendly.com/kevinlwei" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
 \t
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
@@ -44,22 +44,22 @@ var help = [{
   description: "Clear the screen"
 }];
 
-var social = ` <a rel="me" href="https://mastodon.social/@kwei" target="_blank">Mastodon</a>
+var social = ` <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">Linkedin</a>
+\t 
+\t <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a>
 \t 
 \t <a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
 \t 
-\t <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">Linkedin</a>
+\t <a rel="me" href="https://mastodon.social/@kwei" target="_blank">Mastodon</a>
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
 var portfolio = `Here's a few of my past projects:
 \t
-\t<a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a>: my latest white paper on regulating MLAI bias, published by the Day One Project (a project of the Federation of American Scientists)
-\t<a href="https://www.digitalocean.com/blog/how-startups-can-overcome-obstacles-in-their-cloud" target="_blank">How startups can overcome obstacles in their cloud journey</a>: a DigitalOcean blog post on some recent startup research we conducted
-\t<a href="https://dumplingsagainsthate.com" target="_blank">Dumplings Against Hate</a>: a digital media campaign that's raised $63,000+ to date for relief for NYC Chinatowns' small businesses during COVID-19
-\t<a href="https://planamag.com/only-one-candidate-will-protect-flushing-and-its-not-the-dishonest-cop-backed-by-luxury-real-estate/" target="_blank">Only one candidate will protect flushing, and it's not the dishonest cop backed by luxury real estate</a>: an op-ed in Plan A Magazine
-\t<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment</a> (2017): here's internet infrastructure startup DigitalOcean's comment to the FCC in support of net neutrality, which I wrote back in 2017
-\t<a href="http://www.fantasyliterature.com/author-interviews/n-k-jemisin/" target="_blank">N.K. Jemisin Interview</a> (2016): here's me interviewing NYT-bestselling fantasy author N.K. Jemisin about her Broken Earth trilogy
+\t<a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”</a> (2023)
+\t<a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)</a> (2023)
+\t<a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a> (2020)
+\t<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment</a> (2017)
 \t 
 \tYou can also read about my advocacy work in the press:
 \t
