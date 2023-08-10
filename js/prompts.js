@@ -9,9 +9,9 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `Right now, I'm a first-year at Harvard Law School. I'm also a trainer (digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a>. Additionally, I serve on the national endorsements board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a>.
+var intro = `Right now, I'm a first-year at Harvard Law School. I'm also a trainer (digital) for the <a href="https://traindemocrats.org/" target="_blank">National Democratic Training Committee</a> and serve on the national endorsements board of the <a href="https://victoryfund.org/" target="_blank">LGBTQ+ Victory Fund</a>.
 \t 
-\tPreviously, I have been a <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> in Beijing, a Summer Fellow at the <a href="https://www.governance.ai/" target="_blank">Centre for the Governance of AI</a>, a Senior Marketing Manager at cloud infrastructure provider <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC for my political work in NYC, a member of the Organizing Committee of the <a href="https://techaction.nyc/" target="_blank">NYC-DSA Tech Action Working Group</a>, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund (where we helped flip the Virginia state legislature for the Democrats in 2019), and a 2018 Beto Senate campaign staffer (where I helped develop a specialized statewide volunteer program). Formerly Math-Stat + Economics @ Columbia and OMSCS @ Georgia Tech. 
+\tPreviously, I have been a <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> in Beijing (where I researched China's sub-national AI governance initiatives), a Summer Fellow at the <a href="https://www.governance.ai/" target="_blank">Centre for the Governance of AI</a>, a Senior Marketing Manager at cloud infrastructure provider <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>, a <a href="https://fiveboroughfuture.com/fellows" target="_blank">Five Borough Future Fellow</a> with the Arena PAC for my political work in NYC, a member of the Organizing Committee of the <a href="https://techaction.nyc/" target="_blank">NYC-DSA Tech Action Working Group</a>, a Fellow at the <a href="https://www.neted.org/" target="_blank">Internet Education Foundation</a>, an organizer with the AAPI Victory Fund, and a 2018 Beto Senate campaign staffer. Formerly Math-Stat + Economics @ Columbia and OMSCS @ Georgia Tech. 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
@@ -42,31 +42,28 @@ var help = [{
   description: "Clear the screen"
 }];
 
-var social = ` <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">Linkedin</a>
-\t 
-\t <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a>
-\t 
-\t <a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
-\t 
-\t <a rel="me" href="https://mastodon.social/@kwei" target="_blank">Mastodon</a>
+var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">Linkedin</a>
+\t> <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a>
+\t> <a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
+\t> <a rel="me" href="https://mastodon.social/@kwei" target="_blank">Mastodon</a>
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
 var portfolio = `Here's a few of my past projects:
 \t
-\t<a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”</a> (2023)
-\t<a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)</a> (2023)
-\t<a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a> (2020)
-\t<a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment</a> (2017)
+\t> <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”</a> (2023)
+\t> <a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)</a> (2023)
+\t> <a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a> (2020)
+\t> <a href="https://www.fcc.gov/ecfs/filing/10717079873938" target="_blank">Net Neutrality Comment for DigitalOcean</a> (2017)
 \t 
 \tYou can also read about my advocacy work in the press:
 \t
-\t<a href="https://www.businessinsider.com/democrats-door-knock-campaign-election-republicans-biden-voters-2020-12" target="_blank">Democrats' decision to avoid in-person events with voters cost them in 2020. But it could set them up for bigger wins in the long run.</a>, <em>Business Insider</em>
-\t<a href=https://nypost.com/2020/06/10/youth-programs-say-de-blasios-plan-to-use-nypd-funds-is-nonsense/"" target="_blank">Youth programs say de Blasio plan to reallocate NYPD funds is nonsense </a>, <em>New York Post,</em>
-\t<a href="https://www.columbiaspectator.com/news/2020/05/03/new-york-city-cancels-its-summer-program-that-employs-75000-youths/" target="_blank">New York City cancels its summer program that employs 75,000 youths </a>, <em>Columbia Spectator</em>
-\t<a href="https://citylimits.org/2020/04/28/in-fight-to-save-summer-youth-employment-advocates-push-city-to-let-teens-work-remotely/" target="_blank">In Fight to Save Summer Youth Employment, Advocates Push City to Let Teens Work Remotely</a>, <em>City Limits</em>
-\t<a href="https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400" target="_blank">New York’s Chinatown Businesses Struggle to Survive Coronavirus Shutdown </a>, <em>Wall Street Journal</em>
-\t<a href="https://gothamist.com/food/dumplings-against-hate-want-you-to-show-some-love-to-nycs-chinatowns" target="_blank">“Dumplings Against Hate” Want You To Show Some Love To NYC's Chinatowns</a>, <em>Gothamist</em>
+\t> <a href="https://www.businessinsider.com/democrats-door-knock-campaign-election-republicans-biden-voters-2020-12" target="_blank">Democrats' decision to avoid in-person events with voters cost them in 2020. But it could set them up for bigger wins in the long run.</a>, <em>Business Insider</em>
+\t> <a href=https://nypost.com/2020/06/10/youth-programs-say-de-blasios-plan-to-use-nypd-funds-is-nonsense/"" target="_blank">Youth programs say de Blasio plan to reallocate NYPD funds is nonsense</a>, <em>New York Post,</em>
+\t> <a href="https://www.columbiaspectator.com/news/2020/05/03/new-york-city-cancels-its-summer-program-that-employs-75000-youths/" target="_blank">New York City cancels its summer program that employs 75,000 youths</a>, <em>Columbia Spectator</em>
+\t> <a href="https://citylimits.org/2020/04/28/in-fight-to-save-summer-youth-employment-advocates-push-city-to-let-teens-work-remotely/" target="_blank">In Fight to Save Summer Youth Employment, Advocates Push City to Let Teens Work Remotely</a>, <em>City Limits</em>
+\t> <a href="https://www.wsj.com/articles/new-yorks-chinatown-businesses-struggle-to-survive-coronavirus-shutdown-11588856400" target="_blank">New York’s Chinatown Businesses Struggle to Survive Coronavirus Shutdown</a>, <em>Wall Street Journal</em>
+\t> <a href="https://gothamist.com/food/dumplings-against-hate-want-you-to-show-some-love-to-nycs-chinatowns" target="_blank">“Dumplings Against Hate” Want You To Show Some Love To NYC's Chinatowns</a>, <em>Gothamist</em>
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
