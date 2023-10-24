@@ -15,7 +15,7 @@ var intro = `Right now, I'm an (incoming) Technology and Security Policy Fellow 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">portfolio</span> to see my past work, or <span class="special">contact</span> to reach out to me.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: a <span class="special">policy researcher</span>, <span class="special">technologist</span>, and <span class="special">effective altruist</span> based in Boston. I'm interested in issues (at the intersection) of tech policy & AI governance, economic + racial equity, and EA. Currently an (incoming) Technology and Security Policy Fellow at RAND and a first-year at Harvard Law. Feel free to grab some time on my <a href="https://calendly.com/kevinlwei?utm_source=kevinlwei.com" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
+var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: a <span class="special">policy researcher</span>, <span class="special">technologist</span>, and <span class="special">effective altruist</span> based in Boston. I'm interested in issues (at the intersection) of tech policy & AI governance, economic + racial equity, and EA. Currently an (incoming) Technology and Security Policy Fellow at RAND and a first-year at Harvard Law. Feel free to grab some time on my <a href="https://calendar.app.google/ocDjMUN1AGJof99k9" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
 \t
 Type <span class="special">hello</span> below to learn more about me, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
@@ -67,7 +67,7 @@ var portfolio = `Here's a few of my past projects:
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>, or just directly schedule some time on my <a href="https://calendly.com/kevinlwei?utm_source=kevinlwei.com" target="_blank">Calendly</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on.
+var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>, or just directly schedule some time on my <a href="https://calendar.app.google/ocDjMUN1AGJof99k9" target="_blank">calendar</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on.
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
