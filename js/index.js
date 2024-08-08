@@ -8,7 +8,7 @@ $(document).ready(function() {
 			[["help", "?", "ls"], buildLambda("help")],
 			[["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info"], buildLambda("intro")],
 			[["social", "links"], buildLambda("social")],
-      [["portfolio", "projects", "work", "past work", "publications", "publication"], buildLambda("portfolio")],
+      [["research", "portfolio", "projects", "work", "past work", "publications", "publication"], buildLambda("portfolio")],
 			[["contact"], buildLambda("contact")],
 			[["clear", "cls"], function() { jqconsole.Clear(); return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>'; }],
       [["cats", "cat"], function() {
