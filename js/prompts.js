@@ -49,13 +49,13 @@ var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
-var portfolio = `Check my <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of my publications; some recent work is below:
+var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of publications; some recent work is below:
 \t
 \t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance  (First author; forthcoming @ AIES 2024)
 \t> Designing Incident Reporting Systems for Harms from AI (First author; forthcoming)
 \t> <a href="https://arxiv.org/abs/2401.13138" target="_blank">Visibility into AI Agents</a> (Co-author; FAccT 2024)
 \t> <a href="https://arxiv.org/abs/2401.14446" target="_blank">Black-Box Access is Insufficient for Rigorous AI Audits</a> (Co-author; FAccT 2024)
-\t> <a href="https://arxiv.org/abs/2311.09227" target="_blank">Open Sourcing Highly Capable Foundation Models</a> (Co-author; 2023)
+\t> <a href="https://arxiv.org/abs/2311.09227" target="_blank">Open Sourcing Highly Capable Foundation Models</a> (Co-author; GovAI report 2023)
 \t> <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”</a> (Translator; CSET 2023)
 \t> <a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)</a> (Translator; CSET 2023)
 \t> <a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a> (Federation of American Scientists 2020)
