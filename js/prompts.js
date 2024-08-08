@@ -15,7 +15,7 @@ var intro = `Right now, I'm a Technology and Security Policy Fellow at RAND and 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">research</span> to see my past work, or <span class="special">contact</span> to reach out.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: an <span class="special">AI policy researcher</span> based in Boston. I work on AI incidents, institutional design, and empirical research in AI governance; I'm also thinking about (socio)technical AI governance problems. Currently a Technology and Security Policy Fellow at RAND and a second year at Harvard Law. Feel free to grab some time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
+var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: currently a Technology and Security Policy Fellow at <span class="special">RAND</span> and a second year at <span class="special">Harvard Law</span>. I work on AI incidents, institutional design, and empirical research in AI governance; I'm also thinking about (socio)technical AI governance problems. Feel free to grab some time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
 \t
 Type <span class="special">hello</span> below to learn more about me, <span class="special">research</span> for some past work, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
@@ -49,7 +49,7 @@ var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
-var portfolio = `Here are my recent publications:
+var portfolio = `Check my <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of my publications; some recent work is below:
 \t
 \t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance  (First author; forthcoming @ AIES 2024)
 \t> Designing Incident Reporting Systems for Harms from AI (First author; forthcoming)
@@ -63,7 +63,7 @@ var portfolio = `Here are my recent publications:
 
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>, or just directly schedule some time on my <a href="https://calendar.app.google/ocDjMUN1AGJof99k9" target="_blank">calendar</a>. I'm always down to grab some #covfefe, collaborate on projects, or provide feedback on what you're working on.
+var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>, or just directly schedule some time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a>. I'm always down to grab some #covfefe, collaborate on research projects, or provide feedback.
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
