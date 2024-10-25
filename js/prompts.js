@@ -9,13 +9,13 @@ cats: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `Right now, I'm a Technology and Security Policy Fellow at RAND and a second year at Harvard Law School.
+var intro = `Right now, I'm a Technology and Security Policy Fellow at <a href="https://www.rand.org/about/people/w/wei_kevin.html" target="_blank">RAND</a> and a second year at Harvard Law School. I'm also a <a href="https://www.salzburgglobal.org/" target="_blank">Salzburg Global Fellow</a>, a member of the masthead at the <a href="https://jolt.law.harvard.edu/masthead/masthead-volume-38" target="_blank">Harvard Journal of Law and Technology</a>, and a co-founder of the Harvard Law AI Student Association. 
 \t 
 \tPreviously, I have been a <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> in Beijing (where I researched China's sub-national AI governance initiatives), a Summer Fellow at the <a href="https://www.governance.ai/" target="_blank">Centre for the Governance of AI</a>, and a Senior Marketing Manager at cloud infrastructure provider <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>. I did my M.S. in machine learning @ Georgia Tech and my undergrad in Math-Stat + Economics @ Columbia. 
 \t 
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">research</span> to see my past work, or <span class="special">contact</span> to reach out.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: currently a Technology and Security Policy Fellow at <span class="special">RAND</span> and a second year at <span class="special">Harvard Law</span>. I work on AI incidents, institutional design, and empirical research in AI governance; I'm also thinking about (socio)technical AI governance problems. Feel free to grab some time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
+var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: currently a Technology and Security Policy Fellow at <span class="special">RAND</span> and a second year at <span class="special">Harvard Law</span>. I work on post-deployment interventions, administrative law, and empirical research in AI governance; I'm also thinking about (socio)technical AI governance problems. Feel free to grab some time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
 \t
 Type <span class="special">hello</span> below to learn more about me, <span class="special">research</span> for some past work, or try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
@@ -51,14 +51,14 @@ var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank
 
 var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of publications; some recent work is below:
 \t
-\t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance  (First author; forthcoming @ AIES 2024)
-\t> Designing Incident Reporting Systems for Harms from AI (First author; forthcoming)
-\t> <a href="https://arxiv.org/abs/2401.13138" target="_blank">Visibility into AI Agents</a> (Co-author; FAccT 2024)
-\t> <a href="https://arxiv.org/abs/2401.14446" target="_blank">Black-Box Access is Insufficient for Rigorous AI Audits</a> (Co-author; FAccT 2024)
-\t> <a href="https://arxiv.org/abs/2311.09227" target="_blank">Open Sourcing Highly Capable Foundation Models</a> (Co-author; GovAI report 2023)
-\t> <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”</a> (Translator; CSET 2023)
-\t> <a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)</a> (Translator; CSET 2023)
-\t> <a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies</a> (Federation of American Scientists 2020)
+\t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance? (First author; <a href="https://dx.doi.org/10.2139/ssrn.4931927" target="_blank">AIES 2024</a>)
+\t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; forthcoming)
+\t> Visibility into AI Agents (Co-author; <a href="https://arxiv.org/abs/2401.13138" target="_blank">FAccT 2024</a>)
+\t> Black-Box Access is Insufficient for Rigorous AI Audits (Co-author; <a href="https://arxiv.org/abs/2401.14446" target="_blank">FAccT 2024</a>)
+\t> Open Sourcing Highly Capable Foundation Models (Co-author; <a href="https://arxiv.org/abs/2311.09227" target="_blank">GovAI report 2023</a>)
+\t> Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods” (Translator; <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">CSET 2023</a>)
+\t> Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version) (Translator; <a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">CSET 2023</a>)
+\t> Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies (</<a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Federation of American Scientists 2020</a>)
 \t 
 
 \t Type <span class = "special">help</span> for more commands.`;
