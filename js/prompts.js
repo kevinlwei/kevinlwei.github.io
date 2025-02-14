@@ -63,7 +63,7 @@ var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-
 And some other public writing is below:
 \t
 \t> Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence (Co-authored with Oliver Guest; <a href="https://www.rand.org/pubs/perspectives/PEA3703-1.html" target="_blank">RAND 2024</a>)
-\t> Managing Industry Influence in U.S. AI Policy (<a href="<a href="" target="_blank">RAND 2024</a>" target="_blank">RAND 2024</a>)
+\t> Managing Industry Influence in U.S. AI Policy (<a href="https://www.rand.org/pubs/research_briefs/RBA3679-1.html" target="_blank">RAND 2024</a>)
 \t> Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods” (Translator; <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">CSET 2023</a>)
 \t> Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version) (Translator; <a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">CSET 2023</a>)
 \t> Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies (<a href="https://www.dayoneproject.org/post/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies" target="_blank">Federation of American Scientists 2020</a>)
