@@ -50,6 +50,7 @@ var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank
 \t Type <span class = "special">help</span> for more commands.`;
 
 var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of publications; some recent work is below:
+\t
 \t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">preprint 2025</a>)
 \t> Infrastructure for AI Agents (Second author; <a href="https://arxiv.org/abs/2501.10114" target="_blank">preprint 2025</a>)
 \t> The AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2502.01635" target="_blank">preprint 2025</a>)
@@ -60,6 +61,7 @@ var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-
 \t> Open Sourcing Highly Capable Foundation Models (Co-author; <a href="https://arxiv.org/abs/2311.09227" target="_blank">GovAI report 2023</a>)
 
 And some other public writing is below:
+\t
 \t> Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence (Co-authored with Oliver Guest; <a href="https://www.rand.org/pubs/perspectives/PEA3703-1.html" target="_blank">RAND 2024</a>)
 \t> Managing Industry Influence in U.S. AI Policy (<a href="<a href="" target="_blank">RAND 2024</a>" target="_blank">RAND 2024</a>)
 \t> Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods” (Translator; <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">CSET 2023</a>)
