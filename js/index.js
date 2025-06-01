@@ -5,13 +5,13 @@ $(document).ready(function() {
 	var process = (input) => {
 		var parsed = input.split(" ");
 		var commands = [
-			[["help", "?", "ls"], buildLambda("help")],
-			[["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info"], buildLambda("intro")],
+			[["help", "?", "ls", "commands"], buildLambda("help")],
+			[["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info", "about"], buildLambda("intro")],
 			[["social", "links"], buildLambda("social")],
       [["research", "portfolio", "projects", "work", "past work", "publications", "publication"], buildLambda("portfolio")],
 			[["contact"], buildLambda("contact")],
 			[["clear", "cls"], function() { jqconsole.Clear(); return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>'; }],
-      [["cats", "cat"], function() {
+      [["cats", "cat", "meow"], function() {
         return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
       }]
 		];
