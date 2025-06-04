@@ -19,7 +19,7 @@ var intro = `Right now, I'm <a href="https://www.rand.org/about/people/w/wei_kev
 \t
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">research</span> to see my past work, or <span class="special">contact</span> to reach out.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: currently a <span class="special">Fellow</span> in RAND's Technology & Security Policy Center (TASP) and a third year J.D. candidate at <span class="special">Harvard Law</span>, where I'm also the Submissions Editor of the Harvard Journal of Law & Technology. I research the science of AI evaluations, U.S. AI policy, and technical AI governance; I work on AI safety, governance, and ethics because I believe that artificial (general) intelligence will be one of the most transformative technologies in my lifetime. 
+var unformatted_intro = `Hey there! I'm <span class="special" >Kevin Wei</span>: currently a <span class="special">Fellow< in RAND's Technology & Security Policy Center/span> (TASP) and a third year J.D. candidate at Harvard Law, where I'm the <span class="special">Submissions Editor of the Harvard Journal of Law & Technology</span>. I research the science of AI evaluations, U.S. AI policy, and technical AI governance; I work on AI safety, governance, and ethics because I believe that artificial (general) intelligence will be one of the most transformative technologies in my lifetime. 
 \t
 \tFeel free to grab some time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a> or drop me a message at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
 \t
