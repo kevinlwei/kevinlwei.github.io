@@ -13,7 +13,7 @@ var intro = `Right now, I'm <a href="https://www.rand.org/about/people/w/wei_kev
 \t 
 \tPreviously, I was <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> in Beijing (where I researched Chinese AI policy), a Summer Fellow at the <a href="https://www.governance.ai/" target="_blank">Centre for the Governance of AI</a>, and a Senior Marketing Manager at cloud infrastructure provider <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>. When I was more active in politics, I helped co-found <a href="https://www.gofundme.com/f/savenycchinatown-dumplings-against-hate" target="_blank">Dumplings Against Hate</a>, a COVID-19 project that helped raised over $65,000 for charity to support small businsses in New York City's Chinatowns; I also used to serve on the <a href="https://victoryfund.org/about/victory-campaign-board/" target="_blank">LGBTQ+ Victory Fund</a>'s political endorsements board.
 \t
-\tI have a Master's in Global Affairs from Tsinghua University, an M.S. in Machine Learning from the Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia. I was also a member of the fifth cohort of the <a href="https://www.arena.education/" target="_blank">Alignment Research Engineer Accelerator</a>.
+\tI have a Master's in Global Affairs from Tsinghua University, an M.S. in Machine Learning from Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia. I was also a member of the fifth cohort of the <a href="https://www.arena.education/" target="_blank">Alignment Research Engineer Accelerator</a>.
 \t
 \tOccasionally I have some free time, in which I play classical piano, run, enjoy desserts, and read speculative fiction.
 \t
