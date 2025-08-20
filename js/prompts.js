@@ -56,8 +56,8 @@ var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank
 
 var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of publications; some recent work is below:
 \t
-\t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; ICML 2025 Spotlight)
-\t> Methodological Challenges in Agentic Evaluations of AI Systems (First author; ICML 2025 Technical AI Governance Workshop)
+\t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; <a href="https://arxiv.org/abs/2506.13776" target="_blank">ICML 2025 Spotlight</a>)
+\t> Methodological Challenges in Agentic Evaluations of AI Systems (First author; <a href="https://openreview.net/forum?id=ZhSKG8IslC" target="_blank">ICML 2025 Technical AI Governance Workshop</a>)
 \t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">preprint under review 2025</a>)
 \t> Infrastructure for AI Agents (Second author; <a href="https://arxiv.org/abs/2501.10114" target="_blank">TMLR 2025</a>)
 \t> The AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2502.01635" target="_blank">preprint 2025</a>)
@@ -69,10 +69,10 @@ var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-
 
 And here are some of my policy reports and public writing:
 \t
-\t> Preliminary Suggestions for Rigorous GPAI Model Evaluations (Co-authored with Patricia Paskov, Michael Byun, & Toby Webster; <a href="https://www.rand.org/pubs/perspectives/PEA3971-1.html" target="_blank">RAND 2025</a>)
+\t> Preliminary Suggestions for Rigorous GPAI Model Evaluations (Co-authored with Patricia Paskov, Michael Byun, & Toby Webster; <a href="https://arxiv.org/abs/2508.00875" target="_blank">RAND 2025</a>)
 \t> Third-Party Compliance Reviews for Frontier AI Safety Frameworks (Co-author; <a href="https://arxiv.org/abs/2505.01643" target="_blank">2025</a>)
-\t> Beyond Big Tech: The Revolutionary Potential of State Data Commons (Co-authored with Kevin Frazier; <a href="https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons" target="_blank">Lawfare 2025</a>)
-\t> Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence (Co-authored with Oliver Guest; <a href="https://www.rand.org/pubs/perspectives/PEA3703-1.html" target="_blank">RAND 2024</a>)
+\t> Beyond Big Tech: The Revolutionary Potential of State Data Commons (Co-author; <a href="https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons" target="_blank">Lawfare 2025</a>)
+\t> Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence (Co-author; <a href="https://arxiv.org/abs/2506.03497" target="_blank">RAND 2024</a>)
 \t> Managing Industry Influence in U.S. AI Policy (<a href="https://www.rand.org/pubs/research_briefs/RBA3679-1.html" target="_blank">RAND 2024</a>)
 \t> Open Sourcing Highly Capable Foundation Models (Co-author; <a href="https://arxiv.org/abs/2311.09227" target="_blank">GovAI report 2023</a>)
 \t> Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods” (Translator; <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">CSET 2023</a>)
