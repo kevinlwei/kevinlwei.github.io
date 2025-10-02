@@ -58,7 +58,7 @@ var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-
 \t
 \t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; <a href="https://arxiv.org/abs/2506.13776" target="_blank">ICML 2025 Spotlight</a>)
 \t> Methodological Challenges in Agentic Evaluations of AI Systems (First author; <a href="https://openreview.net/forum?id=ZhSKG8IslC" target="_blank">ICML 2025 Technical AI Governance Workshop</a>)
-\t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">preprint under review 2025</a>)
+\t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">PLOS One (Forthcoming 2025)</a>)
 \t> Infrastructure for AI Agents (Second author; <a href="https://arxiv.org/abs/2501.10114" target="_blank">TMLR 2025</a>)
 \t> The AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2502.01635" target="_blank">preprint 2025</a>)
 \t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; forthcoming 2025)
