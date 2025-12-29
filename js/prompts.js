@@ -56,12 +56,12 @@ var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank
 
 var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of publications; some recent work is below:
 \t
+\t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; accepted to AAAI 2026, <a href="https://arxiv.org/abs/2511.05914" target="_blank">preprint here</a>)
 \t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; <a href="https://arxiv.org/abs/2506.13776" target="_blank">ICML 2025 Spotlight</a>)
 \t> Methodological Challenges in Agentic Evaluations of AI Systems (First author; <a href="https://openreview.net/forum?id=ZhSKG8IslC" target="_blank">ICML 2025 Technical AI Governance Workshop</a>)
 \t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">PLOS One (Forthcoming 2025)</a>)
 \t> Infrastructure for AI Agents (Second author; <a href="https://arxiv.org/abs/2501.10114" target="_blank">TMLR 2025</a>)
 \t> The AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2502.01635" target="_blank">preprint 2025</a>)
-\t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; forthcoming 2025)
 \t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance? (First author; <a href="https://dx.doi.org/10.2139/ssrn.4931927" target="_blank">AIES 2024</a>)
 \t> Visibility into AI Agents (Co-author; <a href="https://arxiv.org/abs/2401.13138" target="_blank">FAccT 2024</a>)
 \t> Black-Box Access is Insufficient for Rigorous AI Audits (Co-author; <a href="https://arxiv.org/abs/2401.14446" target="_blank">FAccT 2024</a>)
@@ -78,7 +78,6 @@ And here are some of my policy reports and public writing:
 \t> Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods” (Translator; <a href="https://cset.georgetown.edu/publication/china-explainable-ai-projects/" target="_blank">CSET 2023</a>)
 \t> Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version) (Translator; <a href="https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/" target="_blank">CSET 2023</a>)
 \t> Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies (<a href="https://fas.org/publication/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies/" target="_blank">Federation of American Scientists 2020</a>)
-\t 
 
 \t Type <span class = "special">help</span> for more commands.`;
 
