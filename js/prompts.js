@@ -57,14 +57,14 @@ var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank
 var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a> for an updated list of publications; some recent work is below:
 \t
 \t> Legal Alignment for Safe and Ethical AI (Co-author; <a href="https://arxiv.org/abs/2601.04175" target="_blank">preprint 2026</a>)
-\t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; accepted to AAAI 2026, <a href="https://arxiv.org/abs/2511.05914" target="_blank">preprint 2025</a>)
+\t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; <a href="https://arxiv.org/abs/2511.05914" target="_blank">AAAI 2026</a>)
 \t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; <a href="https://arxiv.org/abs/2506.13776" target="_blank">ICML 2025 Spotlight</a>)
 \t> Methodological Challenges in Agentic Evaluations of AI Systems (First author; <a href="https://openreview.net/forum?id=ZhSKG8IslC" target="_blank">ICML 2025 Technical AI Governance Workshop</a>)
 \t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">PLOS One (Forthcoming 2025)</a>)
 \t> Infrastructure for AI Agents (Second author; <a href="https://arxiv.org/abs/2501.10114" target="_blank">TMLR 2025</a>)
 \t> Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations (Co-author; <a href="https://arxiv.org/abs/2511.05613" target="_blank">preprint 2025</a>)
 \t> The AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2502.01635" target="_blank">preprint 2025</a>)
-\t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance? (First author; <a href="https://dx.doi.org/10.2139/ssrn.4931927" target="_blank">AIES 2024</a>)
+\t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance? (First author; <a href="https://arxiv.org/abs/2410.13042" target="_blank">AIES 2024</a>)
 \t> Visibility into AI Agents (Co-author; <a href="https://arxiv.org/abs/2401.13138" target="_blank">FAccT 2024</a>)
 \t> Black-Box Access is Insufficient for Rigorous AI Audits (Co-author; <a href="https://arxiv.org/abs/2401.14446" target="_blank">FAccT 2024</a>)
 
