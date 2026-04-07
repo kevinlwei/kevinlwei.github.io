@@ -2,26 +2,27 @@
 Commands:
 
 help: display a list of available commands
-hello: display introduction message again
-links: display a list of relevant links
+about: display full bio
+social: display links to social media
+research: display links to past work
 contact: display contact info
-cats: display ascii art of cats ;)
+meow: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
 */
 
-var intro = `Right now, I'm a Research Scientist at the UK AI Security Institute on the Science of Evaluations team and an <a href="https://www.rand.org/about/people/w/wei_kevin.html" target="_blank">Adjunct</a> in RAND's Technology & Security Policy Center (TASP). I'm also a <a href="https://www.salzburgglobal.org/" target="_blank">Salzburg Global Fellow</a>, Submissions Editor of the <a href="https://jolt.law.harvard.edu" target="_blank">Harvard Journal of Law and Technology</a>, a Working Group Chair of the <a href="https://evaleval.github.io/" target="_blank">Evaluating Evaluations Coalition</a> (EvalEval), and an honoree of New America & Out in National Security's <a href="https://www.outinnationalsecurity.org/honor-roll/2024-new-voices/" target="_blank">2024 New Voices List</a>. Despite academic peer review being somewhat broken, I currently review for NeurIPS, FAccT, AIES, SoLaR, TAIG-ICML, and other venues.
+var intro = `Right now, I'm an Adjunct at RAND and am conducting independent research on technical AI governance. I am also a <a href="https://www.salzburgglobal.org/" target="_blank">Salzburg Global Fellow</a>, a Working Group Chair of the <a href="https://evaleval.github.io/" target="_blank">Evaluating Evaluations Coalition</a> (EvalEval), and an honoree of New America & Out in National Security's <a href="https://www.outinnationalsecurity.org/honor-roll/2024-new-voices/" target="_blank">2024 New Voices List</a>. Despite academic peer review being somewhat broken, I currently review for NeurIPS, FAccT, AIES, SoLaR, TAIG-ICML, and other venues.
 \t 
-\tPreviously, I was <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> in Beijing (where I researched Chinese AI policy), a Summer Fellow at the <a href="https://www.governance.ai/" target="_blank">Centre for the Governance of AI</a>, and a Senior Marketing Manager at cloud infrastructure provider <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>. When I was more active in politics, I helped co-found <a href="https://www.gofundme.com/f/savenycchinatown-dumplings-against-hate" target="_blank">Dumplings Against Hate</a>, a COVID-19 project that helped raised over $65,000 for charity to support small businesses in New York City's Chinatowns; I also used to serve on the <a href="https://victoryfund.org/about/victory-campaign-board/" target="_blank">LGBTQ+ Victory Fund</a>'s political endorsements board.
+\tPreviously, I was a Visiting Research Scientist at the UK AI Security Institute on the Science of Evaluations team; a <a href="https://www.rand.org/about/people/w/wei_kevin.html" target="_blank">Fellow</a> in RAND's Center for AI, Security, and Technology; the 2025-2026 Submissions Editor of the <a href="https://jolt.law.harvard.edu" target="_blank">Harvard Journal of Law and Technology</a>; a <a href="https://www.schwarzmanscholars.org/" target="_blank">Schwarzman Scholar</a> in Beijing (where I researched Chinese AI policy); a Summer Fellow at the <a href="https://www.governance.ai/" target="_blank">Centre for the Governance of AI</a>; and a senior program manager at cloud infrastructure provider <a href="https://digitalocean.com" target="_blank">DigitalOcean</a>. When I was more active in politics, I helped co-found <a href="https://www.gofundme.com/f/savenycchinatown-dumplings-against-hate" target="_blank">Dumplings Against Hate</a>, a COVID-19 project that helped raised over $65,000 for charity to support small businesses in New York City's Chinatowns; I also used to serve on the <a href="https://victoryfund.org/about/victory-campaign-board/" target="_blank">LGBTQ+ Victory Fund</a>'s political endorsements board.
 \t
-\tI have a Master's in Global Affairs from Tsinghua University, an M.S. in Machine Learning from Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia. I was also a member of the fifth cohort of the <a href="https://www.arena.education/" target="_blank">Alignment Research Engineer Accelerator</a>.
+\tI have a J.D. from Harvard Law School (as of June 2026), a Master's in Global Affairs from Tsinghua University, an M.S. in Machine Learning from Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia. I was also a member of the fifth cohort of the <a href="https://www.arena.education/" target="_blank">Alignment Research Engineer Accelerator</a>.
 \t
 \tOccasionally I have some free time, in which I play classical piano, run, enjoy desserts, and read speculative fiction.
 \t
 \t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">research</span> to see my past work, or <span class="special">contact</span> to reach out.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: currently a <span class="special">Research Scientist at the UK AI Security Institute</span> on the Science of Evaluations team, as well as the <span class="special">Submissions Editor of the Harvard Journal of Law & Technology</span>. My research agenda is focused on the science of AI evaluations (evaluation methodology), AI law, and technical AI governance; I work on AI safety/governance because I believe that artificial (general) intelligence will be one of the most transformative technologies in my lifetime. 
+var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: a researcher working on the science of AI evaluations (evaluation methodology), legal AI safety/alignment, and technical AI governance/AI law. I work on AI safety/governance because I believe that advanced AI will be one of the most transformative technologies in my lifetime. 
 \t
-\tTo get in touch, feel free to drop time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a> or ping <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
+\tTo get in touch, feel free to ping <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a> :)
 \t
 To learn more about me, type <span class="special">about</span>, <span class="special">research</span>, or <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
@@ -48,8 +49,9 @@ var help = [{
   description: "Clear the screen"
 }];
 
-var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">Linkedin</a>
-\t> <a href="https://twitter.com/kevinlwei" target="_blank">Twitter</a>
+var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank">LinkedIn</a>
+\t> <a href="https://x.com/kevinlwei" target="_blank">X (Twitter)</a>
+\t> <a href="https://github.com/kevinlwei" target="_blank">GitHub</a>
 \t> <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank">Google Scholar</a>
 \t
 \t Type <span class = "special">help</span> for more commands.`;
@@ -60,11 +62,11 @@ var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-
 \t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; <a href="https://arxiv.org/abs/2511.05914" target="_blank">AAAI 2026</a>)
 \t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; <a href="https://arxiv.org/abs/2506.13776" target="_blank">ICML 2025 Spotlight</a>)
 \t> Methodological Challenges in Agentic Evaluations of AI Systems (First author; <a href="https://openreview.net/forum?id=ZhSKG8IslC" target="_blank">ICML 2025 Technical AI Governance Workshop</a>)
-\t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">PLOS One (Forthcoming 2025)</a>)
+\t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank">PLOS One 2025</a>)
 \t> Infrastructure for AI Agents (Second author; <a href="https://arxiv.org/abs/2501.10114" target="_blank">TMLR 2025</a>)
 \t> Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations (Co-author; <a href="https://arxiv.org/abs/2511.05613" target="_blank">preprint 2025</a>)
 \t> The AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2502.01635" target="_blank">preprint 2025</a>)
-\t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance? (First author; <a href="https://arxiv.org/abs/2410.13042" target="_blank">AIES 2024</a>)
+\t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance (First author; <a href="https://arxiv.org/abs/2410.13042" target="_blank">AIES 2024</a>)
 \t> Visibility into AI Agents (Co-author; <a href="https://arxiv.org/abs/2401.13138" target="_blank">FAccT 2024</a>)
 \t> Black-Box Access is Insufficient for Rigorous AI Audits (Co-author; <a href="https://arxiv.org/abs/2401.14446" target="_blank">FAccT 2024</a>)
 
@@ -83,7 +85,7 @@ And here are some of my policy reports and public writing:
 
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>, or just directly schedule some time on my <a href="https://cal.com/kevinwei/15min" target="_blank">calendar</a>. I'm always down to grab some #covfefe, collaborate on research projects, or provide feedback on research / writing drafts.
+var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank">hi@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on research projects, or provide feedback on research / writing drafts.
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
