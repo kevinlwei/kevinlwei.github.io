@@ -8,17 +8,17 @@ $(document).ready(function() {
 			[["help", "?", "ls", "commands"], buildLambda("help")],
 			[["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info", "about"], buildLambda("intro")],
 			[["social", "links"], buildLambda("social")],
-      [["research", "portfolio", "projects", "work", "past work", "publications", "publication"], buildLambda("portfolio")],
+			[["research", "portfolio", "projects", "work", "past work", "publications", "publication"], buildLambda("portfolio")],
 			[["contact"], buildLambda("contact")],
 			[["clear", "cls"], function() { jqconsole.Clear(); return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>'; }],
-      [["cats", "cat", "meow"], function() {
-        return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
-      }]
+			[["cats", "cat", "meow"], function() {
+				return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
+			}]
 		];
 		var response = null;
 		commands.forEach(function(key, index, commands) {
 			key[0].forEach(function(term, tindex) {
-				if (term === parsed[0]) {
+				if (term === parsed[0] || term === input) {
 					response = key[1]();
 				}
 			});
@@ -28,12 +28,12 @@ $(document).ready(function() {
 		} else {
 			var commands_list = [];
 			commands.forEach(function(key, index, commands) {
-		key[0].forEach(function(term, tindex) {
-				commands_list.push({
-					"command": term,
-					"callback": key[1]
+				key[0].forEach(function(term, tindex) {
+					commands_list.push({
+						"command": term,
+						"callback": key[1]
+					});
 				});
-			})
 			});
 			var results = search(commands_list, parsed[0]);
 			if (results.length > 0) {

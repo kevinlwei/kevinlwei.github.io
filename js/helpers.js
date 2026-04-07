@@ -1,8 +1,3 @@
-// Helper function to create a link tag
-function buildLink(text, url) {
-	return "<a target='_blank' rel='noopener noreferrer' href='" + url + "'>" + text + "</a>";
-};
-
 // Helper function to create a span tag
 function buildSpecialText(text) {
 	return "<span class='special'>" + text + "</span>";
@@ -48,7 +43,7 @@ function formatList(list) {
 
 // Loop through an object and format its entries to display on the console
 function formatObject(obj) {
-	dataItems = [];
+	var dataItems = [];
 	for (var property in obj) {
     // Only add property if it wasn't inherited
     // This is to avoid adding default object properties
@@ -62,9 +57,9 @@ function formatObject(obj) {
 // Use fuse to find similar commands to the one entered
 function search(list, searchitem) {
   // Create a copy of fuseOptions using the extend function
-  customOptions = $.extend({}, fuseOptions);
+  var customOptions = $.extend({}, fuseOptions);
 	customOptions['distance'] = (searchitem.length<=2? 0 : 100);
-	return new Fuse(list, fuseOptions).search(searchitem);
+	return new Fuse(list, customOptions).search(searchitem);
 }
 
 var fuseOptions = {
