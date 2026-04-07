@@ -1,6 +1,6 @@
 // Helper function to create a link tag
 function buildLink(text, url) {
-	return "<a target='_blank' href='" + url + "'>" + text + "</a>";
+	return "<a target='_blank' rel='noopener noreferrer' href='" + url + "'>" + text + "</a>";
 };
 
 // Helper function to create a span tag
