@@ -77,10 +77,19 @@ $(document).ready(function() {
 	var urlParams = new URLSearchParams(window.location.search);
 	var cmd = urlParams.get('cmd');
 	if (cmd) {
-		window.history.replaceState(null, '', '/' + encodeURIComponent(cmd));
+		window.history.replaceState(null, '', '/');
 		gtag('event', 'page_view', { page_path: '/' + cmd });
-		jqconsole.Write(process(cmd.toLowerCase().trim()), 'jqconsole-output', false);
+		startPrompt();
+		var i = 0;
+		var typing = setInterval(function() {
+			jqconsole.SetCurrentPromptText(cmd.substring(0, i));
+			i++;
+			if (i > cmd.length) {
+				clearInterval(typing);
+				$('#console').trigger($.Event('keydown', { which: 13, keyCode: 13 }));
+			}
+		}, 75);
+	} else {
+		startPrompt();
 	}
-
-	startPrompt();
 });
