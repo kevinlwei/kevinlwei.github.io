@@ -81,7 +81,7 @@ var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-
 And here are some of my policy reports and public writing:
 \t
 \t> Preliminary Suggestions for Rigorous GPAI Model Evaluations (Co-authored with Patricia Paskov, Michael Byun, & Toby Webster; <a href="https://arxiv.org/abs/2508.00875" target="_blank" rel="noopener noreferrer">RAND 2025</a>)
-\t> Third-Party Compliance Reviews for Frontier AI Safety Frameworks (Co-author; <a href="https://arxiv.org/abs/2505.01643" target="_blank" rel="noopener noreferrer">2025</a>)
+\t> Third-Party Compliance Reviews for Frontier AI Safety Frameworks (Co-author; <a href="https://arxiv.org/abs/2505.01643" target="_blank" rel="noopener noreferrer">GovAI report 2025</a>)
 \t> Beyond Big Tech: The Revolutionary Potential of State Data Commons (Co-author; <a href="https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons" target="_blank" rel="noopener noreferrer">Lawfare 2025</a>)
 \t> Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence (Co-author; <a href="https://arxiv.org/abs/2506.03497" target="_blank" rel="noopener noreferrer">RAND 2024</a>)
 \t> Managing Industry Influence in U.S. AI Policy (<a href="https://www.rand.org/pubs/research_briefs/RBA3679-1.html" target="_blank" rel="noopener noreferrer">RAND 2024</a>)
@@ -120,7 +120,7 @@ ZDUecAp8QRUn6KsFTz6uPYzkkWGBOZYM
 var contact = `You can reach me via the following methods:
 
 \t> Email (most inquiries): <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>
-\t> Email (sensitive inquiries): <a href="mailto:contact.kwei@proton.me" target="_blank" rel="noopener noreferrer">contact.kwei@proton.me</a>. You can also find my PGP key for that address at <a href="/pgp.asc" target="_blank" rel="noopener noreferrer">kevinlwei.com/pgp</a>.
+\t> Email (sensitive inquiries): <a href="mailto:contact.kwei@proton.me" target="_blank" rel="noopener noreferrer">contact.kwei@proton.me</a>. You can also find my PGP key for that address at <a href="/pgp.asc" target="_blank" rel="noopener noreferrer">kevinlwei.com/pgp.asc</a>.
 \t> Signal: @kwei.01
 \t> X (Twitter): <a href="https://x.com/kevinlwei" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
 \t> LinkedIn: <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
