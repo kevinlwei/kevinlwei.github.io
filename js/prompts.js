@@ -42,6 +42,9 @@ var help = [{
   name: buildSpecialText("contact"),
   description: "Display my contact info"
 }, {
+  name: buildSpecialText("pgp"),
+  description: "Display my PGP public key"
+}, {
   name: buildSpecialText("meow"),
   description: "Display ASCII art of cats"
 }, {
@@ -85,7 +88,38 @@ And here are some of my policy reports and public writing:
 
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on research projects, or provide feedback on research / writing drafts.
+var pgp = `For sensitive inquiries, you can reach me at <a href="mailto:contact.kwei@proton.me" target="_blank" rel="noopener noreferrer">contact.kwei@proton.me</a>. Here is my PGP public key for that address:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEadYgChYJKwYBBAHaRw8BAQdAXehdwOxf8pHHTxUWBsu7PqVEKRW2OyLv
+oN1F3KQ8/53NL2NvbnRhY3Qua3dlaUBwcm90b24ubWUgPGNvbnRhY3Qua3dl
+aUBwcm90b24ubWU+wsARBBMWCgCDBYJp1iAKAwsJBwkQ2RqbsTkAgHdFFAAA
+AAAAHAAgc2FsdEBub3RhdGlvbnMub3BlbnBncGpzLm9yZ58UKrZfCdxfSx5h
+PXX6i1wp8XAFK2EA3yRQk09FmpNKAxUKCAQWAAIBAhkBApsDAh4BFiEEoSTn
+npPRcjud/zHn2RqbsTkAgHcAAD2dAP9VagJMYmcB/skfvyjEMtcc8lvNxxkE
+pmpKCGcot3jd0wEA1MRVMEEdeVTVoxqN6jdOsk+PHVAoEN9zb77BZzh2YwbO
+OARp1iAKEgorBgEEAZdVAQUBAQdAltVL41vQodDDKmeRAGLG5ftGwXHB6MGG
+Rz+FfZkIyHgDAQgHwr4EGBYKAHAFgmnWIAoJENkam7E5AIB3RRQAAAAAABwA
+IHNhbHRAbm90YXRpb25zLm9wZW5wZ3Bqcy5vcmcuwOlVqzDwVGQR5v4bUeby
+j9fMhLpocSpntUD8oMZ6IgKbDBYhBKEk556T0XI7nf8x59kam7E5AIB3AACI
+7wD+NLzp4am8plAGB45e6xkVS4Xt1bqzEhSLT1JUi8zxS2MBALOBNH4xaPaL
+ZDUecAp8QRUn6KsFTz6uPYzkkWGBOZYM
+=n2+8
+
+-----END PGP PUBLIC KEY BLOCK-----
+
+\tAlso available at <a href="/pgp.asc" target="_blank" rel="noopener noreferrer">kevinlwei.com/pgp.asc</a>. 
+\t
+\tType <span class="special">help</span> for more commands.`;
+
+var contact = `You can reach me via the following methods::
+\t>Email (most inquiries): <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>
+\t>Email (sensitive inquiries): <a href="mailto:contact.kwei@proton.me" target="_blank" rel="noopener noreferrer">contact.kwei@proton.me</a>. You can also find my PGP key for that address at <a href="/pgp.asc" target="_blank" rel="noopener noreferrer">kevinlwei.com/pgp</a>.
+\t>Signal: @kwei.01
+\t>X (Twitter): <a href="https://x.com/kevinlwei" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
+\t>LinkedIn: <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
+
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
@@ -206,6 +240,7 @@ var prompts = {
   social: social,
   portfolio: portfolio,
   contact: contact,
+  pgp: pgp,
   cats: cats,
 	invalid: invalid
 };
