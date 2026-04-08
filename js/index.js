@@ -74,28 +74,5 @@ $(document).ready(function() {
 		jqconsole.Prompt(true, processQuery);
 	};
 
-	var urlParams = new URLSearchParams(window.location.search);
-	var cmd = urlParams.get('cmd');
-	if (cmd) {
-		window.history.replaceState(null, '', '/');
-		gtag('event', 'page_view', { page_path: '/' + cmd });
-		startPrompt();
-		var i = 0;
-		var typing = setInterval(function() {
-			jqconsole.SetCurrentPromptText(cmd.substring(0, i));
-			i++;
-			if (i > cmd.length) {
-				clearInterval(typing);
-				setTimeout(function() {
-					jqconsole.AbortPrompt();
-					jqconsole.Write('kwei> ', 'jqconsole-old-prompt', false);
-					jqconsole.Write(cmd + '\n', 'jqconsole-old-input', false);
-					jqconsole.Write(process(cmd.toLowerCase().trim()), 'jqconsole-output', false);
-					startPrompt();
-				}, 150);
-			}
-		}, 75);
-	} else {
-		startPrompt();
-	}
+	startPrompt();
 });
