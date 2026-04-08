@@ -57,7 +57,7 @@ var social = `
 
 \t> <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 \t> <a href="https://x.com/kevinlwei" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
-\t <a href="https://substack.com/@kevinlwei" target="_blank" rel="noopener noreferrer">Substack</a>
+\t> <a href="https://substack.com/@kevinlwei" target="_blank" rel="noopener noreferrer">Substack</a>
 \t> <a href="https://github.com/kevinlwei" target="_blank" rel="noopener noreferrer">GitHub</a>
 \t> <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
 \t
