@@ -10,6 +10,7 @@ $(document).ready(function() {
 			[["social", "links"], buildLambda("social")],
 			[["research", "portfolio", "projects", "work", "past work", "publications", "publication"], buildLambda("portfolio")],
 			[["contact"], buildLambda("contact")],
+			[["pgp", "publickey", "public key"], buildLambda("pgp")],
 			[["clear", "cls"], function() { jqconsole.Clear(); return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>'; }],
 			[["cats", "cat", "meow"], function() {
 				return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
@@ -70,6 +71,13 @@ $(document).ready(function() {
 	var startPrompt = () => {
 		jqconsole.Prompt(true, processQuery);
 	};
+
+	var urlParams = new URLSearchParams(window.location.search);
+	var cmd = urlParams.get('cmd');
+	if (cmd) {
+		window.history.replaceState(null, '', '/' + encodeURIComponent(cmd));
+		jqconsole.Write(process(cmd.toLowerCase().trim()), 'jqconsole-output', false);
+	}
 
 	startPrompt();
 });

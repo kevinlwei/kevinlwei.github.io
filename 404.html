@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    var path = window.location.pathname.replace(/^\//, '').split('/')[0];
+    if (path) {
+      window.location.replace('/?cmd=' + encodeURIComponent(path));
+    } else {
+      window.location.replace('/');
+    }
+  </script>
+</head>
+</html>
