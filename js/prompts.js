@@ -22,7 +22,7 @@ var intro = `Right now, I'm an Adjunct at RAND and am conducting independent res
 
 var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: a researcher working on the science of AI evaluations (evaluation methodology), legal AI safety/alignment, and technical AI governance/AI law. I work on AI safety/governance because I believe that advanced AI will be one of the most transformative technologies in my lifetime. 
 \t
-\tTo get in touch, feel free to ping <a href="mailto:hi@kevinlwei.com" target="_blank" rel="noopener noreferrer">hi@kevinlwei.com</a> :)
+\tTo get in touch, feel free to ping <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a> :)
 \t
 To learn more about me, type <span class="special">about</span>, <span class="special">research</span>, or <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
@@ -85,7 +85,7 @@ And here are some of my policy reports and public writing:
 
 \t Type <span class = "special">help</span> for more commands.`;
 
-var contact = `Feel free to reach out at <a href="mailto:hi@kevinlwei.com" target="_blank" rel="noopener noreferrer">hi@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on research projects, or provide feedback on research / writing drafts.
+var contact = `Feel free to reach out at <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>. I'm always down to grab some #covfefe, collaborate on research projects, or provide feedback on research / writing drafts.
 \t 
 \t Type <span class = "special">help</span> for more commands.`;
 
