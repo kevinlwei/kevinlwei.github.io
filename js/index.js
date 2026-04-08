@@ -61,7 +61,9 @@ $(document).ready(function() {
 
 	var processQuery = (input) => {
 		if (input) {
-			jqconsole.Write(process(input.toLowerCase().trim()),"jqconsole-output",false);
+			var trimmed = input.toLowerCase().trim();
+			jqconsole.Write(process(trimmed), "jqconsole-output", false);
+			gtag('event', 'command', { command: trimmed });
 		} else {
 			jqconsole.Write("\n Here is a list of commands:\n" + format("help"), "jqconsole-output", false);
 		}
@@ -76,6 +78,7 @@ $(document).ready(function() {
 	var cmd = urlParams.get('cmd');
 	if (cmd) {
 		window.history.replaceState(null, '', '/' + encodeURIComponent(cmd));
+		gtag('event', 'page_view', { page_path: '/' + cmd });
 		jqconsole.Write(process(cmd.toLowerCase().trim()), 'jqconsole-output', false);
 	}
 
