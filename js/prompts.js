@@ -22,9 +22,10 @@ var intro = `Right now, I'm an Adjunct at RAND and am conducting independent res
 
 var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: a researcher working on the science of AI evaluations (evaluation methodology), legal AI safety/alignment, and technical AI governance/AI law. I work on AI safety/governance because I believe that advanced AI will be one of the most transformative technologies in my lifetime. 
 \t
-\tTo get in touch, feel free to ping <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a> :)
+\tTo get in touch, ping <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>. For Signal, Protonmail, or other ways of contact, type <span class="special">contact</span>.
 \t
-You can learn about me by typing <span class="special">about</span> or about my research by typing <span class="special">research</span>. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
+\tYou can also type <span class="special">about</span> to learn more about me or <span class="special">research</span> to see my past work. 
+Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
   name: buildSpecialText("help"),
