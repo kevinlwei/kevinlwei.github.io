@@ -24,7 +24,7 @@ var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: 
 \t
 \tTo get in touch, feel free to ping <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a> :)
 \t
-To learn more about me, type <span class="special">about</span>, <span class="special">research</span>, or <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
+You can learn about me by typing <span class="special">about</span> or about my research by typing <span class="special">research</span>. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
   name: buildSpecialText("help"),
@@ -52,8 +52,11 @@ var help = [{
   description: "Clear the screen"
 }];
 
-var social = ` > <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+var social = ` 
+
+\t> <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 \t> <a href="https://x.com/kevinlwei" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+\t <a href="https://substack.com/@kevinlwei" target="_blank" rel="noopener noreferrer">Substack</a>
 \t> <a href="https://github.com/kevinlwei" target="_blank" rel="noopener noreferrer">GitHub</a>
 \t> <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
 \t
@@ -113,14 +116,15 @@ ZDUecAp8QRUn6KsFTz6uPYzkkWGBOZYM
 \t
 \tType <span class="special">help</span> for more commands.`;
 
-var contact = `You can reach me via the following methods::
-\t>Email (most inquiries): <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>
-\t>Email (sensitive inquiries): <a href="mailto:contact.kwei@proton.me" target="_blank" rel="noopener noreferrer">contact.kwei@proton.me</a>. You can also find my PGP key for that address at <a href="/pgp.asc" target="_blank" rel="noopener noreferrer">kevinlwei.com/pgp</a>.
-\t>Signal: @kwei.01
-\t>X (Twitter): <a href="https://x.com/kevinlwei" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
-\t>LinkedIn: <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
+var contact = `You can reach me via the following methods:
 
-\t 
+\t> Email (most inquiries): <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>
+\t> Email (sensitive inquiries): <a href="mailto:contact.kwei@proton.me" target="_blank" rel="noopener noreferrer">contact.kwei@proton.me</a>. You can also find my PGP key for that address at <a href="/pgp.asc" target="_blank" rel="noopener noreferrer">kevinlwei.com/pgp</a>.
+\t> Signal: @kwei.01
+\t> X (Twitter): <a href="https://x.com/kevinlwei" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
+\t> LinkedIn: <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
+\t> Substack: <a href="https://substack.com/@kevinlwei" target="_blank" rel="noopener noreferrer">@kevinlwei</a>
+
 \t Type <span class = "special">help</span> for more commands.`;
 
 var cats = [
