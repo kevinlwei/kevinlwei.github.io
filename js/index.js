@@ -86,7 +86,13 @@ $(document).ready(function() {
 			i++;
 			if (i > cmd.length) {
 				clearInterval(typing);
-				$('#console').trigger($.Event('keydown', { which: 13, keyCode: 13 }));
+				setTimeout(function() {
+					jqconsole.AbortPrompt();
+					jqconsole.Write('kwei> ', 'jqconsole-old-prompt', false);
+					jqconsole.Write(cmd + '\n', 'jqconsole-old-input', false);
+					jqconsole.Write(process(cmd.toLowerCase().trim()), 'jqconsole-output', false);
+					startPrompt();
+				}, 150);
 			}
 		}, 75);
 	} else {
