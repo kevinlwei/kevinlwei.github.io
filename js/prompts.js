@@ -24,8 +24,7 @@ var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: 
 \t
 \tTo get in touch, ping <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>. For Signal, Protonmail, or other ways of contact, type <span class="special">contact</span>.
 \t
-\tYou can also type <span class="special">about</span> to learn more about me or <span class="special">research</span> to see my past work. 
-Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
+\tYou can also type <span class="special">about</span> to learn more about me or <span class="special">research</span> to see my past work. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var help = [{
   name: buildSpecialText("help"),
