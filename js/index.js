@@ -1,38 +1,52 @@
 $(document).ready(function() {
 	var jqconsole = $("#console").jqconsole("", "kwei> ");
-  jqconsole.Write("<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>', 'jqconsole-output', false);
+	var commands = [
+		{ aliases: ["help", "?", "ls", "commands"], callback: buildLambda("help"), path: "/help" },
+		{ aliases: ["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info", "about"], callback: buildLambda("intro"), path: "/about" },
+		{ aliases: ["social", "links"], callback: buildLambda("social"), path: "/social" },
+		{ aliases: ["research", "portfolio", "projects", "work", "past work", "publications", "publication"], callback: buildLambda("portfolio"), path: "/research" },
+		{ aliases: ["contact"], callback: buildLambda("contact"), path: "/contact" },
+		{ aliases: ["pgp", "publickey", "public key"], callback: buildLambda("pgp"), path: "/pgp" },
+		{ aliases: ["clear", "cls"], callback: function() { jqconsole.Clear(); return introOutput(); }, path: "/" },
+		{ aliases: ["cats", "cat", "meow"], callback: function() {
+			return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
+		}}
+	];
+
+	var routes = {
+		"/about": "about",
+		"/contact": "contact",
+		"/help": "help",
+		"/pgp": "pgp",
+		"/research": "research",
+		"/social": "social"
+	};
+
+	var introOutput = () => {
+		return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>';
+	};
+
+	var findCommand = (input) => {
+		var parsed = input.split(" ");
+		return commands.find(function(command) {
+			return command.aliases.some(function(term) {
+				return term === parsed[0] || term === input;
+			});
+		});
+	};
 
 	var process = (input) => {
 		var parsed = input.split(" ");
-		var commands = [
-			[["help", "?", "ls", "commands"], buildLambda("help")],
-			[["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info", "about"], buildLambda("intro")],
-			[["social", "links"], buildLambda("social")],
-			[["research", "portfolio", "projects", "work", "past work", "publications", "publication"], buildLambda("portfolio")],
-			[["contact"], buildLambda("contact")],
-			[["pgp", "publickey", "public key"], buildLambda("pgp")],
-			[["clear", "cls"], function() { jqconsole.Clear(); return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>'; }],
-			[["cats", "cat", "meow"], function() {
-				return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
-			}]
-		];
-		var response = null;
-		commands.forEach(function(key, index, commands) {
-			key[0].forEach(function(term, tindex) {
-				if (term === parsed[0] || term === input) {
-					response = key[1]();
-				}
-			});
-		});
-		if (response) {
-			return response;
+		var command = findCommand(input);
+		if (command) {
+			return command.callback();
 		} else {
 			var commands_list = [];
-			commands.forEach(function(key, index, commands) {
-				key[0].forEach(function(term, tindex) {
+			commands.forEach(function(command) {
+				command.aliases.forEach(function(term) {
 					commands_list.push({
 						"command": term,
-						"callback": key[1]
+						"callback": command.callback
 					});
 				});
 			});
@@ -59,10 +73,18 @@ $(document).ready(function() {
 		}
 	};
 
+	var updatePath = (input) => {
+		var command = findCommand(input);
+		if (command && command.path && window.location.pathname !== command.path) {
+			window.history.pushState({}, "", command.path);
+		}
+	};
+
 	var processQuery = (input) => {
 		if (input) {
 			var trimmed = input.toLowerCase().trim();
 			jqconsole.Write(process(trimmed), "jqconsole-output", false);
+			updatePath(trimmed);
 			gtag('event', 'command', { command: trimmed });
 		} else {
 			jqconsole.Write("\n Here is a list of commands:\n" + format("help"), "jqconsole-output", false);
@@ -74,5 +96,27 @@ $(document).ready(function() {
 		jqconsole.Prompt(true, processQuery);
 	};
 
+	var commandForPath = (path) => {
+		var normalizedPath = path.replace(/\/+$/, "") || "/";
+		return routes[normalizedPath];
+	};
+
+	var renderPath = (path) => {
+		var command = commandForPath(path);
+		jqconsole.Write(introOutput(), "jqconsole-output", false);
+		if (command) {
+			jqconsole.Write("kwei> " + command + "\n", "jqconsole-old-prompt", false);
+			jqconsole.Write(process(command), "jqconsole-output", false);
+		}
+	};
+
+	window.addEventListener("popstate", function() {
+		jqconsole.AbortPrompt();
+		jqconsole.Clear();
+		renderPath(window.location.pathname);
+		startPrompt();
+	});
+
+	renderPath(window.location.pathname);
 	startPrompt();
 });
