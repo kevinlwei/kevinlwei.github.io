@@ -3,6 +3,7 @@ Commands:
 
 help: display a list of available commands
 about: display full bio
+bio: display short bio and headshot
 social: display links to social media
 research: display links to past work
 contact: display contact info
@@ -18,13 +19,18 @@ var intro = `Right now, I'm a researcher affiliated with the AI Governance Initi
 \t
 \tOccasionally I have some free time, in which I play classical piano, run, enjoy desserts, and read speculative fiction.
 \t
-\t To learn more about me, type <span class="special">social</span> to find me around the interwebs, <span class="special">research</span> to see my past work, or <span class="special">contact</span> to reach out.`;
+\t Type <span class="special">social</span> to find me on the interwebs, <span class="special">research</span> to see my past work, or <span class="special">contact</span> to reach out.`;
 
-var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: a researcher working on the science of AI evaluations (evaluation methodology), legal AI safety/alignment, and technical AI governance/AI law. Currently, I am affiliated with <a href="https://aigi.ox.ac.uk/people/kevin-wei/" target="_blank" rel="noopener noreferrer">Oxford University</a> and <a href="https://www.rand.org/about/people/w/wei_kevin.html" target="_blank" rel="noopener noreferrer">RAND</a>. I work on AI safety/governance because I believe that advanced AI will be one of the most transformative technologies in my lifetime. 
+var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: a researcher at GovAI working on the science of AI evaluations (evaluation methodology), legal AI safety/alignment, and technical AI governance/AI law. I am also affiliated with <a href="https://aigi.ox.ac.uk/people/kevin-wei/" target="_blank" rel="noopener noreferrer">Oxford University</a> and <a href="https://www.rand.org/about/people/w/wei_kevin.html" target="_blank" rel="noopener noreferrer">RAND</a>. I work on AI safety/governance because I believe that advanced AI will be one of the most transformative technologies in my lifetime. 
 \t
 \tTo get in touch, ping <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>. For Signal, Protonmail, or other ways of contact, type <span class="special">contact</span>.
 \t
 \tYou can also type <span class="special">about</span> to learn more about me or <span class="special">research</span> to see my past work. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
+
+var bio = `Kevin Wei (he/they) is a researcher at the Centre for the Governance of AI (GovAI), where they work on ensuring that advanced AI is developed and governed safely. Specifically, Kevin's research agenda is focused on the science of AI evaluations, legal AI safety/alignment, and technical AI governance/law, with peer-reviewed publications on these topics appearing in ICML, TMLR, and other top AI/AI ethics venues. Kevin is also affiliated with the Oxford Martin School AI Governance Initiative and the RAND Center for AI, Security, and Technology. They hold a J.D. from Harvard Law School, a Master's in Global Affairs from Tsinghua University (where they were a Schwarzman Scholar), an M.S. in Machine Learning from Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia University.
+
+\t
+\tView or download my headshot <a href="/headshot.jpg" target="_blank" rel="noopener noreferrer">here</a>.`;
 
 var help = [{
   name: buildSpecialText("help"),
@@ -32,6 +38,9 @@ var help = [{
 }, {
   name: buildSpecialText("about"),
   description: "Display full bio"
+}, {
+  name: buildSpecialText("bio"),
+  description: "Display short bio and headshot"
 }, {
   name: buildSpecialText("social"),
   description: "Display links to social media"
@@ -241,6 +250,7 @@ var prompts = {
 	help: help,
   unformatted_intro: unformatted_intro,
   intro: intro,
+  bio: bio,
   social: social,
   portfolio: portfolio,
   contact: contact,

@@ -3,6 +3,7 @@ $(document).ready(function() {
 	var commands = [
 		{ aliases: ["help", "?", "ls", "commands"], callback: buildLambda("help"), path: "/help" },
 		{ aliases: ["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info", "about"], callback: buildLambda("intro"), path: "/about" },
+		{ aliases: ["bio", "biog", "biography", "biographical", "profile", "headshot", "photo", "picture", "portrait"], callback: buildLambda("bio"), path: "/bio" },
 		{ aliases: ["social", "links"], callback: buildLambda("social"), path: "/social" },
 		{ aliases: ["research", "portfolio", "projects", "work", "past work", "publications", "publication"], callback: buildLambda("portfolio"), path: "/research" },
 		{ aliases: ["contact"], callback: buildLambda("contact"), path: "/contact" },
@@ -15,6 +16,7 @@ $(document).ready(function() {
 
 	var routes = {
 		"/about": "about",
+		"/bio": "bio",
 		"/contact": "contact",
 		"/help": "help",
 		"/pgp": "pgp",
