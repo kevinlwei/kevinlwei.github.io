@@ -76,7 +76,7 @@ var portfolio = `Check my <a href="https://scholar.google.com/citations?user=28G
 \t> Legal Alignment for Safe and Ethical AI (Co-author; <a href="https://arxiv.org/abs/2601.04175" target="_blank" rel="noopener noreferrer">TMLR 2026</a>)
 \t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; <a href="https://arxiv.org/abs/2511.05914" target="_blank" rel="noopener noreferrer">AAAI 2026</a>)
 \t> RCTs for Frontier AI Governance: Methodological Challenges and Solutions for Human Uplift Studies (Co-author; <a href="https://arxiv.org/abs/2603.11001" target="_blank" rel="noopener noreferrer">AIES 2026</a>)
-\t> How Inference Compute Shapes Frontier LLM Evaluation (Co-author)
+\t> How Inference Compute Shapes Frontier LLM Evaluation (Co-author; <a href="https://arxiv.org/abs/2606.17930" target="_blank" rel="noopener noreferrer">AIES 2026</a>)
 \t> Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations (Co-author; <a href="https://arxiv.org/abs/2511.05613" target="_blank" rel="noopener noreferrer">ICML 2026</a>)
 \t> The 2025 AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2602.17753" target="_blank" rel="noopener noreferrer">FAccT 2026</a>)
 \t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; <a href="https://arxiv.org/abs/2506.13776" target="_blank" rel="noopener noreferrer">ICML 2025 Spotlight</a>)
