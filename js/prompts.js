@@ -71,23 +71,25 @@ var social = `
 \t
 \t Type <span class = "special">help</span> for more commands.`;
 
-var portfolio = `Check <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> for an updated list of publications; some recent work is below:
+var portfolio = `Check my <a href="https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> for the most up-to-date list of publications; some recent work is below:
 \t
-\t> Legal Alignment for Safe and Ethical AI (Co-author; <a href="https://arxiv.org/abs/2601.04175" target="_blank" rel="noopener noreferrer">preprint 2026</a>)
+\t> Legal Alignment for Safe and Ethical AI (Co-author; <a href="https://arxiv.org/abs/2601.04175" target="_blank" rel="noopener noreferrer">TMLR 2026</a>)
 \t> Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; <a href="https://arxiv.org/abs/2511.05914" target="_blank" rel="noopener noreferrer">AAAI 2026</a>)
+\t> RCTs for Frontier AI Governance: Methodological Challenges and Solutions for Human Uplift Studies (Co-author; <a href="https://arxiv.org/abs/2603.11001" target="_blank" rel="noopener noreferrer">AIES 2026</a>)
+\t> How Inference Compute Shapes Frontier LLM Evaluation (Co-author)
+\t> Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations (Co-author; <a href="https://arxiv.org/abs/2511.05613" target="_blank" rel="noopener noreferrer">ICML 2026</a>)
+\t> The 2025 AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2602.17753" target="_blank" rel="noopener noreferrer">FAccT 2026</a>)
 \t> Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; <a href="https://arxiv.org/abs/2506.13776" target="_blank" rel="noopener noreferrer">ICML 2025 Spotlight</a>)
 \t> Methodological Challenges in Agentic Evaluations of AI Systems (First author; <a href="https://openreview.net/forum?id=ZhSKG8IslC" target="_blank" rel="noopener noreferrer">ICML 2025 Technical AI Governance Workshop</a>)
 \t> Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; <a href="https://arxiv.org/abs/2501.09606" target="_blank" rel="noopener noreferrer">PLOS One 2025</a>)
 \t> Infrastructure for AI Agents (Second author; <a href="https://arxiv.org/abs/2501.10114" target="_blank" rel="noopener noreferrer">TMLR 2025</a>)
-\t> Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations (Co-author; <a href="https://arxiv.org/abs/2511.05613" target="_blank" rel="noopener noreferrer">preprint 2025</a>)
-\t> The AI Agent Index (Co-author; <a href="https://arxiv.org/abs/2502.01635" target="_blank" rel="noopener noreferrer">preprint 2025</a>)
 \t> How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance (First author; <a href="https://arxiv.org/abs/2410.13042" target="_blank" rel="noopener noreferrer">AIES 2024</a>)
 \t> Visibility into AI Agents (Co-author; <a href="https://arxiv.org/abs/2401.13138" target="_blank" rel="noopener noreferrer">FAccT 2024</a>)
 \t> Black-Box Access is Insufficient for Rigorous AI Audits (Co-author; <a href="https://arxiv.org/abs/2401.14446" target="_blank" rel="noopener noreferrer">FAccT 2024</a>)
-
-
+\t
 And here are some of my policy reports and public writing:
 \t
+\t> Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack (Co-author; <a href="https://arxiv.org/abs/2607.11999" target="_blank" rel="noopener noreferrer">pre-print 2026</a>)
 \t> Preliminary Suggestions for Rigorous GPAI Model Evaluations (Co-authored with Patricia Paskov, Michael Byun, & Toby Webster; <a href="https://arxiv.org/abs/2508.00875" target="_blank" rel="noopener noreferrer">RAND 2025</a>)
 \t> Third-Party Compliance Reviews for Frontier AI Safety Frameworks (Co-author; <a href="https://arxiv.org/abs/2505.01643" target="_blank" rel="noopener noreferrer">GovAI report 2025</a>)
 \t> Beyond Big Tech: The Revolutionary Potential of State Data Commons (Co-author; <a href="https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons" target="_blank" rel="noopener noreferrer">Lawfare 2025</a>)
