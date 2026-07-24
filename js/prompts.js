@@ -62,7 +62,6 @@ var help = [{
 }];
 
 var social = ` 
-
 \t> <a href="https://www.linkedin.com/in/kevinlwei/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
 \t> <a href="https://x.com/kevinlwei" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
 \t> <a href="https://substack.com/@kevinlwei" target="_blank" rel="noopener noreferrer">Substack</a>
