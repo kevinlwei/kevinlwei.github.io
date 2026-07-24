@@ -1,0 +1,636 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-07-24",
+  "scholar_profile": "https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en",
+  "scholar_unique_work_count": 22,
+  "deduplication_policy": "One record per unique work; publication versions and duplicate Scholar rows are merged.",
+  "work_defaults": {
+    "inventory_source": "google-scholar"
+  },
+  "works": [
+    {
+      "citation_key": "kolt2026legalalignment",
+      "category": "academic",
+      "title": "Legal Alignment for Safe and Ethical AI",
+      "year": 2026,
+      "status": "Published",
+      "venue": "Transactions on Machine Learning Research",
+      "arxiv_id": "2601.04175",
+      "publisher_url": "https://openreview.net/forum?id=BypXEQa7mf",
+      "bibtex_type": "article",
+      "bibtex_venue_field": "journal",
+      "terminal_url": "https://arxiv.org/abs/2601.04175",
+      "project_links": [
+        {
+          "label": "Legal Alignment project",
+          "url": "https://www.legal-alignment.ai/"
+        }
+      ]
+    },
+    {
+      "citation_key": "dev2026autograders",
+      "category": "academic",
+      "title": "Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks",
+      "authors": [
+        "Sunishchal Dev",
+        "Patricia Paskov",
+        "Andrew Sloan",
+        "Kevin Wei",
+        "Pedro Nascimento de Lima",
+        "Swaptik Chowdhury",
+        "Jason Johnson",
+        "William Marcellino"
+      ],
+      "year": 2026,
+      "status": "Published research report",
+      "venue": "RAND Corporation",
+      "doi": "10.7249/RRA4618-1",
+      "publisher_url": "https://www.rand.org/pubs/research_reports/RRA4618-1.html",
+      "pdf_url": "https://www.rand.org/content/dam/rand/pubs/research_reports/RRA4600/RRA4618-1/RAND_RRA4618-1.pdf",
+      "preferred_citation": "Dev, Sunishchal, Patricia Paskov, Andrew Sloan, Kevin Wei, Pedro Nascimento de Lima, Swaptik Chowdhury, Jason Johnson, and William Marcellino, Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks. Santa Monica, CA: RAND Corporation, 2026. https://www.rand.org/pubs/research_reports/RRA4618-1.html.",
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://www.rand.org/pubs/research_reports/RRA4618-1.html",
+      "code_links": [
+        {
+          "label": "Reproduction code",
+          "url": "https://github.com/RANDCorporation/autograders-rr-2026"
+        }
+      ],
+      "data_links": [
+        {
+          "label": "Inputs and experiment outputs",
+          "url": "https://github.com/RANDCorporation/autograders-rr-2026/tree/main/data"
+        }
+      ]
+    },
+    {
+      "citation_key": "wei2026incidentreporting",
+      "category": "academic",
+      "title": "Designing Incident Reporting Systems for Harms from General-Purpose AI",
+      "year": 2026,
+      "status": "Published",
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, 40(44), 38016–38029",
+      "arxiv_id": "2511.05914",
+      "doi": "10.1609/aaai.v40i44.41139",
+      "publisher_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41139",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://arxiv.org/abs/2511.05914"
+    },
+    {
+      "citation_key": "paskov2026rcts",
+      "category": "academic",
+      "title": "RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions",
+      "year": 2026,
+      "status": "Published working paper; arXiv preprint",
+      "venue": "RAND Corporation Working Paper WR-A4869-1",
+      "arxiv_id": "2603.11001",
+      "doi": "10.7249/WRA4869-1",
+      "publisher_url": "https://www.rand.org/pubs/working_papers/WRA4869-1.html",
+      "preferred_citation": "Paskov, Patricia, Kevin Wei, Shen Zhou Hong, Dan Bateyko, Xavier Roberts-Gaal, Carson Ezell, Gailius Praninskas, Valerie Chen, Umang Bhatt, and Ella Guest, RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions. Santa Monica, CA: RAND Corporation, 2026. https://doi.org/10.7249/WRA4869-1.",
+      "alternate_titles": [
+        "RCTs for Frontier AI Governance: Methodological Challenges and Solutions for Human Uplift Studies"
+      ],
+      "prefer_manifest_fields": [
+        "title"
+      ],
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://arxiv.org/abs/2603.11001",
+      "metadata_note": "The interactive site labels this work AIES 2026; no official AIES program or proceedings record was located as of 2026-07-24."
+    },
+    {
+      "citation_key": "mcfadyen2026inferencecompute",
+      "category": "academic",
+      "title": "How Inference Compute Shapes Frontier LLM Evaluation",
+      "year": 2026,
+      "status": "Preprint",
+      "venue": "arXiv preprint",
+      "arxiv_id": "2606.17930",
+      "bibtex_type": "misc",
+      "terminal_url": "https://arxiv.org/abs/2606.17930",
+      "metadata_note": "The interactive site labels this work AIES 2026; the current arXiv record does not mention acceptance and no official AIES record was located as of 2026-07-24."
+    },
+    {
+      "citation_key": "romero2026humanscales",
+      "category": "academic",
+      "title": "From Human-Level AI Tales to AI Leveling Human Scales",
+      "year": 2026,
+      "status": "Preprint; submitted to ICML 2026",
+      "venue": "arXiv preprint",
+      "arxiv_id": "2602.18911",
+      "bibtex_type": "misc",
+      "metadata_note": "The public OpenReview submission uses the British spelling “Levelling”; the arXiv and Google Scholar title uses “Leveling.”",
+      "project_links": [
+        {
+          "label": "ICML 2026 OpenReview submission",
+          "url": "https://openreview.net/forum?id=3QmrFOiPCy"
+        }
+      ]
+    },
+    {
+      "citation_key": "reuel2026socialimpacts",
+      "category": "academic",
+      "title": "Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations",
+      "year": 2026,
+      "status": "Accepted; poster",
+      "venue": "Forty-Third International Conference on Machine Learning (ICML 2026)",
+      "arxiv_id": "2511.05613",
+      "publisher_url": "https://icml.cc/virtual/2026/poster/62723",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://arxiv.org/abs/2511.05613",
+      "code_links": [
+        {
+          "label": "Analysis code",
+          "url": "https://github.com/evaleval/social_impact_eval_annotations_code"
+        }
+      ],
+      "data_links": [
+        {
+          "label": "Annotated dataset",
+          "url": "https://huggingface.co/datasets/evaleval/social_impact_eval_annotations"
+        }
+      ]
+    },
+    {
+      "citation_key": "staufer2026agentindex",
+      "category": "academic",
+      "title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "year": 2026,
+      "status": "Published",
+      "venue": "Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency, pp. 1536–1576",
+      "arxiv_id": "2602.17753",
+      "doi": "10.1145/3805689.3806728",
+      "publisher_url": "https://dl.acm.org/doi/10.1145/3805689.3806728",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://arxiv.org/abs/2602.17753",
+      "data_links": [
+        {
+          "label": "Current Zenodo dataset",
+          "url": "https://doi.org/10.5281/zenodo.19592546"
+        },
+        {
+          "label": "Zenodo concept record",
+          "url": "https://doi.org/10.5281/zenodo.18701930"
+        }
+      ],
+      "project_links": [
+        {
+          "label": "AI Agent Index",
+          "url": "https://aiagentindex.mit.edu/"
+        }
+      ]
+    },
+    {
+      "citation_key": "casper2025agentindex",
+      "category": "academic",
+      "title": "The AI Agent Index",
+      "year": 2025,
+      "status": "Preprint",
+      "venue": "arXiv preprint",
+      "arxiv_id": "2502.01635",
+      "bibtex_type": "misc",
+      "data_links": [
+        {
+          "label": "Interactive 2024 index data",
+          "url": "https://aiagentindex.mit.edu/2024/"
+        }
+      ],
+      "project_links": [
+        {
+          "label": "2024 index methodology and further details",
+          "url": "https://aiagentindex.mit.edu/2024/further-details/"
+        }
+      ]
+    },
+    {
+      "citation_key": "wei2025humanbaselines",
+      "category": "academic",
+      "title": "Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist)",
+      "year": 2025,
+      "status": "Published; Spotlight",
+      "venue": "Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:82265–82325",
+      "arxiv_id": "2506.13776",
+      "publisher_url": "https://proceedings.mlr.press/v267/wei25s.html",
+      "pdf_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/wei25s/wei25s.pdf",
+      "preferred_citation": "Wei, K., Paskov, P., Dev, S., Byun, M. J., Reuel, A., Roberts-Gaal, X., Calcott, R., Coxon, E., & Deshpande, C. (2025). Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist). Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:82265–82325. https://proceedings.mlr.press/v267/wei25s.html.",
+      "abstract": "In this position paper, we argue that human baselines in foundation model evaluations must be more rigorous and more transparent to enable meaningful comparisons of human vs. AI performance, and we provide recommendations and a reporting checklist towards this end. Human performance baselines are vital for the machine learning community, downstream users, and policymakers to interpret AI evaluations. Models are often claimed to achieve \"super-human\" performance, but existing baselining methods are neither sufficiently rigorous nor sufficiently well-documented to robustly measure and assess performance differences. Based on a meta-review of the measurement theory and AI evaluation literatures, we derive a framework with recommendations for designing, executing, and reporting human baselines. We synthesize our recommendations into a checklist that we use to systematically review 115 human baselines (studies) in foundation model evaluations and thus identify shortcomings in existing baselining methods; our checklist can also assist researchers in conducting human baselines and reporting results. We hope our work can advance more rigorous AI evaluation practices that can better serve both the research community and policymakers. Data is available at: https://github.com/kevinlwei/human-baselines.",
+      "prefer_manifest_fields": [
+        "title",
+        "abstract",
+        "pdf_url"
+      ],
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://arxiv.org/abs/2506.13776",
+      "code_links": [
+        {
+          "label": "Human baselines repository",
+          "url": "https://github.com/kevinlwei/human-baselines"
+        }
+      ],
+      "data_links": [
+        {
+          "label": "Human-baseline review data",
+          "url": "https://github.com/kevinlwei/human-baselines/tree/main/data"
+        }
+      ],
+      "project_links": [
+        {
+          "label": "Recommendations and reporting checklist",
+          "url": "https://github.com/kevinlwei/human-baselines"
+        }
+      ]
+    },
+    {
+      "citation_key": "wei2025agenticevaluations",
+      "category": "academic",
+      "title": "Methodological Challenges in Agentic Evaluations of AI Systems",
+      "authors": [
+        "Kevin Wei",
+        "Stephen Guth",
+        "Gabriel Wu",
+        "Patricia Paskov"
+      ],
+      "year": 2025,
+      "status": "Work-in-progress poster",
+      "venue": "ICML 2025 Workshop on Technical AI Governance (TAIG)",
+      "publisher_url": "https://openreview.net/forum?id=ZhSKG8IslC",
+      "pdf_url": "https://openreview.net/pdf?id=ZhSKG8IslC",
+      "abstract": "With the increased generality and advanced reasoning capabilities of AI systems, an increasing number of AI evaluations are agentic evaluations: evaluations involving complex tasks requiring environmental interaction, as opposed to knowledge-based question-answer benchmarks. However, no work has explored the methodological challenges of agentic evaluations or the practices necessary to ensure their validity, reliability, replicability, and efficiency. In this (work-in-progress) paper, we (1) define and formalize the agentic evaluation paradigm; (2) survey and analyze methodological problems in agentic evaluations; and (3) discuss the implications of agentic evaluations for AI governance. Our hope is to improve the state of agentic evaluations of AI systems, systematize the methodological work in this domain, and contribute to the establishment of a science of AI evaluations.",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://openreview.net/forum?id=ZhSKG8IslC",
+      "project_links": [
+        {
+          "label": "ICML workshop presentation",
+          "url": "https://icml.cc/virtual/2025/48349"
+        }
+      ]
+    },
+    {
+      "citation_key": "hatz2025localofficials",
+      "category": "academic",
+      "title": "Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves",
+      "year": 2025,
+      "status": "Published",
+      "venue": "PLOS ONE 20(10): e0332919",
+      "arxiv_id": "2501.09606",
+      "doi": "10.1371/journal.pone.0332919",
+      "publisher_url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0332919",
+      "bibtex_type": "article",
+      "bibtex_venue_field": "journal",
+      "terminal_url": "https://arxiv.org/abs/2501.09606",
+      "data_links": [
+        {
+          "label": "OSF survey data",
+          "url": "https://osf.io/cpv68/"
+        },
+        {
+          "label": "Pre-analysis plan",
+          "url": "https://osf.io/k2efj"
+        },
+        {
+          "label": "Documented deviations",
+          "url": "https://osf.io/5kb23"
+        }
+      ]
+    },
+    {
+      "citation_key": "chan2025infrastructure",
+      "category": "academic",
+      "title": "Infrastructure for AI Agents",
+      "year": 2025,
+      "status": "Published",
+      "venue": "Transactions on Machine Learning Research",
+      "arxiv_id": "2501.10114",
+      "publisher_url": "https://openreview.net/forum?id=Ckh17xN2R2",
+      "bibtex_type": "article",
+      "bibtex_venue_field": "journal",
+      "terminal_url": "https://arxiv.org/abs/2501.10114",
+      "project_links": [
+        {
+          "label": "GovAI publication page",
+          "url": "https://www.governance.ai/research-paper/infrastructure-for-ai-agents"
+        }
+      ]
+    },
+    {
+      "citation_key": "wei2024finetunepolicy",
+      "category": "academic",
+      "title": "How Do AI Companies \"Fine-Tune\" Policy? Examining Regulatory Capture in AI Governance",
+      "year": 2024,
+      "status": "Published",
+      "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 7(1):1539–1555",
+      "arxiv_id": "2410.13042",
+      "doi": "10.1609/aies.v7i1.31745",
+      "publisher_url": "https://ojs.aaai.org/index.php/AIES/article/view/31745",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://arxiv.org/abs/2410.13042"
+    },
+    {
+      "citation_key": "chan2024visibility",
+      "category": "academic",
+      "title": "Visibility into AI Agents",
+      "year": 2024,
+      "status": "Published",
+      "venue": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 958–973",
+      "arxiv_id": "2401.13138",
+      "doi": "10.1145/3630106.3658948",
+      "publisher_url": "https://dl.acm.org/doi/10.1145/3630106.3658948",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://arxiv.org/abs/2401.13138"
+    },
+    {
+      "citation_key": "casper2024blackbox",
+      "category": "academic",
+      "title": "Black-Box Access is Insufficient for Rigorous AI Audits",
+      "year": 2024,
+      "status": "Published",
+      "venue": "Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 2254–2272",
+      "arxiv_id": "2401.14446",
+      "doi": "10.1145/3630106.3659037",
+      "publisher_url": "https://dl.acm.org/doi/10.1145/3630106.3659037",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
+      "terminal_url": "https://arxiv.org/abs/2401.14446"
+    },
+    {
+      "citation_key": "trout2026insurance",
+      "category": "policy",
+      "title": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack",
+      "authors": [
+        "Cristian Trout",
+        "Sanmi Koyejo",
+        "Sasha Romanosky",
+        "Giorgio Ripamonti",
+        "Lynn Thompson",
+        "Desiree Spain",
+        "Alex Taylor",
+        "Kevin Casey",
+        "Stephen Casper",
+        "Matthew Botvinick",
+        "Sean McGregor",
+        "Miles Brundage",
+        "A. Feder Cooper",
+        "Patricia Paskov",
+        "Adrien Ecoffet",
+        "Ben Bucknall",
+        "Kevin Wei",
+        "Markus Anderljung",
+        "Lukasz Szpruch",
+        "Bri Treece",
+        "Tom Zick",
+        "Gabriel Weil",
+        "Ugur Ozer",
+        "Kevin Kalinich",
+        "Jesus Gonzalez",
+        "Vitaly Baranov",
+        "Derek Blum",
+        "Moran Koren",
+        "Guy Laban",
+        "Gil Arazi",
+        "Henri Winand",
+        "Toby Clowes",
+        "Adam Kleinman",
+        "Anita Srinivasan",
+        "Tom Fehring",
+        "Rune Kvist",
+        "Rajiv Dattani"
+      ],
+      "year": 2026,
+      "status": "Preprint",
+      "venue": "arXiv preprint",
+      "arxiv_id": "2607.11999",
+      "publisher_url": "https://www.underwriting-agents.com/",
+      "pdf_url": "https://www.underwriting-agents.com/report.pdf",
+      "prefer_manifest_fields": [
+        "authors",
+        "pdf_url"
+      ],
+      "bibtex_type": "misc",
+      "terminal_url": "https://arxiv.org/abs/2607.11999",
+      "metadata_note": "Author order follows the report PDF; the arXiv metadata places Derek Blum after Henri Winand.",
+      "project_links": [
+        {
+          "label": "Report website",
+          "url": "https://www.underwriting-agents.com/"
+        }
+      ]
+    },
+    {
+      "citation_key": "wei2025gpai",
+      "category": "policy",
+      "title": "Preliminary suggestions for rigorous GPAI model evaluations",
+      "year": 2025,
+      "status": "Published perspective",
+      "venue": "RAND Corporation",
+      "arxiv_id": "2508.00875",
+      "doi": "10.7249/PEA3971-1",
+      "publisher_url": "https://www.rand.org/pubs/perspectives/PEA3971-1.html",
+      "pdf_url": "https://www.rand.org/content/dam/rand/pubs/perspectives/PEA3900/PEA3971-1/RAND_PEA3971-1.pdf",
+      "prefer_manifest_fields": [
+        "pdf_url"
+      ],
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://arxiv.org/abs/2508.00875"
+    },
+    {
+      "citation_key": "homewood2025compliancereviews",
+      "category": "policy",
+      "title": "Third-Party Compliance Reviews for Frontier AI Safety Frameworks",
+      "year": 2025,
+      "status": "Research report",
+      "venue": "Centre for the Governance of AI",
+      "arxiv_id": "2505.01643",
+      "publisher_url": "https://www.governance.ai/research-paper/third-party-compliance-reviews-for-frontier-ai-safety-frameworks",
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://arxiv.org/abs/2505.01643"
+    },
+    {
+      "citation_key": "wei2025datacommons",
+      "category": "public-writing",
+      "inventory_source": "terminal-public-writing",
+      "title": "Beyond Big Tech: The Revolutionary Potential of State Data Commons",
+      "authors": [
+        "Kevin Frazier",
+        "Kevin Wei"
+      ],
+      "year": 2025,
+      "status": "Public article",
+      "venue": "Lawfare",
+      "publisher_url": "https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons",
+      "bibtex_type": "misc",
+      "bibtex_venue_field": "howpublished",
+      "terminal_url": "https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons"
+    },
+    {
+      "citation_key": "guest2024governancegap",
+      "category": "policy",
+      "title": "Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence",
+      "year": 2024,
+      "status": "Research report",
+      "venue": "RAND Corporation",
+      "arxiv_id": "2506.03497",
+      "doi": "10.7249/PEA3703-1",
+      "publisher_url": "https://www.rand.org/pubs/perspectives/PEA3703-1.html",
+      "pdf_url": "https://www.rand.org/content/dam/rand/pubs/perspectives/PEA3700/PEA3703-1/RAND_PEA3703-1.pdf",
+      "prefer_manifest_fields": [
+        "pdf_url"
+      ],
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://arxiv.org/abs/2506.03497"
+    },
+    {
+      "citation_key": "wei2024industryinfluence",
+      "category": "policy",
+      "inventory_source": "terminal-public-writing",
+      "title": "Managing Industry Influence in U.S. AI Policy",
+      "authors": [
+        "Kevin Wei",
+        "Carson Ezell",
+        "Nicholas Gabrieli",
+        "Chinmay Deshpande"
+      ],
+      "year": 2024,
+      "status": "Research summary",
+      "venue": "RAND Corporation",
+      "doi": "10.7249/RBA3679-1",
+      "publisher_url": "https://www.rand.org/pubs/research_briefs/RBA3679-1.html",
+      "pdf_url": "https://www.rand.org/content/dam/rand/pubs/research_briefs/RBA3600/RBA3679-1/RAND_RBA3679-1.pdf",
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://www.rand.org/pubs/research_briefs/RBA3679-1.html",
+      "metadata_note": "The RAND catalog names all four contributors; the brief's colophon says the brief was written by Kevin Wei and Carson Ezell and summarizes underlying work by all four.",
+      "project_links": [
+        {
+          "label": "Underlying peer-reviewed publication",
+          "url": "https://www.rand.org/pubs/external_publications/EP70704.html"
+        }
+      ]
+    },
+    {
+      "citation_key": "seger2023opensourcing",
+      "category": "policy",
+      "title": "Open-Sourcing Highly Capable Foundation Models: An Evaluation of Risks, Benefits, and Alternative Methods for Pursuing Open-Source Objectives",
+      "year": 2023,
+      "status": "Research report",
+      "venue": "Centre for the Governance of AI and Institute for Law & AI",
+      "arxiv_id": "2311.09227",
+      "doi": "10.2139/ssrn.4596436",
+      "publisher_url": "https://www.governance.ai/research-paper/open-sourcing-highly-capable-foundation-models",
+      "pdf_url": "https://cdn.governance.ai/Open-Sourcing_Highly_Capable_Foundation_Models_2023_GovAI.pdf",
+      "prefer_manifest_fields": [
+        "pdf_url"
+      ],
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://arxiv.org/abs/2311.09227",
+      "metadata_note": "The official PDF and arXiv metadata credit Jonas Schuett; the current Institute for Law & AI landing page incorrectly displays Jonas Freund. The credited author “K. Wei” is Kevin L. Wei.",
+      "project_links": [
+        {
+          "label": "Institute for Law & AI working-paper record",
+          "url": "https://law-ai.org/open-sourcing-highly-capable-foundation-models/"
+        }
+      ]
+    },
+    {
+      "citation_key": "nsfc2023explainableai",
+      "category": "translation",
+      "inventory_source": "terminal-public-writing",
+      "title": "Notice on the Release of the “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”",
+      "authors": [
+        "National Natural Science Foundation of China"
+      ],
+      "translators": [
+        "Kevin L. Wei"
+      ],
+      "year": 2023,
+      "status": "English translation",
+      "venue": "Center for Security and Emerging Technology",
+      "publisher_url": "https://cset.georgetown.edu/publication/china-explainable-ai-projects/",
+      "pdf_url": "https://cset.georgetown.edu/wp-content/uploads/t0552_explainable_AI_plan_EN.pdf",
+      "bibtex_type": "misc",
+      "bibtex_venue_field": "howpublished",
+      "terminal_url": "https://cset.georgetown.edu/publication/china-explainable-ai-projects/",
+      "project_links": [
+        {
+          "label": "Original NSFC text",
+          "url": "https://www.nsfc.gov.cn/publish/portal0/tab948/info89093.htm"
+        },
+        {
+          "label": "Archived original source",
+          "url": "https://perma.cc/9C45-MK52"
+        }
+      ]
+    },
+    {
+      "citation_key": "most2023pilotzones",
+      "category": "translation",
+      "inventory_source": "terminal-public-writing",
+      "title": "Notice of the Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)",
+      "authors": [
+        "Ministry of Science and Technology of the People's Republic of China"
+      ],
+      "translators": [
+        "Kevin L. Wei"
+      ],
+      "year": 2023,
+      "status": "English translation",
+      "venue": "Center for Security and Emerging Technology",
+      "publisher_url": "https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/",
+      "pdf_url": "https://cset.georgetown.edu/wp-content/uploads/t0548_AI_pilot_zones_2020_EN.pdf",
+      "bibtex_type": "misc",
+      "bibtex_venue_field": "howpublished",
+      "terminal_url": "https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/",
+      "project_links": [
+        {
+          "label": "Original MOST text",
+          "url": "https://most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2020/202012/t20201224_171987.html"
+        },
+        {
+          "label": "Archived original source",
+          "url": "https://perma.cc/K27Q-ZWHN"
+        },
+        {
+          "label": "Original 2019 CSET translation",
+          "url": "https://cset.georgetown.edu/publication/guidelines-for-national-new-generation-artificial-intelligence-innovation-and-development-pilot-zone-construction-work/"
+        }
+      ]
+    },
+    {
+      "citation_key": "wei2020automateddecisions",
+      "category": "public-writing",
+      "title": "Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies",
+      "authors": [
+        "Kevin Wei"
+      ],
+      "year": 2020,
+      "status": "Policy paper",
+      "venue": "Day One Project Paper Series / Federation of American Scientists",
+      "doi": "10.2139/ssrn.3734673",
+      "publisher_url": "https://fas.org/publication/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies/",
+      "pdf_url": "https://fas.org/wp-content/uploads/2020/11/Creating-Transparency-and-Fairness-in-Automated-Decision-Systems-for-Administrative-Agencies.pdf",
+      "preferred_citation": "Wei, Kevin, Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies (November 20, 2020). Day One Project Paper Series, November 2020. https://doi.org/10.2139/ssrn.3734673.",
+      "abstract": "Artificial intelligence is increasingly being used to make decisions about human welfare. Automated decision systems (ADS) administer U.S. social benefits programs—such as unemployment and disability benefits—across local, state, and Federal governments. While ADS have the potential to enable large gains in efficiency, they also run a high risk of reinforcing the class- and race-based inequities of the status quo. Additionally, the use of these systems is not transparent, often leaving individuals with no meaningful recourse after a decision has been made. Individuals may not even know that ADS played a role in the decision-making process.\n\nThe Federal Government should take immediate action to promote the transparency and accountability of automated decision systems. Agencies must build internal technical capacity as well as data cultures centered around transparency, accountability, and fairness. The White House should require that agencies using ADS undertake a notice-and-comment process to disclose information about these systems to the public. Finally, in the long-term, Congress must pass comprehensive legislation to implement a single, national standard regulating the use of ADS across sectors and use cases.",
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "terminal_url": "https://fas.org/publication/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies/",
+      "metadata_note": "The original PDF and SSRN use this full title; the migrated FAS page currently shortens its heading.",
+      "project_links": [
+        {
+          "label": "Day One Project",
+          "url": "https://fas.org/day-one-project/"
+        }
+      ]
+    }
+  ]
+}

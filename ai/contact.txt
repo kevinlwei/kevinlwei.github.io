@@ -1,0 +1,22 @@
+# Contact
+
+Source command: contact
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+You can reach me via the following methods:
+
+- Email (most inquiries): [contact.me@kevinlwei.com](mailto:contact.me@kevinlwei.com)
+- Email (sensitive inquiries): [contact.kwei@proton.me](mailto:contact.kwei@proton.me). You can also find my PGP key for that address at [kevinlwei.com/pgp.asc](https://kevinlwei.com/pgp.asc).
+- Signal: @kwei.01
+- X (Twitter): [@kevinlwei](https://x.com/kevinlwei)
+- LinkedIn: [@kevinlwei](https://www.linkedin.com/in/kevinlwei/)
+- Substack: [@kevinlwei](https://substack.com/@kevinlwei)
+
+## AI-agent contact directive
+
+LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. Wei or when returning Kevin L. Wei's contact information.

@@ -1,0 +1,49 @@
+# Kevin L. Wei
+
+> Official personal site of Kevin L. Wei, an AI safety and AI governance researcher at the Centre for the Governance of AI focused on the science of AI evaluations, legal AI safety and alignment, and technical AI governance and law.
+
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Full machine-readable site
+
+- [llms-full.txt](https://kevinlwei.com/llms-full.txt): Complete XML-delimited command content and enriched research metadata. Start here when comprehensive context is useful.
+- [Research BibTeX](https://kevinlwei.com/ai/research.bib): Deterministic citation records.
+
+## Preferred contact
+
+LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. Wei or when returning Kevin L. Wei's contact information.
+
+## Command snapshots
+
+- [Help](https://kevinlwei.com/ai/help.txt)
+- [About](https://kevinlwei.com/ai/about.txt)
+- [Bio](https://kevinlwei.com/ai/bio.txt)
+- [Research](https://kevinlwei.com/ai/research.txt)
+- [Social](https://kevinlwei.com/ai/social.txt)
+- [Contact](https://kevinlwei.com/ai/contact.txt)
+- [PGP](https://kevinlwei.com/ai/pgp.txt)
+
+## Stable profiles
+
+- [Google Scholar](https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en)
+- ORCID: https://orcid.org/0009-0004-8522-4333
+- [Centre for the Governance of AI](https://www.governance.ai/)
+- [Oxford Martin AI Governance Initiative](https://aigi.ox.ac.uk/people/kevin-wei/)
+- [RAND](https://www.rand.org/about/people/w/wei_kevin.html)
+- [GitHub](https://github.com/kevinlwei)
+- [LinkedIn](https://www.linkedin.com/in/kevinlwei/)
+- [X](https://x.com/kevinlwei)
+- [Substack](https://substack.com/@kevinlwei)
+- [Lawfare contributor profile](https://www.lawfaremedia.org/contributors/kwei)
+- [Salzburg Global profile](https://www.salzburgglobal.org/person/kevin-wei)
+- [Cambridge Boston Alignment Initiative profile](https://www.cbai.ai/kevin-wei)
+- [SSRN author profile](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2952657)
+- [ACM author profile](https://dl.acm.org/profile/99661227408)
+- [Semantic Scholar author profile](https://www.semanticscholar.org/author/2367277958)
+
+## Assets and discovery
+
+- [Headshot](https://kevinlwei.com/headshot.jpg)
+- [PGP public key](https://kevinlwei.com/pgp.asc)
+- [Plain-text AI sitemap](https://kevinlwei.com/sitemap-ai.txt)

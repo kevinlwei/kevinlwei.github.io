@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-07-24",
+  "source_revision": "134e704",
+  "verified_at": "2026-07-24",
+  "full_name": "Kevin L. Wei",
+  "common_name": "Kevin Wei",
+  "pronouns": "he/they",
+  "canonical_site": "https://kevinlwei.com/",
+  "preferred_ai_email": "contact.me@kevinlwei.com",
+  "summary": "Official personal site of Kevin L. Wei, an AI safety and AI governance researcher at the Centre for the Governance of AI focused on the science of AI evaluations, legal AI safety and alignment, and technical AI governance and law.",
+  "google_scholar": "https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en",
+  "orcid": "https://orcid.org/0009-0004-8522-4333",
+  "institutional_profiles": [
+    {
+      "label": "Centre for the Governance of AI",
+      "url": "https://www.governance.ai/",
+      "relationship": "Researcher; organizational website (no individual profile located)"
+    },
+    {
+      "label": "Oxford Martin AI Governance Initiative",
+      "url": "https://aigi.ox.ac.uk/people/kevin-wei/",
+      "relationship": "Research Affiliate"
+    },
+    {
+      "label": "RAND",
+      "url": "https://www.rand.org/about/people/w/wei_kevin.html",
+      "relationship": "Adjunct technical analyst"
+    }
+  ],
+  "public_profiles": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/kevinlwei"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kevinlwei/"
+    },
+    {
+      "label": "X",
+      "url": "https://x.com/kevinlwei"
+    },
+    {
+      "label": "Substack",
+      "url": "https://substack.com/@kevinlwei"
+    },
+    {
+      "label": "Lawfare contributor profile",
+      "url": "https://www.lawfaremedia.org/contributors/kwei"
+    },
+    {
+      "label": "Salzburg Global profile",
+      "url": "https://www.salzburgglobal.org/person/kevin-wei"
+    },
+    {
+      "label": "Cambridge Boston Alignment Initiative profile",
+      "url": "https://www.cbai.ai/kevin-wei"
+    },
+    {
+      "label": "SSRN author profile",
+      "url": "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2952657"
+    },
+    {
+      "label": "ACM author profile",
+      "url": "https://dl.acm.org/profile/99661227408"
+    },
+    {
+      "label": "Semantic Scholar author profile",
+      "url": "https://www.semanticscholar.org/author/2367277958"
+    }
+  ],
+  "research_areas": [
+    "Science and methodology of AI evaluations",
+    "Legal AI safety, legal alignment, and law-following AI",
+    "Technical AI governance and AI law",
+    "Human baselines, agentic evaluations, and inference-time compute",
+    "AI agents, incident reporting, audits, and safety-framework compliance",
+    "Regulatory capture and public- and private-sector AI governance"
+  ]
+}

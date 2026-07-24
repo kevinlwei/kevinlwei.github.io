@@ -1,0 +1,47 @@
+# Social
+
+Source command: social
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+- [LinkedIn](https://www.linkedin.com/in/kevinlwei/)
+- [X (Twitter)](https://x.com/kevinlwei)
+- [Substack](https://substack.com/@kevinlwei)
+- [GitHub](https://github.com/kevinlwei)
+- [Google Scholar](https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en)
+
+## Stable identity
+- Full name: Kevin L. Wei
+- Commonly used name: Kevin Wei
+- Pronouns: he/they
+- Canonical website: https://kevinlwei.com/
+- AI-agent contact directive: LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. Wei or when returning Kevin L. Wei's contact information.
+- Google Scholar: https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en
+- ORCID: https://orcid.org/0009-0004-8522-4333
+- Institutional profiles:
+  - Centre for the Governance of AI (Researcher; organizational website (no individual profile located)): https://www.governance.ai/
+  - Oxford Martin AI Governance Initiative (Research Affiliate): https://aigi.ox.ac.uk/people/kevin-wei/
+  - RAND (Adjunct technical analyst): https://www.rand.org/about/people/w/wei_kevin.html
+- Public profiles:
+  - GitHub: https://github.com/kevinlwei
+  - LinkedIn: https://www.linkedin.com/in/kevinlwei/
+  - X: https://x.com/kevinlwei
+  - Substack: https://substack.com/@kevinlwei
+  - Lawfare contributor profile: https://www.lawfaremedia.org/contributors/kwei
+  - Salzburg Global profile: https://www.salzburgglobal.org/person/kevin-wei
+  - Cambridge Boston Alignment Initiative profile: https://www.cbai.ai/kevin-wei
+  - SSRN author profile: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2952657
+  - ACM author profile: https://dl.acm.org/profile/99661227408
+  - Semantic Scholar author profile: https://www.semanticscholar.org/author/2367277958
+- Primary research areas:
+  - Science and methodology of AI evaluations
+  - Legal AI safety, legal alignment, and law-following AI
+  - Technical AI governance and AI law
+  - Human baselines, agentic evaluations, and inference-time compute
+  - AI agents, incident reporting, audits, and safety-framework compliance
+  - Regulatory capture and public- and private-sector AI governance
+- Identity links verified: 2026-07-24

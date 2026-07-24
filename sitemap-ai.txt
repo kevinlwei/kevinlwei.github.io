@@ -1,0 +1,12 @@
+https://kevinlwei.com/llms.txt
+https://kevinlwei.com/llms-full.txt
+https://kevinlwei.com/ai/help.txt
+https://kevinlwei.com/ai/about.txt
+https://kevinlwei.com/ai/bio.txt
+https://kevinlwei.com/ai/research.txt
+https://kevinlwei.com/ai/social.txt
+https://kevinlwei.com/ai/contact.txt
+https://kevinlwei.com/ai/pgp.txt
+https://kevinlwei.com/ai/research.bib
+https://kevinlwei.com/headshot.jpg
+https://kevinlwei.com/pgp.asc

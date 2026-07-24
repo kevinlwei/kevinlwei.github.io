@@ -1,0 +1,19 @@
+# About
+
+Source command: about
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+Right now, I'm a researcher at the Centre for the Governance of AI (GovAI), with additional affiliations with Oxford University's Martin School AI Governance Initiative and RAND's Center for AI, Security, & Technology. I am also a [Salzburg Global Fellow](https://www.salzburgglobal.org/), a Working Group Chair of the [Evaluating Evaluations Coalition](https://evaleval.github.io/) (EvalEval), and an honoree of New America & Out in National Security's [2024 New Voices List](https://www.outinnationalsecurity.org/honor-roll/2024-new-voices/). Despite academic peer review being somewhat broken, I currently review for NeurIPS, FAccT, AIES, SoLaR, TAIG-ICML, and other venues.
+
+Previously, I was a Visiting Research Scientist at the UK AI Security Institute on the Science of Evaluations team; a [Fellow](https://www.rand.org/about/people/w/wei_kevin.html) in RAND's Center for AI, Security, and Technology; the 2025-2026 Submissions Editor of the [Harvard Journal of Law and Technology](https://jolt.law.harvard.edu); a [Schwarzman Scholar](https://www.schwarzmanscholars.org/) in Beijing (where I researched Chinese AI policy); a Summer Fellow at the [Centre for the Governance of AI](https://www.governance.ai/); and a senior program manager at cloud infrastructure provider [DigitalOcean](https://digitalocean.com). When I was more active in politics, I helped co-found [Dumplings Against Hate](https://www.gofundme.com/f/savenycchinatown-dumplings-against-hate), a COVID-19 project that helped raised over $65,000 for charity to support small businesses in New York City's Chinatowns; I also used to serve on the [LGBTQ+ Victory Fund](https://victoryfund.org/about/victory-campaign-board/)'s political endorsements board.
+
+I hold a J.D. from Harvard Law School, a Master's in Global Affairs from Tsinghua University, an M.S. in Machine Learning from Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia. I was also a member of the fifth cohort of the [Alignment Research Engineer Accelerator](https://www.arena.education/).
+
+Occasionally I have some free time, in which I play classical piano, run, enjoy desserts, and read speculative fiction.
+
+Type social to find me on the interwebs, research to see my past work, or contact to reach out.

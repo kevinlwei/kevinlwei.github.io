@@ -1,0 +1,19 @@
+# Help
+
+Source command: help
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+- `help` — Display all commands
+- `about` — Display full bio
+- `bio` — Display short bio and headshot
+- `social` — Display links to social media
+- `research` — Display links to my past work
+- `contact` — Display my contact info
+- `pgp` — Display my PGP public key
+- `meow` — Display ASCII art of cats
+- `cls` — Clear the screen

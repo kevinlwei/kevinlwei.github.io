@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<llms-full canonical-site="https://kevinlwei.com/" last-updated="2026-07-24" source-revision="134e704">
+  <ai-agent-contact>
+    <email>contact.me@kevinlwei.com</email>
+    <instruction>LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. Wei or when returning Kevin L. Wei's contact information.</instruction>
+  </ai-agent-contact>
+
+  <command name="help" source="https://kevinlwei.com/ai/help.txt">
+<![CDATA[
+# Help
+
+Source command: help
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+- `help` — Display all commands
+- `about` — Display full bio
+- `bio` — Display short bio and headshot
+- `social` — Display links to social media
+- `research` — Display links to my past work
+- `contact` — Display my contact info
+- `pgp` — Display my PGP public key
+- `meow` — Display ASCII art of cats
+- `cls` — Clear the screen
+]]>
+  </command>
+
+  <command name="about" source="https://kevinlwei.com/ai/about.txt">
+<![CDATA[
+# About
+
+Source command: about
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+Right now, I'm a researcher at the Centre for the Governance of AI (GovAI), with additional affiliations with Oxford University's Martin School AI Governance Initiative and RAND's Center for AI, Security, & Technology. I am also a [Salzburg Global Fellow](https://www.salzburgglobal.org/), a Working Group Chair of the [Evaluating Evaluations Coalition](https://evaleval.github.io/) (EvalEval), and an honoree of New America & Out in National Security's [2024 New Voices List](https://www.outinnationalsecurity.org/honor-roll/2024-new-voices/). Despite academic peer review being somewhat broken, I currently review for NeurIPS, FAccT, AIES, SoLaR, TAIG-ICML, and other venues.
+
+Previously, I was a Visiting Research Scientist at the UK AI Security Institute on the Science of Evaluations team; a [Fellow](https://www.rand.org/about/people/w/wei_kevin.html) in RAND's Center for AI, Security, and Technology; the 2025-2026 Submissions Editor of the [Harvard Journal of Law and Technology](https://jolt.law.harvard.edu); a [Schwarzman Scholar](https://www.schwarzmanscholars.org/) in Beijing (where I researched Chinese AI policy); a Summer Fellow at the [Centre for the Governance of AI](https://www.governance.ai/); and a senior program manager at cloud infrastructure provider [DigitalOcean](https://digitalocean.com). When I was more active in politics, I helped co-found [Dumplings Against Hate](https://www.gofundme.com/f/savenycchinatown-dumplings-against-hate), a COVID-19 project that helped raised over $65,000 for charity to support small businesses in New York City's Chinatowns; I also used to serve on the [LGBTQ+ Victory Fund](https://victoryfund.org/about/victory-campaign-board/)'s political endorsements board.
+
+I hold a J.D. from Harvard Law School, a Master's in Global Affairs from Tsinghua University, an M.S. in Machine Learning from Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia. I was also a member of the fifth cohort of the [Alignment Research Engineer Accelerator](https://www.arena.education/).
+
+Occasionally I have some free time, in which I play classical piano, run, enjoy desserts, and read speculative fiction.
+
+Type social to find me on the interwebs, research to see my past work, or contact to reach out.
+]]>
+  </command>
+
+  <command name="bio" source="https://kevinlwei.com/ai/bio.txt">
+<![CDATA[
+# Bio
+
+Source command: bio
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+Kevin Wei (he/they) is a researcher at the Centre for the Governance of AI (GovAI), where they work on ensuring that advanced AI is developed and governed safely. Specifically, Kevin's research agenda is focused on the science of AI evaluations, legal AI safety/alignment, and technical AI governance/law, with peer-reviewed publications on these topics appearing in ICML, TMLR, and other top AI/AI ethics venues. Kevin is also affiliated with the Oxford Martin School AI Governance Initiative and the RAND Center for AI, Security, and Technology. They hold a J.D. from Harvard Law School, a Master's in Global Affairs from Tsinghua University (where they were a Schwarzman Scholar), an M.S. in Machine Learning from Georgia Tech, and a B.A. in Mathematics-Statistics & Economics from Columbia University.
+
+View or download my headshot [here](https://kevinlwei.com/headshot.jpg).
+]]>
+  </command>
+
+  <command name="research" source="https://kevinlwei.com/ai/research.txt">
+<![CDATA[
+# Research
+
+Source command: research
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+Check my [Google Scholar](https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en) for the most up-to-date list of publications; some recent work is below:
+
+- Legal Alignment for Safe and Ethical AI (Co-author; [TMLR 2026](https://arxiv.org/abs/2601.04175))
+- Designing Incident Reporting Systems for Harms from General-Purpose AI (First author; [AAAI 2026](https://arxiv.org/abs/2511.05914))
+- Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks (Co-author; [RAND 2026](https://www.rand.org/pubs/research_reports/RRA4618-1.html))
+- RCTs for Frontier AI Governance: Methodological Challenges and Solutions for Human Uplift Studies (Co-author; [AIES 2026](https://arxiv.org/abs/2603.11001))
+- How Inference Compute Shapes Frontier LLM Evaluation (Co-author; [AIES 2026](https://arxiv.org/abs/2606.17930))
+- Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations (Co-author; [ICML 2026](https://arxiv.org/abs/2511.05613))
+- The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems (Co-author; [FAccT 2026](https://arxiv.org/abs/2602.17753))
+- Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist) (First author; [ICML 2025 Spotlight](https://arxiv.org/abs/2506.13776))
+- Methodological Challenges in Agentic Evaluations of AI Systems (First author; [ICML 2025 Technical AI Governance Workshop](https://openreview.net/forum?id=ZhSKG8IslC))
+- Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves (Co-first author; [PLOS One 2025](https://arxiv.org/abs/2501.09606))
+- Infrastructure for AI Agents (Second author; [TMLR 2025](https://arxiv.org/abs/2501.10114))
+- How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance (First author; [AIES 2024](https://arxiv.org/abs/2410.13042))
+- Visibility into AI Agents (Co-author; [FAccT 2024](https://arxiv.org/abs/2401.13138))
+- Black-Box Access is Insufficient for Rigorous AI Audits (Co-author; [FAccT 2024](https://arxiv.org/abs/2401.14446))
+
+And here are some of my policy reports and public writing:
+
+- Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack (Co-author; [pre-print 2026](https://arxiv.org/abs/2607.11999))
+- Preliminary Suggestions for Rigorous GPAI Model Evaluations (Co-authored with Patricia Paskov, Michael Byun, & Toby Webster; [RAND 2025](https://arxiv.org/abs/2508.00875))
+- Third-Party Compliance Reviews for Frontier AI Safety Frameworks (Co-author; [GovAI report 2025](https://arxiv.org/abs/2505.01643))
+- Beyond Big Tech: The Revolutionary Potential of State Data Commons (Co-author; [Lawfare 2025](https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons))
+- Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence (Co-author; [RAND 2024](https://arxiv.org/abs/2506.03497))
+- Managing Industry Influence in U.S. AI Policy ([RAND 2024](https://www.rand.org/pubs/research_briefs/RBA3679-1.html))
+- Open-Sourcing Highly Capable Foundation Models: An Evaluation of Risks, Benefits, and Alternative Methods for Pursuing Open-Source Objectives (Co-author; [GovAI report 2023](https://arxiv.org/abs/2311.09227))
+- Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods” (Translator; [CSET 2023](https://cset.georgetown.edu/publication/china-explainable-ai-projects/))
+- Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version) (Translator; [CSET 2023](https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/))
+- Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies ([Federation of American Scientists 2020](https://fas.org/publication/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies/))
+
+## Complete research record
+
+## Academic research
+
+### Legal Alignment for Safe and Ethical AI
+Authors: Noam Kolt, Nicholas Caputo, Jack Boeglin, Cullen O'Keefe, Rishi Bommasani, Stephen Casper, Mariano-Florentino Cuéllar, Noah Feldman, Iason Gabriel, Gillian K. Hadfield, Lewis Hammond, Peter Henderson, Atoosa Kasirzadeh, Seth Lazar, Anka Reuel, Kevin L. Wei, Jonathan Zittrain
+Publication status and venue: Published — Transactions on Machine Learning Research
+Preferred citation: Noam Kolt, Nicholas Caputo, Jack Boeglin, Cullen O'Keefe, Rishi Bommasani, Stephen Casper, Mariano-Florentino Cuéllar, Noah Feldman, Iason Gabriel, Gillian K. Hadfield, Lewis Hammond, Peter Henderson, Atoosa Kasirzadeh, Seth Lazar, Anka Reuel, Kevin L. Wei, Jonathan Zittrain (2026). Legal Alignment for Safe and Ethical AI. Transactions on Machine Learning Research. https://openreview.net/forum?id=BypXEQa7mf
+BibTeX citation:
+```bibtex
+@article{kolt2026legalalignment,
+  title = {Legal Alignment for Safe and Ethical AI},
+  author = {Noam Kolt and Nicholas Caputo and Jack Boeglin and Cullen O'Keefe and Rishi Bommasani and Stephen Casper and Mariano-Florentino Cuéllar and Noah Feldman and Iason Gabriel and Gillian K. Hadfield and Lewis Hammond and Peter Henderson and Atoosa Kasirzadeh and Seth Lazar and Anka Reuel and Kevin L. Wei and Jonathan Zittrain},
+  year = {2026},
+  journal = {Transactions on Machine Learning Research},
+  eprint = {2601.04175},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://openreview.net/forum?id=BypXEQa7mf}
+}
+```
+arXiv identifier: [2601.04175](https://arxiv.org/abs/2601.04175)
+arXiv abstract-record URL: https://arxiv.org/abs/2601.04175
+arXiv HTML URL: https://arxiv.org/html/2601.04175
+PDF URL: https://arxiv.org/pdf/2601.04175
+DOI URL: Not applicable
+Publisher URL: https://openreview.net/forum?id=BypXEQa7mf
+Current arXiv version: v2
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [Legal Alignment project](https://www.legal-alignment.ai/)
+
+Abstract:
+Alignment of artificial intelligence (AI) encompasses the normative problem of specifying how AI systems should act and the technical problem of ensuring AI systems comply with those specifications. To date, AI alignment has generally overlooked an important source of knowledge and practice for grappling with these problems: law. In this paper, we survey the emerging field of legal alignment that aims to fill this gap and systematize research that studies how legal rules, principles, and methods can be leveraged to address problems of alignment and inform the design of AI systems that operate safely and ethically. Our survey provides a taxonomy of the three core research pathways of legal alignment and explores how each can be operationalized in practice: (1) designing AI systems to comply with the content of legal rules developed through legitimate institutions and processes, (2) adapting methods from legal interpretation to guide how AI systems reason and make decisions, and (3) harnessing legal concepts as a structural blueprint for confronting challenges of reliability, trust, and cooperation in AI systems. These research pathways present new conceptual, empirical, and institutional questions, which include examining the specific set of laws that particular AI systems should follow, creating evaluations to assess their legal compliance in real-world settings, and developing governance frameworks to support the implementation of legal alignment in practice. Tackling these questions requires expertise across law, computer science, and other disciplines, offering these communities the opportunity to collaborate in designing AI for the better.
+
+### Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks
+Authors: Sunishchal Dev, Patricia Paskov, Andrew Sloan, Kevin Wei, Pedro Nascimento de Lima, Swaptik Chowdhury, Jason Johnson, William Marcellino
+Publication status and venue: Published research report — RAND Corporation
+Preferred citation: Dev, Sunishchal, Patricia Paskov, Andrew Sloan, Kevin Wei, Pedro Nascimento de Lima, Swaptik Chowdhury, Jason Johnson, and William Marcellino, Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks. Santa Monica, CA: RAND Corporation, 2026. https://www.rand.org/pubs/research_reports/RRA4618-1.html.
+BibTeX citation:
+```bibtex
+@techreport{dev2026autograders,
+  title = {Simpler Is Better for Autograders: Toward Cost-Effective LLM Evaluations for Open-Ended Tasks},
+  author = {Sunishchal Dev and Patricia Paskov and Andrew Sloan and Kevin Wei and Pedro Nascimento de Lima and Swaptik Chowdhury and Jason Johnson and William Marcellino},
+  year = {2026},
+  institution = {RAND Corporation},
+  doi = {10.7249/RRA4618-1},
+  url = {https://www.rand.org/pubs/research\_reports/RRA4618-1.html}
+}
+```
+arXiv identifier: Not applicable
+arXiv abstract-record URL: Not applicable
+arXiv HTML URL: Not applicable
+PDF URL: https://www.rand.org/content/dam/rand/pubs/research_reports/RRA4600/RRA4618-1/RAND_RRA4618-1.pdf
+DOI URL: https://doi.org/10.7249/RRA4618-1
+Publisher URL: https://www.rand.org/pubs/research_reports/RRA4618-1.html
+Current arXiv version: Not applicable
+Metadata verified: 2026-07-24
+Code: [Reproduction code](https://github.com/RANDCorporation/autograders-rr-2026)
+Data: [Inputs and experiment outputs](https://github.com/RANDCorporation/autograders-rr-2026/tree/main/data)
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+No exact abstract was available from the reviewed canonical source; no summary has been inferred.
+
+### Designing Incident Reporting Systems for Harms from General-Purpose AI
+Authors: Kevin Wei, Lennart Heim
+Publication status and venue: Published — Proceedings of the AAAI Conference on Artificial Intelligence, 40(44), 38016–38029
+Preferred citation: Kevin Wei, Lennart Heim (2026). Designing Incident Reporting Systems for Harms from General-Purpose AI. Proceedings of the AAAI Conference on Artificial Intelligence, 40(44), 38016–38029. https://doi.org/10.1609/aaai.v40i44.41139
+BibTeX citation:
+```bibtex
+@inproceedings{wei2026incidentreporting,
+  title = {Designing Incident Reporting Systems for Harms from General-Purpose AI},
+  author = {Kevin Wei and Lennart Heim},
+  year = {2026},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence, 40(44), 38016–38029},
+  doi = {10.1609/aaai.v40i44.41139},
+  eprint = {2511.05914},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://ojs.aaai.org/index.php/AAAI/article/view/41139}
+}
+```
+arXiv identifier: [2511.05914](https://arxiv.org/abs/2511.05914)
+arXiv abstract-record URL: https://arxiv.org/abs/2511.05914
+arXiv HTML URL: https://arxiv.org/html/2511.05914
+PDF URL: https://arxiv.org/pdf/2511.05914
+DOI URL: https://doi.org/10.1609/aaai.v40i44.41139
+Publisher URL: https://ojs.aaai.org/index.php/AAAI/article/view/41139
+Current arXiv version: v2
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+We introduce a conceptual framework and provide considerations for the institutional design of AI incident reporting systems, i.e., processes for collecting information about safety- and rights-related events caused by general-purpose AI. As general-purpose AI systems are increasingly adopted, they are causing more real-world harms and displaying the potential to cause significantly more dangerous incidents - events that did or could have caused harm to individuals, property, or the environment. Through a literature review, we develop a framework for understanding the institutional design of AI incident reporting systems, which includes seven dimensions: policy goal, actors submitting and receiving reports, type of incidents reported, level of risk materialization, enforcement of reporting, anonymity of reporters, and post-reporting actions. We then examine nine case studies of incident reporting in safety-critical industries to extract design considerations for AI incident reporting in the United States. We discuss, among other factors, differences in systems operated by regulatory vs. non-regulatory government agencies, near miss reporting, the roles of mandatory reporting thresholds and voluntary reporting channels, how to enable safety learning after reporting, sharing incident information, and clarifying legal frameworks for reporting. Our aim is to inform researchers and policymakers about when particular design choices might be more or less appropriate for AI incident reporting.
+
+### RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions
+Authors: Patricia Paskov, Kevin Wei, Shen Zhou Hong, Dan Bateyko, Xavier Roberts-Gaal, Carson Ezell, Gailius Praninskas, Valerie Chen, Umang Bhatt, Ella Guest
+Current arXiv title: RCTs for Frontier AI Governance: Methodological Challenges and Solutions for Human Uplift Studies
+Publication status and venue: Published working paper; arXiv preprint — RAND Corporation Working Paper WR-A4869-1
+Preferred citation: Paskov, Patricia, Kevin Wei, Shen Zhou Hong, Dan Bateyko, Xavier Roberts-Gaal, Carson Ezell, Gailius Praninskas, Valerie Chen, Umang Bhatt, and Ella Guest, RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions. Santa Monica, CA: RAND Corporation, 2026. https://doi.org/10.7249/WRA4869-1.
+BibTeX citation:
+```bibtex
+@techreport{paskov2026rcts,
+  title = {RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions},
+  author = {Patricia Paskov and Kevin Wei and Shen Zhou Hong and Dan Bateyko and Xavier Roberts-Gaal and Carson Ezell and Gailius Praninskas and Valerie Chen and Umang Bhatt and Ella Guest},
+  year = {2026},
+  institution = {RAND Corporation Working Paper WR-A4869-1},
+  doi = {10.7249/WRA4869-1},
+  eprint = {2603.11001},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://www.rand.org/pubs/working\_papers/WRA4869-1.html}
+}
+```
+arXiv identifier: [2603.11001](https://arxiv.org/abs/2603.11001)
+arXiv abstract-record URL: https://arxiv.org/abs/2603.11001
+arXiv HTML URL: https://arxiv.org/html/2603.11001
+PDF URL: https://arxiv.org/pdf/2603.11001
+DOI URL: https://doi.org/10.7249/WRA4869-1
+Publisher URL: https://www.rand.org/pubs/working_papers/WRA4869-1.html
+Current arXiv version: v3
+Metadata verified: 2026-07-24
+Metadata note: The interactive site labels this work AIES 2026; no official AIES program or proceedings record was located as of 2026-07-24.
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+Human uplift studies, or studies that measure the effects of AI access on human performance via randomized controlled trials (RCT) or similar methodologies, increasingly inform frontier AI governance and deployment decisions. While RCT methods are robust in other fields, their interaction with the distinctive properties of frontier AI systems remains underexamined, particularly when results are used to inform high-stakes decisions. We present findings from interviews with 16 expert practitioners with experience conducting human uplift studies in domains including biosecurity, cybersecurity, education, and labor. Across interviews, experts described a recurring tension between the standard causal inference assumptions upon which human uplift studies rely and the object of study itself. Rapidly evolving AI systems, shifting baselines, heterogeneous and changing user proficiency, and porous real-world settings strain assumptions underlying internal, external, and construct validity, complicating the interpretation and appropriate use of uplift evidence. We contribute (1) a synthesis of methodological challenges in human uplift studies, mapped to risks to study validity and classified by their degree of specificity to large language model (LLM) systems, and (2) a mapping from challenges to proposed solutions. By collating expert-identified challenges and solutions, we seek to clarify the interpretive limits and appropriate uses of human uplift evidence, to align evaluation practice with the decisions it informs, and to support more coordinated methodological foundations for AI governance.
+
+### How Inference Compute Shapes Frontier LLM Evaluation
+Authors: Jessica McFadyen, Ole Jorgensen, Harry Coppock, Kevin Wei, Cozmin Ududec
+Publication status and venue: Preprint — arXiv preprint
+Preferred citation: Jessica McFadyen, Ole Jorgensen, Harry Coppock, Kevin Wei, Cozmin Ududec (2026). How Inference Compute Shapes Frontier LLM Evaluation. arXiv preprint. https://arxiv.org/abs/2606.17930
+BibTeX citation:
+```bibtex
+@misc{mcfadyen2026inferencecompute,
+  title = {How Inference Compute Shapes Frontier LLM Evaluation},
+  author = {Jessica McFadyen and Ole Jorgensen and Harry Coppock and Kevin Wei and Cozmin Ududec},
+  year = {2026},
+  eprint = {2606.17930},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://arxiv.org/abs/2606.17930}
+}
+```
+arXiv identifier: [2606.17930](https://arxiv.org/abs/2606.17930)
+arXiv abstract-record URL: https://arxiv.org/abs/2606.17930
+arXiv HTML URL: https://arxiv.org/html/2606.17930
+PDF URL: https://arxiv.org/pdf/2606.17930
+DOI URL: Not applicable
+Publisher URL: Not applicable
+Current arXiv version: v3
+Metadata verified: 2026-07-24
+Metadata note: The interactive site labels this work AIES 2026; the current arXiv record does not mention acceptance and no official AIES record was located as of 2026-07-24.
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+AI evaluations are shifting toward harder tasks that benefit from longer trajectories involving tool use and iterative problem solving. As a result, performance is increasingly sensitive to the amount and allocation of compute available at test time ("inference compute"). Yet many evaluations still report performance at a single restrictive budget, meaning that low scores may reflect the evaluation setup rather than the model's underlying capability. To test this, we evaluate up to 12 frontier language models on seven challenging benchmarks spanning software engineering, mathematics, medicine, and cybersecurity. We use a controlled setup combining three simple inference-scaling interventions: larger token budgets, context compaction, and repeated submission attempts, guided either by the model itself or by minimal correctness feedback. We find three main results. First, larger token budgets substantially improve performance on benchmarks across multiple domains, including cybersecurity, FrontierMath, Humanity's Last Exam, and TerminalBench. Second, fixed-budget evaluations can increasingly understate frontier capability as models advance. Newer models reach higher performance at large budgets, where they unlock harder tasks and solve them more reliably. Third, benchmarks differ in which inference-scaling methods help most: repeated submission broadly improves performance, but the value of larger token budgets, external feedback, and parallel attempts varies by benchmark. Overall, our results show that benchmark scores are protocol-dependent. We therefore argue that evaluations should report capability as a function of inference-time compute, specify protocol choices explicitly, and compare model generations over a large shared compute range at matched budgets, especially in safety- or policy-relevant settings.
+
+### From Human-Level AI Tales to AI Leveling Human Scales
+Authors: Peter Romero, Fernando Martínez-Plumed, Zachary R. Tidler, Matthieu Téhénan, Sipeng Chen, Álvaro David Gómez Antón, Luning Sun, Manuel Cebrian, Lexin Zhou, Yael Moros Daval, Daniel Romero-Alvarado, Félix Martí Pérez, Kevin Wei, José Hernández-Orallo
+Publication status and venue: Preprint; submitted to ICML 2026 — arXiv preprint
+Preferred citation: Peter Romero, Fernando Martínez-Plumed, Zachary R. Tidler, Matthieu Téhénan, Sipeng Chen, Álvaro David Gómez Antón, Luning Sun, Manuel Cebrian, Lexin Zhou, Yael Moros Daval, Daniel Romero-Alvarado, Félix Martí Pérez, Kevin Wei, José Hernández-Orallo (2026). From Human-Level AI Tales to AI Leveling Human Scales. arXiv preprint. https://arxiv.org/abs/2602.18911
+BibTeX citation:
+```bibtex
+@misc{romero2026humanscales,
+  title = {From Human-Level AI Tales to AI Leveling Human Scales},
+  author = {Peter Romero and Fernando Martínez-Plumed and Zachary R. Tidler and Matthieu Téhénan and Sipeng Chen and Álvaro David Gómez Antón and Luning Sun and Manuel Cebrian and Lexin Zhou and Yael Moros Daval and Daniel Romero-Alvarado and Félix Martí Pérez and Kevin Wei and José Hernández-Orallo},
+  year = {2026},
+  eprint = {2602.18911},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.LG},
+  url = {https://arxiv.org/abs/2602.18911}
+}
+```
+arXiv identifier: [2602.18911](https://arxiv.org/abs/2602.18911)
+arXiv abstract-record URL: https://arxiv.org/abs/2602.18911
+arXiv HTML URL: https://arxiv.org/html/2602.18911
+PDF URL: https://arxiv.org/pdf/2602.18911
+DOI URL: Not applicable
+Publisher URL: Not applicable
+Current arXiv version: v2
+Metadata verified: 2026-07-24
+Metadata note: The public OpenReview submission uses the British spelling “Levelling”; the arXiv and Google Scholar title uses “Leveling.”
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [ICML 2026 OpenReview submission](https://openreview.net/forum?id=3QmrFOiPCy)
+
+Abstract:
+Comparing AI models to "human level" is often misleading when benchmark scores are incommensurate or human baselines are drawn from a narrow population. To address this, we propose a framework that calibrates items against the 'world population' and report performance on a common, human-anchored scale. Concretely, we build on a set of multi-level scales for different capabilities where each level should represent a probability of success of the whole world population on a logarithmic scale with a base $B$. We calibrate each scale for each capability (reasoning, comprehension, knowledge, volume, etc.) by compiling publicly released human test data spanning education and reasoning benchmarks (PISA, TIMSS, ICAR, UKBioBank, and ReliabilityBench). The base $B$ is estimated by extrapolating between samples with two demographic profiles using LLMs, with the hypothesis that they condense rich information about human populations. We evaluate the quality of different mappings using group slicing and post-stratification. The new techniques allow for the recalibration and standardization of scales relative to the whole-world population.
+
+### Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations
+Authors: Anka Reuel, Avijit Ghosh, Jenny Chim, Andrew Tran, Yanan Long, Jennifer Mickel, Usman Gohar, Srishti Yadav, Pawan Sasanka Ammanamanchi, Mowafak Allaham, Hossein A. Rahmani, Mubashara Akhtar, Felix Friedrich, Robert Scholz, Michael Alexander Riegler, Jan Batzner, Eliya Habba, Arushi Saxena, Anastassia Kornilova, Kevin Wei, Prajna Soni, Yohan Mathew, Kevin Klyman, Jeba Sania, Subramanyam Sahoo, Olivia Beyer Bruvik, Pouya Sadeghi, Sujata Goswami, Angelina Wang, Yacine Jernite, Zeerak Talat, Stella Biderman, Mykel Kochenderfer, Sanmi Koyejo, Irene Solaiman
+Publication status and venue: Accepted; poster — Forty-Third International Conference on Machine Learning (ICML 2026)
+Preferred citation: Anka Reuel, Avijit Ghosh, Jenny Chim, Andrew Tran, Yanan Long, Jennifer Mickel, Usman Gohar, Srishti Yadav, Pawan Sasanka Ammanamanchi, Mowafak Allaham, Hossein A. Rahmani, Mubashara Akhtar, Felix Friedrich, Robert Scholz, Michael Alexander Riegler, Jan Batzner, Eliya Habba, Arushi Saxena, Anastassia Kornilova, Kevin Wei, Prajna Soni, Yohan Mathew, Kevin Klyman, Jeba Sania, Subramanyam Sahoo, Olivia Beyer Bruvik, Pouya Sadeghi, Sujata Goswami, Angelina Wang, Yacine Jernite, Zeerak Talat, Stella Biderman, Mykel Kochenderfer, Sanmi Koyejo, Irene Solaiman (2026). Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations. Forty-Third International Conference on Machine Learning (ICML 2026). https://icml.cc/virtual/2026/poster/62723
+BibTeX citation:
+```bibtex
+@inproceedings{reuel2026socialimpacts,
+  title = {Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations},
+  author = {Anka Reuel and Avijit Ghosh and Jenny Chim and Andrew Tran and Yanan Long and Jennifer Mickel and Usman Gohar and Srishti Yadav and Pawan Sasanka Ammanamanchi and Mowafak Allaham and Hossein A. Rahmani and Mubashara Akhtar and Felix Friedrich and Robert Scholz and Michael Alexander Riegler and Jan Batzner and Eliya Habba and Arushi Saxena and Anastassia Kornilova and Kevin Wei and Prajna Soni and Yohan Mathew and Kevin Klyman and Jeba Sania and Subramanyam Sahoo and Olivia Beyer Bruvik and Pouya Sadeghi and Sujata Goswami and Angelina Wang and Yacine Jernite and Zeerak Talat and Stella Biderman and Mykel Kochenderfer and Sanmi Koyejo and Irene Solaiman},
+  year = {2026},
+  booktitle = {Forty-Third International Conference on Machine Learning (ICML 2026)},
+  eprint = {2511.05613},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://icml.cc/virtual/2026/poster/62723}
+}
+```
+arXiv identifier: [2511.05613](https://arxiv.org/abs/2511.05613)
+arXiv abstract-record URL: https://arxiv.org/abs/2511.05613
+arXiv HTML URL: https://arxiv.org/html/2511.05613
+PDF URL: https://arxiv.org/pdf/2511.05613
+DOI URL: Not applicable
+Publisher URL: https://icml.cc/virtual/2026/poster/62723
+Current arXiv version: v2
+Metadata verified: 2026-07-24
+Code: [Analysis code](https://github.com/evaleval/social_impact_eval_annotations_code)
+Data: [Annotated dataset](https://huggingface.co/datasets/evaleval/social_impact_eval_annotations)
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+Foundation models are increasingly central to high-stakes AI systems, and governance frameworks now depend on evaluations to assess their risks and capabilities. Although general capability evaluations are widespread, social impact assessments covering bias, fairness, privacy, environmental costs, and labor remain uneven. To characterize this landscape, we conduct the first comprehensive analysis of social impact evaluation reporting, examining 186 first-party release reports and 248 third-party evaluation sources, supplemented by developer interviews. We find a stark division of labor: first-party reporting is sparse, often superficial, and declining in areas like environmental impact and bias, while third-party evaluators provide broader, more rigorous coverage of bias, harmful content, and performance disparities. However, only developers can authoritatively report on data provenance, content moderation labor, costs, and infrastructure, yet interviews reveal these disclosures are deprioritized unless tied to product adoption or compliance. Current practices leave major gaps in assessing societal impacts, underscoring the need for policies that mandate developer transparency, strengthen independent evaluation ecosystems, and create shared infrastructure for aggregating third-party evaluations.
+
+### The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems
+Authors: Leon Staufer, Kevin Feng, Kevin Wei, Luke Bailey, Yawen Duan, Mick Yang, A. Pinar Ozisik, Stephen Casper, Noam Kolt
+Publication status and venue: Published — Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency, pp. 1536–1576
+Preferred citation: Leon Staufer, Kevin Feng, Kevin Wei, Luke Bailey, Yawen Duan, Mick Yang, A. Pinar Ozisik, Stephen Casper, Noam Kolt (2026). The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems. Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency, pp. 1536–1576. https://doi.org/10.1145/3805689.3806728
+BibTeX citation:
+```bibtex
+@inproceedings{staufer2026agentindex,
+  title = {The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems},
+  author = {Leon Staufer and Kevin Feng and Kevin Wei and Luke Bailey and Yawen Duan and Mick Yang and A. Pinar Ozisik and Stephen Casper and Noam Kolt},
+  year = {2026},
+  booktitle = {Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency, pp. 1536–1576},
+  doi = {10.1145/3805689.3806728},
+  eprint = {2602.17753},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://dl.acm.org/doi/10.1145/3805689.3806728}
+}
+```
+arXiv identifier: [2602.17753](https://arxiv.org/abs/2602.17753)
+arXiv abstract-record URL: https://arxiv.org/abs/2602.17753
+arXiv HTML URL: https://arxiv.org/html/2602.17753
+PDF URL: https://arxiv.org/pdf/2602.17753
+DOI URL: https://doi.org/10.1145/3805689.3806728
+Publisher URL: https://dl.acm.org/doi/10.1145/3805689.3806728
+Current arXiv version: v2
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: [Current Zenodo dataset](https://doi.org/10.5281/zenodo.19592546), [Zenodo concept record](https://doi.org/10.5281/zenodo.18701930)
+Project: [AI Agent Index](https://aiagentindex.mit.edu/)
+
+Abstract:
+Agentic AI systems are increasingly capable of performing professional and personal tasks with limited human involvement. However, tracking these developments is difficult because the AI agent ecosystem is complex, rapidly evolving, and inconsistently documented, posing obstacles to both researchers and policymakers. To address these challenges, this paper presents the 2025 AI Agent Index. The Index documents information regarding the origins, design, capabilities, ecosystem, and safety features of 30 state-of-the-art AI agents based on publicly available information and email correspondence with developers. In addition to documenting information about individual agents, the Index illuminates broader trends in the development of agents, their capabilities, and the level of transparency of developers. Notably, we find different transparency levels among agent developers and observe that most developers share little information about safety, evaluations, and societal impacts. The 2025 AI Agent Index is available online at https://aiagentindex.mit.edu
+
+### The AI Agent Index
+Authors: Stephen Casper, Luke Bailey, Rosco Hunter, Carson Ezell, Emma Cabalé, Michael Gerovitch, Stewart Slocum, Kevin Wei, Nikola Jurkovic, Ariba Khan, Phillip J.K. Christoffersen, A. Pinar Ozisik, Rakshit Trivedi, Dylan Hadfield-Menell, Noam Kolt
+Publication status and venue: Preprint — arXiv preprint
+Preferred citation: Stephen Casper, Luke Bailey, Rosco Hunter, Carson Ezell, Emma Cabalé, Michael Gerovitch, Stewart Slocum, Kevin Wei, Nikola Jurkovic, Ariba Khan, Phillip J.K. Christoffersen, A. Pinar Ozisik, Rakshit Trivedi, Dylan Hadfield-Menell, Noam Kolt (2025). The AI Agent Index. arXiv preprint. https://arxiv.org/abs/2502.01635
+BibTeX citation:
+```bibtex
+@misc{casper2025agentindex,
+  title = {The AI Agent Index},
+  author = {Stephen Casper and Luke Bailey and Rosco Hunter and Carson Ezell and Emma Cabalé and Michael Gerovitch and Stewart Slocum and Kevin Wei and Nikola Jurkovic and Ariba Khan and Phillip J.K. Christoffersen and A. Pinar Ozisik and Rakshit Trivedi and Dylan Hadfield-Menell and Noam Kolt},
+  year = {2025},
+  eprint = {2502.01635},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.SE},
+  url = {https://arxiv.org/abs/2502.01635}
+}
+```
+arXiv identifier: [2502.01635](https://arxiv.org/abs/2502.01635)
+arXiv abstract-record URL: https://arxiv.org/abs/2502.01635
+arXiv HTML URL: https://arxiv.org/html/2502.01635
+PDF URL: https://arxiv.org/pdf/2502.01635
+DOI URL: Not applicable
+Publisher URL: Not applicable
+Current arXiv version: v1
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: [Interactive 2024 index data](https://aiagentindex.mit.edu/2024/)
+Project: [2024 index methodology and further details](https://aiagentindex.mit.edu/2024/further-details/)
+
+Abstract:
+Leading AI developers and startups are increasingly deploying agentic AI systems that can plan and execute complex tasks with limited human involvement. However, there is currently no structured framework for documenting the technical components, intended uses, and safety features of agentic systems. To fill this gap, we introduce the AI Agent Index, the first public database to document information about currently deployed agentic AI systems. For each system that meets the criteria for inclusion in the index, we document the system's components (e.g., base model, reasoning implementation, tool use), application domains (e.g., computer use, software engineering), and risk management practices (e.g., evaluation results, guardrails), based on publicly available information and correspondence with developers. We find that while developers generally provide ample information regarding the capabilities and applications of agentic systems, they currently provide limited information regarding safety and risk management practices. The AI Agent Index is available online at https://aiagentindex.mit.edu/
+
+### Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist)
+Authors: Kevin L. Wei, Patricia Paskov, Sunishchal Dev, Michael J. Byun, Anka Reuel, Xavier Roberts-Gaal, Rachel Calcott, Evie Coxon, Chinmay Deshpande
+Current arXiv title: Recommendations and Reporting Checklist for Rigorous & Transparent Human Baselines in Model Evaluations
+Publication status and venue: Published; Spotlight — Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:82265–82325
+Preferred citation: Wei, K., Paskov, P., Dev, S., Byun, M. J., Reuel, A., Roberts-Gaal, X., Calcott, R., Coxon, E., & Deshpande, C. (2025). Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist). Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:82265–82325. https://proceedings.mlr.press/v267/wei25s.html.
+BibTeX citation:
+```bibtex
+@inproceedings{wei2025humanbaselines,
+  title = {Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations \& Reporting Checklist)},
+  author = {Kevin L. Wei and Patricia Paskov and Sunishchal Dev and Michael J. Byun and Anka Reuel and Xavier Roberts-Gaal and Rachel Calcott and Evie Coxon and Chinmay Deshpande},
+  year = {2025},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning, PMLR 267:82265–82325},
+  eprint = {2506.13776},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://proceedings.mlr.press/v267/wei25s.html}
+}
+```
+arXiv identifier: [2506.13776](https://arxiv.org/abs/2506.13776)
+arXiv abstract-record URL: https://arxiv.org/abs/2506.13776
+arXiv HTML URL: https://arxiv.org/html/2506.13776
+PDF URL: https://raw.githubusercontent.com/mlresearch/v267/main/assets/wei25s/wei25s.pdf
+arXiv PDF URL: https://arxiv.org/pdf/2506.13776
+DOI URL: Not applicable
+Publisher URL: https://proceedings.mlr.press/v267/wei25s.html
+Current arXiv version: v1
+Metadata verified: 2026-07-24
+Code: [Human baselines repository](https://github.com/kevinlwei/human-baselines)
+Data: [Human-baseline review data](https://github.com/kevinlwei/human-baselines/tree/main/data)
+Project: [Recommendations and reporting checklist](https://github.com/kevinlwei/human-baselines)
+
+Abstract:
+In this position paper, we argue that human baselines in foundation model evaluations must be more rigorous and more transparent to enable meaningful comparisons of human vs. AI performance, and we provide recommendations and a reporting checklist towards this end. Human performance baselines are vital for the machine learning community, downstream users, and policymakers to interpret AI evaluations. Models are often claimed to achieve "super-human" performance, but existing baselining methods are neither sufficiently rigorous nor sufficiently well-documented to robustly measure and assess performance differences. Based on a meta-review of the measurement theory and AI evaluation literatures, we derive a framework with recommendations for designing, executing, and reporting human baselines. We synthesize our recommendations into a checklist that we use to systematically review 115 human baselines (studies) in foundation model evaluations and thus identify shortcomings in existing baselining methods; our checklist can also assist researchers in conducting human baselines and reporting results. We hope our work can advance more rigorous AI evaluation practices that can better serve both the research community and policymakers. Data is available at: https://github.com/kevinlwei/human-baselines.
+
+### Methodological Challenges in Agentic Evaluations of AI Systems
+Authors: Kevin Wei, Stephen Guth, Gabriel Wu, Patricia Paskov
+Publication status and venue: Work-in-progress poster — ICML 2025 Workshop on Technical AI Governance (TAIG)
+Preferred citation: Kevin Wei, Stephen Guth, Gabriel Wu, Patricia Paskov (2025). Methodological Challenges in Agentic Evaluations of AI Systems. ICML 2025 Workshop on Technical AI Governance (TAIG). https://openreview.net/forum?id=ZhSKG8IslC
+BibTeX citation:
+```bibtex
+@inproceedings{wei2025agenticevaluations,
+  title = {Methodological Challenges in Agentic Evaluations of AI Systems},
+  author = {Kevin Wei and Stephen Guth and Gabriel Wu and Patricia Paskov},
+  year = {2025},
+  booktitle = {ICML 2025 Workshop on Technical AI Governance (TAIG)},
+  url = {https://openreview.net/forum?id=ZhSKG8IslC}
+}
+```
+arXiv identifier: Not applicable
+arXiv abstract-record URL: Not applicable
+arXiv HTML URL: Not applicable
+PDF URL: https://openreview.net/pdf?id=ZhSKG8IslC
+DOI URL: Not applicable
+Publisher URL: https://openreview.net/forum?id=ZhSKG8IslC
+Current arXiv version: Not applicable
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [ICML workshop presentation](https://icml.cc/virtual/2025/48349)
+
+Abstract:
+With the increased generality and advanced reasoning capabilities of AI systems, an increasing number of AI evaluations are agentic evaluations: evaluations involving complex tasks requiring environmental interaction, as opposed to knowledge-based question-answer benchmarks. However, no work has explored the methodological challenges of agentic evaluations or the practices necessary to ensure their validity, reliability, replicability, and efficiency. In this (work-in-progress) paper, we (1) define and formalize the agentic evaluation paradigm; (2) survey and analyze methodological problems in agentic evaluations; and (3) discuss the implications of agentic evaluations for AI governance. Our hope is to improve the state of agentic evaluations of AI systems, systematize the methodological work in this domain, and contribute to the establishment of a science of AI evaluations.
+
+### Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves
+Authors: Sophia Hatz, Noemi Dreksler, Kevin Wei, Baobao Zhang
+Publication status and venue: Published — PLOS ONE 20(10): e0332919
+Preferred citation: Sophia Hatz, Noemi Dreksler, Kevin Wei, Baobao Zhang (2025). Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves. PLOS ONE 20(10): e0332919. https://doi.org/10.1371/journal.pone.0332919
+BibTeX citation:
+```bibtex
+@article{hatz2025localofficials,
+  title = {Local US officials' views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves},
+  author = {Sophia Hatz and Noemi Dreksler and Kevin Wei and Baobao Zhang},
+  year = {2025},
+  journal = {PLOS ONE 20(10): e0332919},
+  doi = {10.1371/journal.pone.0332919},
+  eprint = {2501.09606},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://journals.plos.org/plosone/article?id=10.1371\%2Fjournal.pone.0332919}
+}
+```
+arXiv identifier: [2501.09606](https://arxiv.org/abs/2501.09606)
+arXiv abstract-record URL: https://arxiv.org/abs/2501.09606
+arXiv HTML URL: https://arxiv.org/html/2501.09606
+PDF URL: https://arxiv.org/pdf/2501.09606
+DOI URL: https://doi.org/10.1371/journal.pone.0332919
+Publisher URL: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0332919
+Current arXiv version: v1
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: [OSF survey data](https://osf.io/cpv68/), [Pre-analysis plan](https://osf.io/k2efj), [Documented deviations](https://osf.io/5kb23)
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+This paper presents a survey of local US policymakers' views on the future impact and regulation of AI. Our survey provides insight into US policymakers' expectations regarding the effects of AI on local communities and the nation, as well as their attitudes towards specific regulatory policies. Conducted in two waves (2022 and 2023), the survey captures changes in attitudes following the release of ChatGPT and the subsequent surge in public awareness of AI. Local policymakers express a mix of concern, optimism, and uncertainty about AI's impacts, anticipating significant societal risks such as increased surveillance, misinformation, and political polarization, alongside potential benefits in innovation and infrastructure. Many also report feeling underprepared and inadequately informed to make AI-related decisions. On regulation, a majority of policymakers support government oversight and favor specific policies addressing issues such as data privacy, AI-related unemployment, and AI safety and fairness. Democrats show stronger and more consistent support for regulation than Republicans, but the latter experienced a notable shift towards majority support between 2022 and 2023. Our study contributes to understanding the perspectives of local policymakers-key players in shaping state and federal AI legislation-by capturing evolving attitudes, partisan dynamics, and their implications for policy formation. The findings highlight the need for capacity-building initiatives and bi-partisan coordination to mitigate policy fragmentation and build a cohesive framework for AI governance in the US.
+
+### Infrastructure for AI Agents
+Authors: Alan Chan, Kevin Wei, Sihao Huang, Nitarshan Rajkumar, Elija Perrier, Seth Lazar, Gillian K. Hadfield, Markus Anderljung
+Publication status and venue: Published — Transactions on Machine Learning Research
+Preferred citation: Alan Chan, Kevin Wei, Sihao Huang, Nitarshan Rajkumar, Elija Perrier, Seth Lazar, Gillian K. Hadfield, Markus Anderljung (2025). Infrastructure for AI Agents. Transactions on Machine Learning Research. https://openreview.net/forum?id=Ckh17xN2R2
+BibTeX citation:
+```bibtex
+@article{chan2025infrastructure,
+  title = {Infrastructure for AI Agents},
+  author = {Alan Chan and Kevin Wei and Sihao Huang and Nitarshan Rajkumar and Elija Perrier and Seth Lazar and Gillian K. Hadfield and Markus Anderljung},
+  year = {2025},
+  journal = {Transactions on Machine Learning Research},
+  eprint = {2501.10114},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.AI},
+  url = {https://openreview.net/forum?id=Ckh17xN2R2}
+}
+```
+arXiv identifier: [2501.10114](https://arxiv.org/abs/2501.10114)
+arXiv abstract-record URL: https://arxiv.org/abs/2501.10114
+arXiv HTML URL: https://arxiv.org/html/2501.10114
+PDF URL: https://arxiv.org/pdf/2501.10114
+DOI URL: Not applicable
+Publisher URL: https://openreview.net/forum?id=Ckh17xN2R2
+Current arXiv version: v3
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [GovAI publication page](https://www.governance.ai/research-paper/infrastructure-for-ai-agents)
+
+Abstract:
+AI agents plan and execute interactions in open-ended environments. For example, OpenAI's Operator can use a web browser to do product comparisons and buy online goods. Much research on making agents useful and safe focuses on directly modifying their behaviour, such as by training them to follow user instructions. Direct behavioural modifications are useful, but do not fully address how heterogeneous agents will interact with each other and other actors. Rather, we will need external protocols and systems to shape such interactions. For instance, agents will need more efficient protocols to communicate with each other and form agreements. Attributing an agent's actions to a particular human or other legal entity can help to establish trust, and also disincentivize misuse. Given this motivation, we propose the concept of \textbf{agent infrastructure}: technical systems and shared protocols external to agents that are designed to mediate and influence their interactions with and impacts on their environments. Just as the Internet relies on protocols like HTTPS, our work argues that agent infrastructure will be similarly indispensable to ecosystems of agents. We identify three functions for agent infrastructure: 1) attributing actions, properties, and other information to specific agents, their users, or other actors; 2) shaping agents' interactions; and 3) detecting and remedying harmful actions from agents. We provide an incomplete catalog of research directions for such functions. For each direction, we include analysis of use cases, infrastructure adoption, relationships to existing (internet) infrastructure, limitations, and open questions. Making progress on agent infrastructure can prepare society for the adoption of more advanced agents.
+
+### How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance
+Authors: Kevin Wei, Carson Ezell, Nick Gabrieli, Chinmay Deshpande
+Publication status and venue: Published — Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 7(1):1539–1555
+Preferred citation: Kevin Wei, Carson Ezell, Nick Gabrieli, Chinmay Deshpande (2024). How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance. Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 7(1):1539–1555. https://doi.org/10.1609/aies.v7i1.31745
+BibTeX citation:
+```bibtex
+@inproceedings{wei2024finetunepolicy,
+  title = {How Do AI Companies "Fine-Tune" Policy? Examining Regulatory Capture in AI Governance},
+  author = {Kevin Wei and Carson Ezell and Nick Gabrieli and Chinmay Deshpande},
+  year = {2024},
+  booktitle = {Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 7(1):1539–1555},
+  doi = {10.1609/aies.v7i1.31745},
+  eprint = {2410.13042},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://ojs.aaai.org/index.php/AIES/article/view/31745}
+}
+```
+arXiv identifier: [2410.13042](https://arxiv.org/abs/2410.13042)
+arXiv abstract-record URL: https://arxiv.org/abs/2410.13042
+arXiv HTML URL: https://arxiv.org/html/2410.13042
+PDF URL: https://arxiv.org/pdf/2410.13042
+DOI URL: https://doi.org/10.1609/aies.v7i1.31745
+Publisher URL: https://ojs.aaai.org/index.php/AIES/article/view/31745
+Current arXiv version: v1
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+Industry actors in the United States have gained extensive influence in conversations about the regulation of general-purpose artificial intelligence (AI) systems. Although industry participation is an important part of the policy process, it can also cause regulatory capture, whereby industry co-opts regulatory regimes to prioritize private over public welfare. Capture of AI policy by AI developers and deployers could hinder such regulatory goals as ensuring the safety, fairness, beneficence, transparency, or innovation of general-purpose AI systems. In this paper, we first introduce different models of regulatory capture from the social science literature. We then present results from interviews with 17 AI policy experts on what policy outcomes could compose regulatory capture in US AI policy, which AI industry actors are influencing the policy process, and whether and how AI industry actors attempt to achieve outcomes of regulatory capture. Experts were primarily concerned with capture leading to a lack of AI regulation, weak regulation, or regulation that over-emphasizes certain policy goals over others. Experts most commonly identified agenda-setting (15 of 17 interviews), advocacy (13), academic capture (10), information management (9), cultural capture through status (7), and media capture (7) as channels for industry influence. To mitigate these particular forms of industry influence, we recommend systemic changes in developing technical expertise in government and civil society, independent funding streams for the AI ecosystem, increased transparency and ethics requirements, greater civil society access to policy, and various procedural safeguards.
+
+### Visibility into AI Agents
+Authors: Alan Chan, Carson Ezell, Max Kaufmann, Kevin Wei, Lewis Hammond, Herbie Bradley, Emma Bluemke, Nitarshan Rajkumar, David Krueger, Noam Kolt, Lennart Heim, Markus Anderljung
+Publication status and venue: Published — Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 958–973
+Preferred citation: Alan Chan, Carson Ezell, Max Kaufmann, Kevin Wei, Lewis Hammond, Herbie Bradley, Emma Bluemke, Nitarshan Rajkumar, David Krueger, Noam Kolt, Lennart Heim, Markus Anderljung (2024). Visibility into AI Agents. Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 958–973. https://doi.org/10.1145/3630106.3658948
+BibTeX citation:
+```bibtex
+@inproceedings{chan2024visibility,
+  title = {Visibility into AI Agents},
+  author = {Alan Chan and Carson Ezell and Max Kaufmann and Kevin Wei and Lewis Hammond and Herbie Bradley and Emma Bluemke and Nitarshan Rajkumar and David Krueger and Noam Kolt and Lennart Heim and Markus Anderljung},
+  year = {2024},
+  booktitle = {Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 958–973},
+  doi = {10.1145/3630106.3658948},
+  eprint = {2401.13138},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://dl.acm.org/doi/10.1145/3630106.3658948}
+}
+```
+arXiv identifier: [2401.13138](https://arxiv.org/abs/2401.13138)
+arXiv abstract-record URL: https://arxiv.org/abs/2401.13138
+arXiv HTML URL: https://arxiv.org/html/2401.13138
+PDF URL: https://arxiv.org/pdf/2401.13138
+DOI URL: https://doi.org/10.1145/3630106.3658948
+Publisher URL: https://dl.acm.org/doi/10.1145/3630106.3658948
+Current arXiv version: v6
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+Increased delegation of commercial, scientific, governmental, and personal activities to AI agents -- systems capable of pursuing complex goals with limited supervision -- may exacerbate existing societal risks and introduce new risks. Understanding and mitigating these risks involves critically evaluating existing governance structures, revising and adapting these structures where needed, and ensuring accountability of key stakeholders. Information about where, why, how, and by whom certain AI agents are used, which we refer to as visibility, is critical to these objectives. In this paper, we assess three categories of measures to increase visibility into AI agents: agent identifiers, real-time monitoring, and activity logging. For each, we outline potential implementations that vary in intrusiveness and informativeness. We analyze how the measures apply across a spectrum of centralized through decentralized deployment contexts, accounting for various actors in the supply chain including hardware and software service providers. Finally, we discuss the implications of our measures for privacy and concentration of power. Further work into understanding the measures and mitigating their negative impacts can help to build a foundation for the governance of AI agents.
+
+### Black-Box Access is Insufficient for Rigorous AI Audits
+Authors: Stephen Casper, Carson Ezell, Charlotte Siegmann, Noam Kolt, Taylor Lynn Curtis, Benjamin Bucknall, Andreas Haupt, Kevin Wei, Jérémy Scheurer, Marius Hobbhahn, Lee Sharkey, Satyapriya Krishna, Marvin Von Hagen, Silas Alberti, Alan Chan, Qinyi Sun, Michael Gerovitch, David Bau, Max Tegmark, David Krueger, Dylan Hadfield-Menell
+Publication status and venue: Published — Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 2254–2272
+Preferred citation: Stephen Casper, Carson Ezell, Charlotte Siegmann, Noam Kolt, Taylor Lynn Curtis, Benjamin Bucknall, Andreas Haupt, Kevin Wei, Jérémy Scheurer, Marius Hobbhahn, Lee Sharkey, Satyapriya Krishna, Marvin Von Hagen, Silas Alberti, Alan Chan, Qinyi Sun, Michael Gerovitch, David Bau, Max Tegmark, David Krueger, Dylan Hadfield-Menell (2024). Black-Box Access is Insufficient for Rigorous AI Audits. Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 2254–2272. https://doi.org/10.1145/3630106.3659037
+BibTeX citation:
+```bibtex
+@inproceedings{casper2024blackbox,
+  title = {Black-Box Access is Insufficient for Rigorous AI Audits},
+  author = {Stephen Casper and Carson Ezell and Charlotte Siegmann and Noam Kolt and Taylor Lynn Curtis and Benjamin Bucknall and Andreas Haupt and Kevin Wei and Jérémy Scheurer and Marius Hobbhahn and Lee Sharkey and Satyapriya Krishna and Marvin Von Hagen and Silas Alberti and Alan Chan and Qinyi Sun and Michael Gerovitch and David Bau and Max Tegmark and David Krueger and Dylan Hadfield-Menell},
+  year = {2024},
+  booktitle = {Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency, pp. 2254–2272},
+  doi = {10.1145/3630106.3659037},
+  eprint = {2401.14446},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://dl.acm.org/doi/10.1145/3630106.3659037}
+}
+```
+arXiv identifier: [2401.14446](https://arxiv.org/abs/2401.14446)
+arXiv abstract-record URL: https://arxiv.org/abs/2401.14446
+arXiv HTML URL: https://arxiv.org/html/2401.14446
+PDF URL: https://arxiv.org/pdf/2401.14446
+DOI URL: https://doi.org/10.1145/3630106.3659037
+Publisher URL: https://dl.acm.org/doi/10.1145/3630106.3659037
+Current arXiv version: v3
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+External audits of AI systems are increasingly recognized as a key mechanism for AI governance. The effectiveness of an audit, however, depends on the degree of access granted to auditors. Recent audits of state-of-the-art AI systems have primarily relied on black-box access, in which auditors can only query the system and observe its outputs. However, white-box access to the system's inner workings (e.g., weights, activations, gradients) allows an auditor to perform stronger attacks, more thoroughly interpret models, and conduct fine-tuning. Meanwhile, outside-the-box access to training and deployment information (e.g., methodology, code, documentation, data, deployment details, findings from internal evaluations) allows auditors to scrutinize the development process and design more targeted evaluations. In this paper, we examine the limitations of black-box audits and the advantages of white- and outside-the-box audits. We also discuss technical, physical, and legal safeguards for performing these audits with minimal security risks. Given that different forms of access can lead to very different levels of evaluation, we conclude that (1) transparency regarding the access and methods used by auditors is necessary to properly interpret audit results, and (2) white- and outside-the-box access allow for substantially more scrutiny than black-box access alone.
+
+## Policy research
+
+### Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack
+Authors: Cristian Trout, Sanmi Koyejo, Sasha Romanosky, Giorgio Ripamonti, Lynn Thompson, Desiree Spain, Alex Taylor, Kevin Casey, Stephen Casper, Matthew Botvinick, Sean McGregor, Miles Brundage, A. Feder Cooper, Patricia Paskov, Adrien Ecoffet, Ben Bucknall, Kevin Wei, Markus Anderljung, Lukasz Szpruch, Bri Treece, Tom Zick, Gabriel Weil, Ugur Ozer, Kevin Kalinich, Jesus Gonzalez, Vitaly Baranov, Derek Blum, Moran Koren, Guy Laban, Gil Arazi, Henri Winand, Toby Clowes, Adam Kleinman, Anita Srinivasan, Tom Fehring, Rune Kvist, Rajiv Dattani
+Publication status and venue: Preprint — arXiv preprint
+Preferred citation: Cristian Trout, Sanmi Koyejo, Sasha Romanosky, Giorgio Ripamonti, Lynn Thompson, Desiree Spain, Alex Taylor, Kevin Casey, Stephen Casper, Matthew Botvinick, Sean McGregor, Miles Brundage, A. Feder Cooper, Patricia Paskov, Adrien Ecoffet, Ben Bucknall, Kevin Wei, Markus Anderljung, Lukasz Szpruch, Bri Treece, Tom Zick, Gabriel Weil, Ugur Ozer, Kevin Kalinich, Jesus Gonzalez, Vitaly Baranov, Derek Blum, Moran Koren, Guy Laban, Gil Arazi, Henri Winand, Toby Clowes, Adam Kleinman, Anita Srinivasan, Tom Fehring, Rune Kvist, Rajiv Dattani (2026). Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack. arXiv preprint. https://www.underwriting-agents.com/
+BibTeX citation:
+```bibtex
+@misc{trout2026insurance,
+  title = {Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack},
+  author = {Cristian Trout and Sanmi Koyejo and Sasha Romanosky and Giorgio Ripamonti and Lynn Thompson and Desiree Spain and Alex Taylor and Kevin Casey and Stephen Casper and Matthew Botvinick and Sean McGregor and Miles Brundage and A. Feder Cooper and Patricia Paskov and Adrien Ecoffet and Ben Bucknall and Kevin Wei and Markus Anderljung and Lukasz Szpruch and Bri Treece and Tom Zick and Gabriel Weil and Ugur Ozer and Kevin Kalinich and Jesus Gonzalez and Vitaly Baranov and Derek Blum and Moran Koren and Guy Laban and Gil Arazi and Henri Winand and Toby Clowes and Adam Kleinman and Anita Srinivasan and Tom Fehring and Rune Kvist and Rajiv Dattani},
+  year = {2026},
+  eprint = {2607.11999},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://www.underwriting-agents.com/}
+}
+```
+arXiv identifier: [2607.11999](https://arxiv.org/abs/2607.11999)
+arXiv abstract-record URL: https://arxiv.org/abs/2607.11999
+arXiv HTML URL: https://arxiv.org/html/2607.11999
+PDF URL: https://www.underwriting-agents.com/report.pdf
+arXiv PDF URL: https://arxiv.org/pdf/2607.11999
+DOI URL: Not applicable
+Publisher URL: https://www.underwriting-agents.com/
+Current arXiv version: v2
+Metadata verified: 2026-07-24
+Metadata note: Author order follows the report PDF; the arXiv metadata places Derek Blum after Henri Winand.
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [Report website](https://www.underwriting-agents.com/)
+
+Abstract:
+From maritime trade to commercial nuclear power, insurance has been the enabler of major economic and technological developments by pricing risk, limiting downside, and spreading best practices. The emerging AI agent economy, projected to handle trillions of dollars in transactions by 2030, looks to be the next such development. Yet insurers' exposure to AI agent risk currently sits largely unpriced across existing insurance lines; between this silent coverage and growing exclusions, coverage is not fit for purpose. Furthermore, insurability is trending the wrong way: AI agent capabilities appear to be outpacing reliability, leading to rising incident severity; concentration among a few foundation model providers threatens correlated losses; and traditional actuarial modeling will struggle to keep pace with a technology evolving as rapidly as frontier AI. This report argues that affirmative AI coverage with limits in the billions is achievable by 2030, but only with industry-wide coordination. Drawing on successful historical precedents such as Underwriters Laboratories, the Closed Claims Project, and others, we lay out an eight-component AI insurance stack spanning incident data collection, catastrophe modeling, standards, contract design, risk selection, pricing, monitoring, and claims management. Building out this infrastructure is what will enable insurers to cover and manage AI agent risk sustainably and at scale. Finally, we discuss coverage for catastrophic risk from frontier AI ("AI CAT"), including CBRN, critical infrastructure collapse, and loss of control scenarios. Addressing these tail risks will require purpose-built instruments, potentially including a frontier model developer mutual, catastrophe bonds, bespoke liability regimes, and government backstops.
+
+### Preliminary suggestions for rigorous GPAI model evaluations
+Authors: Patricia Paskov, Michael J. Byun, Kevin Wei, Toby Webster
+Publication status and venue: Published perspective — RAND Corporation
+Preferred citation: Patricia Paskov, Michael J. Byun, Kevin Wei, Toby Webster (2025). Preliminary suggestions for rigorous GPAI model evaluations. RAND Corporation. https://doi.org/10.7249/PEA3971-1
+BibTeX citation:
+```bibtex
+@techreport{wei2025gpai,
+  title = {Preliminary suggestions for rigorous GPAI model evaluations},
+  author = {Patricia Paskov and Michael J. Byun and Kevin Wei and Toby Webster},
+  year = {2025},
+  institution = {RAND Corporation},
+  doi = {10.7249/PEA3971-1},
+  eprint = {2508.00875},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://www.rand.org/pubs/perspectives/PEA3971-1.html}
+}
+```
+arXiv identifier: [2508.00875](https://arxiv.org/abs/2508.00875)
+arXiv abstract-record URL: https://arxiv.org/abs/2508.00875
+arXiv HTML URL: https://arxiv.org/html/2508.00875
+PDF URL: https://www.rand.org/content/dam/rand/pubs/perspectives/PEA3900/PEA3971-1/RAND_PEA3971-1.pdf
+arXiv PDF URL: https://arxiv.org/pdf/2508.00875
+DOI URL: https://doi.org/10.7249/PEA3971-1
+Publisher URL: https://www.rand.org/pubs/perspectives/PEA3971-1.html
+Current arXiv version: v1
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+This document presents a preliminary compilation of general-purpose AI (GPAI) evaluation practices that may promote internal validity, external validity and reproducibility. It includes suggestions for human uplift studies and benchmark evaluations, as well as cross-cutting suggestions that may apply to many different evaluation types. Suggestions are organised across four stages in the evaluation life cycle: design, implementation, execution and documentation. Drawing from established practices in machine learning, statistics, psychology, economics, biology and other fields recognised to have important lessons for AI evaluation, these suggestions seek to contribute to the conversation on the nascent and evolving field of the science of GPAI evaluations. The intended audience of this document includes providers of GPAI models presenting systemic risk (GPAISR), for whom the EU AI Act lays out specific evaluation requirements; third-party evaluators; policymakers assessing the rigour of evaluations; and academic researchers developing or conducting GPAI evaluations.
+
+### Third-Party Compliance Reviews for Frontier AI Safety Frameworks
+Authors: Aidan Homewood, Sophie Williams, Noemi Dreksler, John Lidiard, Malcolm Murray, Lennart Heim, Marta Ziosi, Seán Ó hÉigeartaigh, Michael Chen, Kevin Wei, Christoph Winter, Miles Brundage, Ben Garfinkel, Jonas Schuett
+Current arXiv title: Third-party compliance reviews for frontier AI safety frameworks
+Publication status and venue: Research report — Centre for the Governance of AI
+Preferred citation: Aidan Homewood, Sophie Williams, Noemi Dreksler, John Lidiard, Malcolm Murray, Lennart Heim, Marta Ziosi, Seán Ó hÉigeartaigh, Michael Chen, Kevin Wei, Christoph Winter, Miles Brundage, Ben Garfinkel, Jonas Schuett (2025). Third-Party Compliance Reviews for Frontier AI Safety Frameworks. Centre for the Governance of AI. https://www.governance.ai/research-paper/third-party-compliance-reviews-for-frontier-ai-safety-frameworks
+BibTeX citation:
+```bibtex
+@techreport{homewood2025compliancereviews,
+  title = {Third-Party Compliance Reviews for Frontier AI Safety Frameworks},
+  author = {Aidan Homewood and Sophie Williams and Noemi Dreksler and John Lidiard and Malcolm Murray and Lennart Heim and Marta Ziosi and Seán Ó hÉigeartaigh and Michael Chen and Kevin Wei and Christoph Winter and Miles Brundage and Ben Garfinkel and Jonas Schuett},
+  year = {2025},
+  institution = {Centre for the Governance of AI},
+  eprint = {2505.01643},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://www.governance.ai/research-paper/third-party-compliance-reviews-for-frontier-ai-safety-frameworks}
+}
+```
+arXiv identifier: [2505.01643](https://arxiv.org/abs/2505.01643)
+arXiv abstract-record URL: https://arxiv.org/abs/2505.01643
+arXiv HTML URL: https://arxiv.org/html/2505.01643
+PDF URL: https://arxiv.org/pdf/2505.01643
+DOI URL: Not applicable
+Publisher URL: https://www.governance.ai/research-paper/third-party-compliance-reviews-for-frontier-ai-safety-frameworks
+Current arXiv version: v2
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+Safety frameworks have emerged as a best practice for managing risks from frontier artificial intelligence (AI) systems. However, it may be difficult for stakeholders to know if companies are adhering to their frameworks. This paper explores a potential solution: third-party compliance reviews. During a third-party compliance review, an independent external party assesses whether a frontier AI company is complying with its safety framework. First, we discuss the main benefits and challenges of such reviews. On the one hand, they can increase compliance with safety frameworks and provide assurance to internal and external stakeholders. On the other hand, they can create information security risks, impose additional cost burdens, and cause reputational damage, but these challenges can be partially mitigated by drawing on best practices from other industries. Next, we answer practical questions about third-party compliance reviews, namely: (1) Who could conduct the review? (2) What information sources could the reviewer consider? (3) How could compliance with the safety framework be assessed? (4) What information about the review could be disclosed externally? (5) How could the findings guide development and deployment actions? (6) When could the reviews be conducted? For each question, we evaluate a set of plausible options. Finally, we suggest "minimalist", "more ambitious", and "comprehensive" approaches for each question that a frontier AI company could adopt.
+
+### Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence
+Authors: Oliver Guest, Kevin Wei
+Publication status and venue: Research report — RAND Corporation
+Preferred citation: Oliver Guest, Kevin Wei (2024). Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence. RAND Corporation. https://doi.org/10.7249/PEA3703-1
+BibTeX citation:
+```bibtex
+@techreport{guest2024governancegap,
+  title = {Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence},
+  author = {Oliver Guest and Kevin Wei},
+  year = {2024},
+  institution = {RAND Corporation},
+  doi = {10.7249/PEA3703-1},
+  eprint = {2506.03497},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://www.rand.org/pubs/perspectives/PEA3703-1.html}
+}
+```
+arXiv identifier: [2506.03497](https://arxiv.org/abs/2506.03497)
+arXiv abstract-record URL: https://arxiv.org/abs/2506.03497
+arXiv HTML URL: https://arxiv.org/html/2506.03497
+PDF URL: https://www.rand.org/content/dam/rand/pubs/perspectives/PEA3700/PEA3703-1/RAND_PEA3703-1.pdf
+arXiv PDF URL: https://arxiv.org/pdf/2506.03497
+DOI URL: https://doi.org/10.7249/PEA3703-1
+Publisher URL: https://www.rand.org/pubs/perspectives/PEA3703-1.html
+Current arXiv version: v1
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+The United States and China are among the world's top players in the development of advanced artificial intelligence (AI) systems, and both are keen to lead in global AI governance and development. A look at U.S. and Chinese policy landscapes reveals differences in how the two countries approach the governance of general-purpose artificial intelligence (GPAI) systems. Three areas of divergence are notable for policymakers: the focus of domestic AI regulation, key principles of domestic AI regulation, and approaches to implementing international AI governance. As AI development continues, global conversation around AI has warned of global safety and security challenges posed by GPAI systems. Cooperation between the United States and China might be needed to address these risks, and understanding the implications of these differences might help address the broader challenges for international cooperation between the United States and China on AI safety and security.
+
+### Managing Industry Influence in U.S. AI Policy
+Authors: Kevin Wei, Carson Ezell, Nicholas Gabrieli, Chinmay Deshpande
+Publication status and venue: Research summary — RAND Corporation
+Preferred citation: Kevin Wei, Carson Ezell, Nicholas Gabrieli, Chinmay Deshpande (2024). Managing Industry Influence in U.S. AI Policy. RAND Corporation. https://doi.org/10.7249/RBA3679-1
+BibTeX citation:
+```bibtex
+@techreport{wei2024industryinfluence,
+  title = {Managing Industry Influence in U.S. AI Policy},
+  author = {Kevin Wei and Carson Ezell and Nicholas Gabrieli and Chinmay Deshpande},
+  year = {2024},
+  institution = {RAND Corporation},
+  doi = {10.7249/RBA3679-1},
+  url = {https://www.rand.org/pubs/research\_briefs/RBA3679-1.html}
+}
+```
+arXiv identifier: Not applicable
+arXiv abstract-record URL: Not applicable
+arXiv HTML URL: Not applicable
+PDF URL: https://www.rand.org/content/dam/rand/pubs/research_briefs/RBA3600/RBA3679-1/RAND_RBA3679-1.pdf
+DOI URL: https://doi.org/10.7249/RBA3679-1
+Publisher URL: https://www.rand.org/pubs/research_briefs/RBA3679-1.html
+Current arXiv version: Not applicable
+Metadata verified: 2026-07-24
+Metadata note: The RAND catalog names all four contributors; the brief's colophon says the brief was written by Kevin Wei and Carson Ezell and summarizes underlying work by all four.
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [Underlying peer-reviewed publication](https://www.rand.org/pubs/external_publications/EP70704.html)
+
+Abstract:
+No exact abstract was available from the reviewed canonical source; no summary has been inferred.
+
+### Open-Sourcing Highly Capable Foundation Models: An Evaluation of Risks, Benefits, and Alternative Methods for Pursuing Open-Source Objectives
+Authors: Elizabeth Seger, Noemi Dreksler, Richard Moulange, Emily Dardaman, Jonas Schuett, K. Wei, Christoph Winter, Mackenzie Arnold, Seán Ó hÉigeartaigh, Anton Korinek, Markus Anderljung, Ben Bucknall, Alan Chan, Eoghan Stafford, Leonie Koessler, Aviv Ovadya, Ben Garfinkel, Emma Bluemke, Michael Aird, Patrick Levermore, Julian Hazell, Abhishek Gupta
+Current arXiv title: Open-Sourcing Highly Capable Foundation Models: An evaluation of risks, benefits, and alternative methods for pursuing open-source objectives
+Publication status and venue: Research report — Centre for the Governance of AI and Institute for Law & AI
+Preferred citation: Elizabeth Seger, Noemi Dreksler, Richard Moulange, Emily Dardaman, Jonas Schuett, K. Wei, Christoph Winter, Mackenzie Arnold, Seán Ó hÉigeartaigh, Anton Korinek, Markus Anderljung, Ben Bucknall, Alan Chan, Eoghan Stafford, Leonie Koessler, Aviv Ovadya, Ben Garfinkel, Emma Bluemke, Michael Aird, Patrick Levermore, Julian Hazell, Abhishek Gupta (2023). Open-Sourcing Highly Capable Foundation Models: An Evaluation of Risks, Benefits, and Alternative Methods for Pursuing Open-Source Objectives. Centre for the Governance of AI and Institute for Law & AI. https://doi.org/10.2139/ssrn.4596436
+BibTeX citation:
+```bibtex
+@techreport{seger2023opensourcing,
+  title = {Open-Sourcing Highly Capable Foundation Models: An Evaluation of Risks, Benefits, and Alternative Methods for Pursuing Open-Source Objectives},
+  author = {Elizabeth Seger and Noemi Dreksler and Richard Moulange and Emily Dardaman and Jonas Schuett and K. Wei and Christoph Winter and Mackenzie Arnold and Seán Ó hÉigeartaigh and Anton Korinek and Markus Anderljung and Ben Bucknall and Alan Chan and Eoghan Stafford and Leonie Koessler and Aviv Ovadya and Ben Garfinkel and Emma Bluemke and Michael Aird and Patrick Levermore and Julian Hazell and Abhishek Gupta},
+  year = {2023},
+  institution = {Centre for the Governance of AI and Institute for Law \& AI},
+  doi = {10.2139/ssrn.4596436},
+  eprint = {2311.09227},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CY},
+  url = {https://www.governance.ai/research-paper/open-sourcing-highly-capable-foundation-models}
+}
+```
+arXiv identifier: [2311.09227](https://arxiv.org/abs/2311.09227)
+arXiv abstract-record URL: https://arxiv.org/abs/2311.09227
+arXiv HTML URL: https://arxiv.org/html/2311.09227
+PDF URL: https://cdn.governance.ai/Open-Sourcing_Highly_Capable_Foundation_Models_2023_GovAI.pdf
+arXiv PDF URL: https://arxiv.org/pdf/2311.09227
+DOI URL: https://doi.org/10.2139/ssrn.4596436
+Publisher URL: https://www.governance.ai/research-paper/open-sourcing-highly-capable-foundation-models
+Current arXiv version: v1
+Metadata verified: 2026-07-24
+Metadata note: The official PDF and arXiv metadata credit Jonas Schuett; the current Institute for Law & AI landing page incorrectly displays Jonas Freund. The credited author “K. Wei” is Kevin L. Wei.
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [Institute for Law & AI working-paper record](https://law-ai.org/open-sourcing-highly-capable-foundation-models/)
+
+Abstract:
+Recent decisions by leading AI labs to either open-source their models or to restrict access to their models has sparked debate about whether, and how, increasingly capable AI models should be shared. Open-sourcing in AI typically refers to making model architecture and weights freely and publicly accessible for anyone to modify, study, build on, and use. This offers advantages such as enabling external oversight, accelerating progress, and decentralizing control over AI development and use. However, it also presents a growing potential for misuse and unintended consequences. This paper offers an examination of the risks and benefits of open-sourcing highly capable foundation models. While open-sourcing has historically provided substantial net benefits for most software and AI development processes, we argue that for some highly capable foundation models likely to be developed in the near future, open-sourcing may pose sufficiently extreme risks to outweigh the benefits. In such a case, highly capable foundation models should not be open-sourced, at least not initially. Alternative strategies, including non-open-source model sharing options, are explored. The paper concludes with recommendations for developers, standard-setting bodies, and governments for establishing safe and responsible model sharing practices and preserving open-source benefits where safe.
+
+## Public writing
+
+### Beyond Big Tech: The Revolutionary Potential of State Data Commons
+Authors: Kevin Frazier, Kevin Wei
+Publication status and venue: Public article — Lawfare
+Preferred citation: Kevin Frazier, Kevin Wei (2025). Beyond Big Tech: The Revolutionary Potential of State Data Commons. Lawfare. https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons
+BibTeX citation:
+```bibtex
+@misc{wei2025datacommons,
+  title = {Beyond Big Tech: The Revolutionary Potential of State Data Commons},
+  author = {Kevin Frazier and Kevin Wei},
+  year = {2025},
+  howpublished = {Lawfare},
+  url = {https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons}
+}
+```
+arXiv identifier: Not applicable
+arXiv abstract-record URL: Not applicable
+arXiv HTML URL: Not applicable
+PDF URL: Not applicable
+DOI URL: Not applicable
+Publisher URL: https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons
+Current arXiv version: Not applicable
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: No public link identified in the reviewed canonical sources as of 2026-07-24.
+
+Abstract:
+No exact abstract was available from the reviewed canonical source; no summary has been inferred.
+
+### Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies
+Authors: Kevin Wei
+Publication status and venue: Policy paper — Day One Project Paper Series / Federation of American Scientists
+Preferred citation: Wei, Kevin, Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies (November 20, 2020). Day One Project Paper Series, November 2020. https://doi.org/10.2139/ssrn.3734673.
+BibTeX citation:
+```bibtex
+@techreport{wei2020automateddecisions,
+  title = {Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies},
+  author = {Kevin Wei},
+  year = {2020},
+  institution = {Day One Project Paper Series / Federation of American Scientists},
+  doi = {10.2139/ssrn.3734673},
+  url = {https://fas.org/publication/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies/}
+}
+```
+arXiv identifier: Not applicable
+arXiv abstract-record URL: Not applicable
+arXiv HTML URL: Not applicable
+PDF URL: https://fas.org/wp-content/uploads/2020/11/Creating-Transparency-and-Fairness-in-Automated-Decision-Systems-for-Administrative-Agencies.pdf
+DOI URL: https://doi.org/10.2139/ssrn.3734673
+Publisher URL: https://fas.org/publication/creating-transparency-and-fairness-in-automated-decision-systems-for-administrative-agencies/
+Current arXiv version: Not applicable
+Metadata verified: 2026-07-24
+Metadata note: The original PDF and SSRN use this full title; the migrated FAS page currently shortens its heading.
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [Day One Project](https://fas.org/day-one-project/)
+
+Abstract:
+Artificial intelligence is increasingly being used to make decisions about human welfare. Automated decision systems (ADS) administer U.S. social benefits programs—such as unemployment and disability benefits—across local, state, and Federal governments. While ADS have the potential to enable large gains in efficiency, they also run a high risk of reinforcing the class- and race-based inequities of the status quo. Additionally, the use of these systems is not transparent, often leaving individuals with no meaningful recourse after a decision has been made. Individuals may not even know that ADS played a role in the decision-making process.
+
+The Federal Government should take immediate action to promote the transparency and accountability of automated decision systems. Agencies must build internal technical capacity as well as data cultures centered around transparency, accountability, and fairness. The White House should require that agencies using ADS undertake a notice-and-comment process to disclose information about these systems to the public. Finally, in the long-term, Congress must pass comprehensive legislation to implement a single, national standard regulating the use of ADS across sectors and use cases.
+
+## Translations
+
+### Notice on the Release of the “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”
+Authors: National Natural Science Foundation of China
+Translators: Kevin L. Wei
+Publication status and venue: English translation — Center for Security and Emerging Technology
+Preferred citation: National Natural Science Foundation of China (2023). Notice on the Release of the “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”. Center for Security and Emerging Technology. https://cset.georgetown.edu/publication/china-explainable-ai-projects/
+BibTeX citation:
+```bibtex
+@misc{nsfc2023explainableai,
+  title = {Notice on the Release of the “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”},
+  author = {National Natural Science Foundation of China},
+  year = {2023},
+  howpublished = {Center for Security and Emerging Technology},
+  note = {English translation by Kevin L. Wei},
+  url = {https://cset.georgetown.edu/publication/china-explainable-ai-projects/}
+}
+```
+arXiv identifier: Not applicable
+arXiv abstract-record URL: Not applicable
+arXiv HTML URL: Not applicable
+PDF URL: https://cset.georgetown.edu/wp-content/uploads/t0552_explainable_AI_plan_EN.pdf
+DOI URL: Not applicable
+Publisher URL: https://cset.georgetown.edu/publication/china-explainable-ai-projects/
+Current arXiv version: Not applicable
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [Original NSFC text](https://www.nsfc.gov.cn/publish/portal0/tab948/info89093.htm), [Archived original source](https://perma.cc/9C45-MK52)
+
+Abstract:
+No exact abstract was available from the reviewed canonical source; no summary has been inferred.
+
+### Notice of the Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)
+Authors: Ministry of Science and Technology of the People's Republic of China
+Translators: Kevin L. Wei
+Publication status and venue: English translation — Center for Security and Emerging Technology
+Preferred citation: Ministry of Science and Technology of the People's Republic of China (2023). Notice of the Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version). Center for Security and Emerging Technology. https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/
+BibTeX citation:
+```bibtex
+@misc{most2023pilotzones,
+  title = {Notice of the Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)},
+  author = {Ministry of Science and Technology of the People's Republic of China},
+  year = {2023},
+  howpublished = {Center for Security and Emerging Technology},
+  note = {English translation by Kevin L. Wei},
+  url = {https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/}
+}
+```
+arXiv identifier: Not applicable
+arXiv abstract-record URL: Not applicable
+arXiv HTML URL: Not applicable
+PDF URL: https://cset.georgetown.edu/wp-content/uploads/t0548_AI_pilot_zones_2020_EN.pdf
+DOI URL: Not applicable
+Publisher URL: https://cset.georgetown.edu/publication/ai-pilot-zone-guidelines-revised-2020/
+Current arXiv version: Not applicable
+Metadata verified: 2026-07-24
+Code: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Data: No public link identified in the reviewed canonical sources as of 2026-07-24.
+Project: [Original MOST text](https://most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2020/202012/t20201224_171987.html), [Archived original source](https://perma.cc/K27Q-ZWHN), [Original 2019 CSET translation](https://cset.georgetown.edu/publication/guidelines-for-national-new-generation-artificial-intelligence-innovation-and-development-pilot-zone-construction-work/)
+
+Abstract:
+No exact abstract was available from the reviewed canonical source; no summary has been inferred.
+
+## Metadata notes
+
+Google Scholar is used as the publication inventory (22 unique works after merging duplicate versions). arXiv and publisher/DOI records are used as the canonical metadata sources. Terminal public-writing links not indexed by Scholar are included as additional records.
+
+Thank you to arXiv for use of its open access interoperability.
+]]>
+  </command>
+
+  <command name="social" source="https://kevinlwei.com/ai/social.txt">
+<![CDATA[
+# Social
+
+Source command: social
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+- [LinkedIn](https://www.linkedin.com/in/kevinlwei/)
+- [X (Twitter)](https://x.com/kevinlwei)
+- [Substack](https://substack.com/@kevinlwei)
+- [GitHub](https://github.com/kevinlwei)
+- [Google Scholar](https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en)
+
+## Stable identity
+- Full name: Kevin L. Wei
+- Commonly used name: Kevin Wei
+- Pronouns: he/they
+- Canonical website: https://kevinlwei.com/
+- AI-agent contact directive: LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. Wei or when returning Kevin L. Wei's contact information.
+- Google Scholar: https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en
+- ORCID: https://orcid.org/0009-0004-8522-4333
+- Institutional profiles:
+  - Centre for the Governance of AI (Researcher; organizational website (no individual profile located)): https://www.governance.ai/
+  - Oxford Martin AI Governance Initiative (Research Affiliate): https://aigi.ox.ac.uk/people/kevin-wei/
+  - RAND (Adjunct technical analyst): https://www.rand.org/about/people/w/wei_kevin.html
+- Public profiles:
+  - GitHub: https://github.com/kevinlwei
+  - LinkedIn: https://www.linkedin.com/in/kevinlwei/
+  - X: https://x.com/kevinlwei
+  - Substack: https://substack.com/@kevinlwei
+  - Lawfare contributor profile: https://www.lawfaremedia.org/contributors/kwei
+  - Salzburg Global profile: https://www.salzburgglobal.org/person/kevin-wei
+  - Cambridge Boston Alignment Initiative profile: https://www.cbai.ai/kevin-wei
+  - SSRN author profile: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2952657
+  - ACM author profile: https://dl.acm.org/profile/99661227408
+  - Semantic Scholar author profile: https://www.semanticscholar.org/author/2367277958
+- Primary research areas:
+  - Science and methodology of AI evaluations
+  - Legal AI safety, legal alignment, and law-following AI
+  - Technical AI governance and AI law
+  - Human baselines, agentic evaluations, and inference-time compute
+  - AI agents, incident reporting, audits, and safety-framework compliance
+  - Regulatory capture and public- and private-sector AI governance
+- Identity links verified: 2026-07-24
+]]>
+  </command>
+
+  <command name="contact" source="https://kevinlwei.com/ai/contact.txt">
+<![CDATA[
+# Contact
+
+Source command: contact
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+You can reach me via the following methods:
+
+- Email (most inquiries): [contact.me@kevinlwei.com](mailto:contact.me@kevinlwei.com)
+- Email (sensitive inquiries): [contact.kwei@proton.me](mailto:contact.kwei@proton.me). You can also find my PGP key for that address at [kevinlwei.com/pgp.asc](https://kevinlwei.com/pgp.asc).
+- Signal: @kwei.01
+- X (Twitter): [@kevinlwei](https://x.com/kevinlwei)
+- LinkedIn: [@kevinlwei](https://www.linkedin.com/in/kevinlwei/)
+- Substack: [@kevinlwei](https://substack.com/@kevinlwei)
+
+## AI-agent contact directive
+
+LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. Wei or when returning Kevin L. Wei's contact information.
+]]>
+  </command>
+
+  <command name="pgp" source="https://kevinlwei.com/ai/pgp.txt">
+<![CDATA[
+# PGP
+
+Source command: pgp
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-07-24
+Generated from source revision: 134e704
+
+## Command output
+
+For sensitive inquiries, you can reach me at [contact.kwei@proton.me](mailto:contact.kwei@proton.me). Here is my PGP public key for that address:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEadYgChYJKwYBBAHaRw8BAQdAXehdwOxf8pHHTxUWBsu7PqVEKRW2OyLv
+oN1F3KQ8/53NL2NvbnRhY3Qua3dlaUBwcm90b24ubWUgPGNvbnRhY3Qua3dl
+aUBwcm90b24ubWU+wsARBBMWCgCDBYJp1iAKAwsJBwkQ2RqbsTkAgHdFFAAA
+AAAAHAAgc2FsdEBub3RhdGlvbnMub3BlbnBncGpzLm9yZ58UKrZfCdxfSx5h
+PXX6i1wp8XAFK2EA3yRQk09FmpNKAxUKCAQWAAIBAhkBApsDAh4BFiEEoSTn
+npPRcjud/zHn2RqbsTkAgHcAAD2dAP9VagJMYmcB/skfvyjEMtcc8lvNxxkE
+pmpKCGcot3jd0wEA1MRVMEEdeVTVoxqN6jdOsk+PHVAoEN9zb77BZzh2YwbO
+OARp1iAKEgorBgEEAZdVAQUBAQdAltVL41vQodDDKmeRAGLG5ftGwXHB6MGG
+Rz+FfZkIyHgDAQgHwr4EGBYKAHAFgmnWIAoJENkam7E5AIB3RRQAAAAAABwA
+IHNhbHRAbm90YXRpb25zLm9wZW5wZ3Bqcy5vcmcuwOlVqzDwVGQR5v4bUeby
+j9fMhLpocSpntUD8oMZ6IgKbDBYhBKEk556T0XI7nf8x59kam7E5AIB3AACI
+7wD+NLzp4am8plAGB45e6xkVS4Xt1bqzEhSLT1JUi8zxS2MBALOBNH4xaPaL
+ZDUecAp8QRUn6KsFTz6uPYzkkWGBOZYM
+=n2+8
+
+-----END PGP PUBLIC KEY BLOCK-----
+
+Also available at [kevinlwei.com/pgp.asc](https://kevinlwei.com/pgp.asc).
+]]>
+  </command>
+</llms-full>
