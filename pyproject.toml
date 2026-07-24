@@ -1,0 +1,11 @@
+[project]
+name = "kevinlwei-github-io"
+version = "0.1.0"
+description = "Build tooling for Kevin L. Wei's personal website"
+requires-python = ">=3.11"
+dependencies = [
+    "jsonargparse>=4.50.0",
+]
+
+[tool.uv]
+package = false

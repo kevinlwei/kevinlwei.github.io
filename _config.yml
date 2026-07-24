@@ -1,0 +1,9 @@
+# Repository-only files excluded from GitHub Pages' Jekyll output.
+exclude:
+  - README.md
+  - pyproject.toml
+  - uv.lock
+  - scripts/
+  - formatCat.py
+  - screenshots/
+  - data/
