@@ -10,7 +10,8 @@ $(document).ready(function() {
 		{ aliases: ["pgp", "publickey", "public key"], callback: buildLambda("pgp"), path: "/pgp" },
 		{ aliases: ["clear", "cls"], callback: function() { jqconsole.Clear(); return introOutput(); }, path: "/" },
 		{ aliases: ["cats", "cat", "meow"], callback: function() {
-			return '\n' + prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)] + '\n\n';
+			var cat = prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)];
+			return "\n<span class='preformatted ascii-art'>" + escapeHtml(cat) + "</span>\n\n";
 		}}
 	];
 
@@ -25,7 +26,11 @@ $(document).ready(function() {
 	};
 
 	var introOutput = () => {
-		return "<span class='wrapper'>" + prompts['unformatted_intro'] + '\n\n</span>';
+		return prompts['unformatted_intro'].trim() + "\n\n";
+	};
+
+	var writeOutput = (content) => {
+		jqconsole.Write("<span class='wrapper'>" + content + "</span>", "jqconsole-output", false);
 	};
 
 	var findCommand = (input) => {
@@ -85,11 +90,11 @@ $(document).ready(function() {
 	var processQuery = (input) => {
 		if (input) {
 			var trimmed = input.toLowerCase().trim();
-			jqconsole.Write(process(trimmed), "jqconsole-output", false);
+			writeOutput(process(trimmed));
 			updatePath(trimmed);
 			gtag('event', 'command', { command: trimmed });
 		} else {
-			jqconsole.Write("\n Here is a list of commands:\n" + format("help"), "jqconsole-output", false);
+			writeOutput("\nHere is a list of commands:\n" + format("help"));
 		}
 		startPrompt();
 	};
@@ -105,10 +110,10 @@ $(document).ready(function() {
 
 	var renderPath = (path) => {
 		var command = commandForPath(path);
-		jqconsole.Write(introOutput(), "jqconsole-output", false);
+		writeOutput(introOutput());
 		if (command) {
 			jqconsole.Write("kwei> " + command + "\n", "jqconsole-old-prompt", false);
-			jqconsole.Write(process(command), "jqconsole-output", false);
+			writeOutput(process(command));
 		}
 	};
 

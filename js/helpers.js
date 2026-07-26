@@ -3,16 +3,24 @@ function buildSpecialText(text) {
 	return "<span class='special'>" + text + "</span>";
 };
 
+// Escape plain text before including it in an HTML-formatted console response
+function escapeHtml(text) {
+	return text
+		.replace(/&/g, "&amp;")
+		.replace(/</g, "&lt;")
+		.replace(/>/g, "&gt;");
+}
+
 // Create a lambda function that returns the data for a command from prompts
 function buildLambda(command) {
 	return function() {
-    return "<span class='wrapper'>" + format(command) + "</span>";
+    return format(command);
   };
 }
 
 // Format the response data from prompts
-// If the data is a string, add padding. If it is a list, convert it into a
-// string and then add padding.
+// If the data is a string, normalize its outer whitespace. If it is a list,
+// convert it into a string. Add one blank line around either response.
 function format(command) {
   // Retrieve raw response data from prompts
 	var unformattedResponse = prompts[command];
@@ -20,7 +28,7 @@ function format(command) {
 
   // If the response type is a string, return it
 	if (typeof unformattedResponse == "string") {
-		formattedResponse = "\n\t" + unformattedResponse + "\n\n";
+		formattedResponse = "\n" + unformattedResponse.trim() + "\n\n";
   // Otherwise, the response type is a list, so convert the list to a string
 	} else {
     formattedResponse = "\n" + formatList(unformattedResponse) + "\n";
@@ -30,15 +38,14 @@ function format(command) {
 
 // Convert a list of data from prompts into a string
 function formatList(list) {
-	var response = "";
+	var response = "<span class='terminal-list'>";
   // Loop through each piece of data and append a formatted version of it
   // to the response string
 	for (var listItemIndex=0; listItemIndex<list.length; listItemIndex++) {
-		response += "\t";
 		var formattedItem = formatObject(list[listItemIndex]);
-		response += formattedItem + "\n";
+		response += "<span class='indented-list-item'>" + formattedItem + "</span>";
 	}
-	return response;
+	return response + "</span>";
 };
 
 // Loop through an object and format its entries to display on the console

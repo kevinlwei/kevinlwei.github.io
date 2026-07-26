@@ -10,6 +10,7 @@ html, body {
 }
 
 #console {
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   padding-right: 8px;
@@ -19,7 +20,37 @@ html, body {
 }
 
 span.wrapper {
-  white-space: pre-line;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.terminal-list {
+  display: block;
+  white-space: normal;
+}
+
+.terminal-list-item {
+  display: block;
+  padding-inline-start: 2ch;
+  text-indent: -2ch;
+}
+
+.indented-list-item {
+  display: block;
+  padding-inline-start: 2ch;
+}
+
+.preformatted {
+  box-sizing: border-box;
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-wrap: normal;
+  white-space: pre;
+}
+
+.pgp-key {
+  padding-inline-start: 2ch;
 }
 
 a {
