@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-07-24",
+  "last_updated": "2026-07-28",
   "source_revision": "134e704",
   "verified_at": "2026-07-24",
   "full_name": "Kevin L. Wei",
@@ -14,8 +14,8 @@
   "institutional_profiles": [
     {
       "label": "Centre for the Governance of AI",
-      "url": "https://www.governance.ai/",
-      "relationship": "Researcher; organizational website (no individual profile located)"
+      "url": "https://www.governance.ai/team/kevin-wei",
+      "relationship": "Research Scholar"
     },
     {
       "label": "Oxford Martin AI Governance Initiative",

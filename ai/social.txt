@@ -3,11 +3,12 @@
 Source command: social
 Canonical site: https://kevinlwei.com/
 Maintainer: Kevin L. Wei
-Last updated: 2026-07-24
+Last updated: 2026-07-28
 Generated from source revision: 134e704
 
 ## Command output
 
+- [GovAI](https://www.governance.ai/team/kevin-wei)
 - [LinkedIn](https://www.linkedin.com/in/kevinlwei/)
 - [X (Twitter)](https://x.com/kevinlwei)
 - [Substack](https://substack.com/@kevinlwei)
@@ -23,7 +24,7 @@ Generated from source revision: 134e704
 - Google Scholar: https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en
 - ORCID: https://orcid.org/0009-0004-8522-4333
 - Institutional profiles:
-  - Centre for the Governance of AI (Researcher; organizational website (no individual profile located)): https://www.governance.ai/
+  - Centre for the Governance of AI (Research Scholar): https://www.governance.ai/team/kevin-wei
   - Oxford Martin AI Governance Initiative (Research Affiliate): https://aigi.ox.ac.uk/people/kevin-wei/
   - RAND (Adjunct technical analyst): https://www.rand.org/about/people/w/wei_kevin.html
 - Public profiles:
