@@ -1,0 +1,5 @@
+Contact: mailto:security@kevinlwei.com
+Encryption: https://kevinlwei.com/pgp.asc
+Canonical: https://kevinlwei.com/.well-known/security.txt
+Preferred-Languages: en
+Expires: 2027-08-06T00:00:00Z
