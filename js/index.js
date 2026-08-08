@@ -90,9 +90,14 @@ $(document).ready(function() {
 	var processQuery = (input) => {
 		if (input) {
 			var trimmed = input.toLowerCase().trim();
+			var matchedCommand = findCommand(trimmed);
 			writeOutput(process(trimmed));
 			updatePath(trimmed);
-			gtag('event', 'command', { command: trimmed });
+			if (matchedCommand && typeof gtag === "function") {
+				gtag("event", "terminal_command", {
+					command_path: matchedCommand.path || "/other"
+				});
+			}
 		} else {
 			writeOutput("\nHere is a list of commands:\n" + format("help"));
 		}
