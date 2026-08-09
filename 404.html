@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <!-- GitHub Pages serves this app shell for unknown paths, including command links. -->
+  <meta charset="UTF-8">
+  <!-- Defense-in-depth copy of the CSP; the authoritative header (which adds
+       frame-ancestors) is set by a Cloudflare response-header transform rule.
+       Keep the two in sync. frame-ancestors is omitted here because it is
+       ignored in <meta> CSPs. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://*.googletagmanager.com; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://*.google-analytics.com https://*.googletagmanager.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; base-uri 'none'; object-src 'none'; form-action 'self'; upgrade-insecure-requests">
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-0WJXZQ7543"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-0WJXZQ7543');
-  </script>
+  <script src="/js/gtag-init.js"></script>
 
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>K. Wei</title>
