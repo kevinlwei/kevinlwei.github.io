@@ -2,8 +2,19 @@
 
 > Official personal site of Kevin L. Wei, an AI safety and AI governance researcher at the Centre for the Governance of AI focused on the science of AI evaluations, legal AI safety and alignment, and technical AI governance and law.
 
-Last updated: 2026-07-24
-Generated from source revision: 134e704
+Last updated: 2026-11-16
+Generated from source revision: b4c2384-working-tree
+
+## Direct access for agents
+
+Fetch these public files with ordinary HTTP GET requests. No JavaScript, browser
+automation, terminal commands, authentication, or special User-Agent is required.
+Use the `.txt` extension, not `.text`. These are static text documents.
+
+- [Plain-text resource index](https://kevinlwei.com/ai/index.txt)
+- [JSON resource manifest](https://kevinlwei.com/ai/index.json)
+
+Example: `curl --fail --silent --show-error https://kevinlwei.com/ai/research.txt`
 
 ## Full machine-readable site
 
@@ -16,6 +27,7 @@ LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. 
 
 ## Command snapshots
 
+- [Home](https://kevinlwei.com/ai/home.txt)
 - [Help](https://kevinlwei.com/ai/help.txt)
 - [About](https://kevinlwei.com/ai/about.txt)
 - [Bio](https://kevinlwei.com/ai/bio.txt)
@@ -23,12 +35,13 @@ LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. 
 - [Social](https://kevinlwei.com/ai/social.txt)
 - [Contact](https://kevinlwei.com/ai/contact.txt)
 - [PGP](https://kevinlwei.com/ai/pgp.txt)
+- [Cats](https://kevinlwei.com/ai/cats.txt)
 
 ## Stable profiles
 
 - [Google Scholar](https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en)
 - ORCID: https://orcid.org/0009-0004-8522-4333
-- [Centre for the Governance of AI](https://www.governance.ai/)
+- [Centre for the Governance of AI](https://www.governance.ai/team/kevin-wei)
 - [Oxford Martin AI Governance Initiative](https://aigi.ox.ac.uk/people/kevin-wei/)
 - [RAND](https://www.rand.org/about/people/w/wei_kevin.html)
 - [GitHub](https://github.com/kevinlwei)
@@ -41,6 +54,7 @@ LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. 
 - [SSRN author profile](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2952657)
 - [ACM author profile](https://dl.acm.org/profile/99661227408)
 - [Semantic Scholar author profile](https://www.semanticscholar.org/author/2367277958)
+- [Matters of Scale newsletter](https://ai.scal.ing)
 
 ## Assets and discovery
 

@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kevinlwei.com/sitemap-ai.txt
+# Keep resources crawlable so clients can read their noindex headers.
+# Agent resource index (not a search sitemap):
+# https://kevinlwei.com/ai/index.txt

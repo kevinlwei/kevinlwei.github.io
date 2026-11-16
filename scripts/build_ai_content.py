@@ -34,6 +34,7 @@ ARXIV_ATTRIBUTION = (
 )
 
 COMMAND_SOURCES = {
+    "home": "unformatted_intro",
     "help": "help",
     "about": "intro",
     "bio": "bio",
@@ -41,6 +42,7 @@ COMMAND_SOURCES = {
     "social": "social",
     "contact": "contact",
     "pgp": "pgp",
+    "cats": "cats",
 }
 COMMAND_TITLES = {
     command: command.title()
@@ -76,6 +78,10 @@ class MarkdownHTMLParser(HTMLParser):
             )
         elif tag == "br":
             self.parts.append("\n")
+        elif tag in ("strong", "b"):
+            self.parts.append("**")
+        elif tag in ("em", "i"):
+            self.parts.append("*")
 
     def handle_startendtag(
         self, tag: str, attrs: list[tuple[str, str | None]]
@@ -83,10 +89,18 @@ class MarkdownHTMLParser(HTMLParser):
         self.handle_starttag(tag, attrs)
 
     def handle_endtag(self, tag: str) -> None:
+        if tag == "button":
+            self.parts.append(" ")
+        elif tag in ("strong", "b"):
+            self.parts.append("**")
+        elif tag in ("em", "i"):
+            self.parts.append("*")
         if tag != "a" or not self.anchors:
             return
         start, href = self.anchors.pop()
         label = "".join(self.parts[start:]).strip()
+        if label.startswith("[") and label.endswith("]"):
+            label = label[1:-1]
         del self.parts[start:]
         self.parts.append(f"[{label}]({href})")
 
@@ -154,7 +168,7 @@ def extract_prompt_templates(source: str) -> dict[str, str]:
     names = {
         source_name
         for source_name in COMMAND_SOURCES.values()
-        if source_name != "help"
+        if source_name not in ("help", "cats")
     }
     alternatives = "|".join(sorted(map(re.escape, names), key=len, reverse=True))
     pattern = re.compile(
@@ -231,17 +245,29 @@ def extract_command_outputs() -> dict[str, str]:
     source = PROMPTS_PATH.read_text(encoding="utf-8")
     templates = extract_prompt_templates(source)
     outputs: dict[str, str] = {"help": extract_help(source)}
+    cats_match = re.search(r"var cats = (\[.*?\n\]);", source, re.DOTALL)
+    if not cats_match:
+        raise BuildError("Could not parse the cat art inventory")
+    cats = json.loads(cats_match.group(1))
+    cat_sections = ["Aliases: cats, cat, meow. The terminal randomly selects art that fits its width."]
+    for index, cat in enumerate(cats, 1):
+        if isinstance(cat, str):
+            art = "\n".join(line.rstrip() for line in cat.splitlines())
+            cat_sections.append(f"### Existing cat {index}\n\n```text\n{art}\n```")
+        else:
+            cat_sections.append(
+                f"### {cat['title']}\n\n```text\n{cat['art']}\n```\n\n"
+                f"Credits: [{cat['artist']}]({cat['source']})\n"
+                f"Reuse terms: {cat['license']} — {cat['licenseUrl']}"
+            )
+    outputs["cats"] = "\n\n".join(cat_sections)
     for command, source_name in COMMAND_SOURCES.items():
-        if command == "help":
+        if command in ("help", "cats"):
             continue
         outputs[command] = normalize_command_text(templates[source_name])
 
-    # The site owner intentionally uses a separate address for machine-readable
-    # files while keeping contact@kevinlwei.com in the interactive terminal.
-    for command in outputs:
-        outputs[command] = outputs[command].replace(
-            "contact@kevinlwei.com", "contact.me@kevinlwei.com"
-        )
+    # Mirror public contact information as well as the separate AI-agent
+    # contact directive, so these documents retain all human-facing content.
     return outputs
 
 
@@ -515,8 +541,7 @@ def render_work(work: dict[str, Any]) -> str:
     )
     preferred = work.get("preferred_citation") or generated_preferred_citation(work)
     abstract = work.get("abstract") or (
-        "No exact abstract was available from the reviewed canonical source; "
-        "no summary has been inferred."
+        "No formal abstract is available in the reviewed sources."
     )
 
     lines = [
@@ -530,6 +555,14 @@ def render_work(work: dict[str, Any]) -> str:
         lines.append(f"Current arXiv title: {work['arxiv_title']}")
     if work.get("translators"):
         lines.append(f"Translators: {', '.join(work['translators'])}")
+    if work.get("alternate_titles"):
+        lines.append(f"Alternate titles: {'; '.join(work['alternate_titles'])}")
+    if work.get("terminal_venue"):
+        lines.append(f"Website venue and year: {work['terminal_venue']}")
+    if work.get("contribution"):
+        lines.append(f"Contribution: {work['contribution']}")
+    if work.get("scholar_citation_url"):
+        lines.append(markdown_link("Google Scholar record", work["scholar_citation_url"]))
     lines.extend(
         [
             f"Publication status and venue: {display_value(status_venue)}",
@@ -579,6 +612,8 @@ def render_work(work: dict[str, Any]) -> str:
     )
     if work.get("author_summary"):
         lines.extend(["", f"Author summary: {work['author_summary']}"])
+    if work.get("summary"):
+        lines.extend(["", f"Summary: {work['summary']}"])
     if work.get("limitations"):
         lines.extend(["", f"Limitations: {work['limitations']}"])
     return "\n".join(lines)
@@ -610,7 +645,7 @@ def render_research_records(
                 f"({sum(work['inventory_source'] == 'google-scholar' for work in publications)} "
                 "unique works after merging duplicate versions). arXiv and "
                 "publisher/DOI records are used as the canonical metadata sources. "
-                "Terminal public-writing links not indexed by Scholar are included "
+                "Additional terminal public-writing links are included "
                 "as additional records."
             ),
             ARXIV_ATTRIBUTION,
@@ -685,7 +720,7 @@ def metadata_envelope(
         [
             f"# {title}",
             "",
-            f"Source command: {command}",
+            "Source: homepage introduction" if command == "home" else f"Source command: {command}",
             f"Canonical site: {CANONICAL_SITE}",
             f"Maintainer: {context.identity['full_name']}",
             f"Last updated: {context.build_date}",
@@ -753,7 +788,7 @@ def render_command_documents(context: BuildContext) -> dict[str, str]:
         ]
         if command == "research":
             sections.extend(["## Complete research record", research_records])
-        if command == "contact":
+        if command in ("home", "contact"):
             sections.append(render_ai_contact_directive(context.identity))
         if command == "social":
             sections.append(render_identity(context.identity))
@@ -779,6 +814,17 @@ def render_llms_txt(context: BuildContext) -> str:
 
 Last updated: {context.build_date}
 Generated from source revision: {context.source_revision}
+
+## Direct access for agents
+
+Fetch these public files with ordinary HTTP GET requests. No JavaScript, browser
+automation, terminal commands, authentication, or special User-Agent is required.
+Use the `.txt` extension, not `.text`. These are static text documents.
+
+- [Plain-text resource index]({CANONICAL_SITE}ai/index.txt)
+- [JSON resource manifest]({CANONICAL_SITE}ai/index.json)
+
+Example: `curl --fail --silent --show-error {CANONICAL_SITE}ai/research.txt`
 
 ## Full machine-readable site
 
@@ -842,11 +888,66 @@ def sitemap_paths() -> list[str]:
     return [
         "llms.txt",
         "llms-full.txt",
+        "ai/index.txt",
+        "ai/index.json",
         *(f"ai/{command}.txt" for command in COMMAND_ORDER),
         "ai/research.bib",
         "headshot.jpg",
         "pgp.asc",
     ]
+
+
+def ai_resources() -> list[dict[str, str]]:
+    """Public files that can be fetched without executing the terminal UI."""
+    entries = [
+        ("llms.txt", "text", "Site overview and reading instructions"),
+        ("llms-full.txt", "text", "Complete site content with XML section delimiters"),
+        ("ai/index.txt", "text", "Plain-text resource index"),
+        ("ai/index.json", "json", "Machine-readable resource manifest"),
+        *(
+            (f"ai/{command}.txt", "text", COMMAND_TITLES[command])
+            for command in COMMAND_ORDER
+        ),
+        ("ai/research.bib", "bibtex", "Publication citations"),
+        ("sitemap-ai.txt", "text", "Legacy resource URL list; not a search sitemap"),
+    ]
+    return [
+        {"url": CANONICAL_SITE + path, "format": format_name, "description": description}
+        for path, format_name, description in entries
+    ]
+
+
+def render_ai_index(context: BuildContext) -> str:
+    links = "\n".join(
+        f"- {resource['description']}: {resource['url']}"
+        for resource in ai_resources()
+    )
+    return f"""# Kevin Wei — direct access for AI agents
+
+Last updated: {context.build_date}
+
+These public static files can be read directly with HTTP GET, curl, wget, or any
+HTTP client. No graphical UI, JavaScript, login, or special User-Agent is needed.
+The text file extension is .txt (not .text). The JSON manifest provides the same
+resource inventory in a structured format. Browsers can read the same files.
+
+Start with {CANONICAL_SITE}llms.txt for an overview, or fetch
+{CANONICAL_SITE}llms-full.txt for the complete text and publication metadata.
+Publication abstracts and summaries are already expanded in the research text.
+
+## Examples
+
+curl --fail --silent --show-error {CANONICAL_SITE}ai/research.txt
+curl --fail --silent --show-error {CANONICAL_SITE}ai/index.json
+
+## Resources
+
+{links}
+
+## Contact
+
+{ai_contact_instruction(context.identity)}
+"""
 
 
 def build_outputs(context: BuildContext) -> dict[str, str]:
@@ -857,13 +958,29 @@ def build_outputs(context: BuildContext) -> dict[str, str]:
     )
     outputs["llms.txt"] = render_llms_txt(context)
     outputs["llms-full.txt"] = render_llms_full(context, documents)
+    outputs["ai/index.txt"] = render_ai_index(context)
+    outputs["ai/index.json"] = json.dumps(
+        {
+            "schema_version": 1,
+            "canonical_site": CANONICAL_SITE,
+            "last_updated": context.build_date,
+            "requires_javascript": False,
+            "authentication_required": False,
+            "preferred_ai_email": context.identity["preferred_ai_email"],
+            "resources": ai_resources(),
+        },
+        indent=2,
+        ensure_ascii=False,
+    )
     outputs["sitemap-ai.txt"] = "\n".join(
         urllib.parse.urljoin(CANONICAL_SITE, path) for path in sitemap_paths()
     )
     outputs["robots.txt"] = (
         "User-agent: *\n"
         "Allow: /\n\n"
-        f"Sitemap: {CANONICAL_SITE}sitemap-ai.txt"
+        "# Keep resources crawlable so clients can read their noindex headers.\n"
+        "# Agent resource index (not a search sitemap):\n"
+        f"# {CANONICAL_SITE}ai/index.txt"
     )
     return outputs
 
@@ -903,6 +1020,14 @@ def validate_inputs(context: BuildContext) -> list[str]:
             f"Publication manifest contains {scholar_count} Google Scholar works; "
             f"expected {context.scholar_unique_work_count}"
         )
+
+    terminal_urls = prompt_research_urls()
+    for work in works:
+        if work["inventory_source"] == "google-scholar":
+            if not work.get("scholar_title") or not work.get("scholar_citation_url"):
+                errors.append(f"Missing reviewed Scholar record: {work['title']}")
+            if work.get("terminal_url") not in terminal_urls:
+                errors.append(f"Scholar publication missing from terminal: {work['title']}")
 
     required_work_fields = {
         "citation_key",
@@ -968,12 +1093,24 @@ def validate_outputs(
     context: BuildContext, outputs: dict[str, str]
 ) -> list[str]:
     errors = validate_inputs(context)
+    for resource in ai_resources():
+        path = urllib.parse.urlparse(resource["url"]).path.lstrip("/")
+        content = outputs.get(path)
+        if not content:
+            errors.append(f"Missing agent resource: {path}")
+        elif re.search(r"<!doctype\s+html|<html\b|<script\b", content, re.IGNORECASE):
+            errors.append(f"Agent resource contains an HTML UI: {path}")
+    if "Sitemap:" in outputs["robots.txt"]:
+        errors.append("AI-only resources must not be advertised as a search sitemap")
+    if json.loads(outputs["ai/index.json"])["resources"] != ai_resources():
+        errors.append("AI resource manifest is inconsistent")
+    for command, snapshot in context.command_outputs.items():
+        if snapshot not in outputs[f"ai/{command}.txt"]:
+            errors.append(f"AI snapshot does not include the full {command} output")
     for relative_path, content in outputs.items():
         if relative_path.startswith("ai/") and relative_path.endswith(".txt"):
             if re.search(r"<(?:a|span)\b", content, re.IGNORECASE):
                 errors.append(f"{relative_path} still contains terminal HTML")
-            if "contact@kevinlwei.com" in content:
-                errors.append(f"{relative_path} contains the interactive-site email")
             for target in re.findall(r"\]\(([^)]+)\)", content):
                 if not target.startswith(("https://", "mailto:")):
                     errors.append(
@@ -991,6 +1128,7 @@ def validate_outputs(
     for relative_path in (
         "llms.txt",
         "llms-full.txt",
+        "ai/home.txt",
         "ai/contact.txt",
         "ai/social.txt",
     ):

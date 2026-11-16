@@ -3,8 +3,8 @@
 Source command: help
 Canonical site: https://kevinlwei.com/
 Maintainer: Kevin L. Wei
-Last updated: 2026-07-24
-Generated from source revision: 134e704
+Last updated: 2026-11-16
+Generated from source revision: b4c2384-working-tree
 
 ## Command output
 

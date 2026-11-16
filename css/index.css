@@ -24,6 +24,16 @@ span.wrapper {
   overflow-wrap: anywhere;
 }
 
+/* Appending output above the prompt must not make the browser follow it. */
+#console > div {
+  overflow-anchor: none;
+}
+
+.not-found {
+  padding: 30px;
+  line-height: 1.5;
+}
+
 .terminal-list {
   display: block;
   white-space: normal;
@@ -51,6 +61,12 @@ span.wrapper {
 
 .pgp-key {
   padding-inline-start: 2ch;
+}
+
+.cat-credits {
+  display: block;
+  margin-top: 0.5rem;
+  white-space: normal;
 }
 
 a {
@@ -118,4 +134,130 @@ a:hover {
 
 .special, a {
     color: #66FF66;
+}
+
+.publications {
+  display: block;
+  max-width: 112ch;
+  white-space: normal;
+  line-height: 1.5;
+  scroll-margin-top: 24px;
+}
+
+.publication-filters,
+.publication-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 1.5ch;
+}
+
+.publications button {
+  padding: 0.15rem 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #66FF66;
+  font: inherit;
+  cursor: pointer;
+}
+
+.publication-filters button {
+  padding: 0.2rem 0.6ch;
+  border: 1px solid transparent;
+}
+
+.publication-filters button[aria-pressed="true"] {
+  border-color: #66FF66;
+  font-weight: bold;
+}
+
+.publications button:hover {
+  text-decoration: underline;
+}
+
+.publications button:focus-visible,
+.publications a:focus-visible {
+  outline: 2px solid #66FF66;
+  outline-offset: 3px;
+}
+
+.publication-legend,
+.publication-count,
+.publication-intro,
+.publication-list,
+.publication-heading,
+.publication-venue,
+.publication-authors,
+.publication-note,
+.publication-abstract {
+  display: block;
+}
+
+.publication-legend {
+  margin-top: 0.5rem;
+}
+
+.publication-intro {
+  margin: 1rem 0 1.5rem;
+}
+
+.publication {
+  position: relative;
+  display: block;
+  margin-bottom: 1.75rem;
+  padding-inline-start: 4ch;
+}
+
+.publication:last-child {
+  margin-bottom: 0;
+}
+
+.publication-type {
+  position: absolute;
+  inset-inline-start: 0;
+  color: #66FF66;
+}
+
+.publication-title,
+.publication-authors strong,
+.publication-note {
+  color: #fff;
+}
+
+.publication-venue {
+  color: #ddd;
+  font-style: italic;
+}
+
+.publication-actions {
+  margin-top: 0.25rem;
+}
+
+.publication-abstract {
+  margin-top: 0.75rem;
+  padding-inline-start: 1.5ch;
+  border-inline-start: 1px solid #66FF66;
+  white-space: pre-wrap;
+}
+
+.publication-close {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.publications [hidden] {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .jqconsole {
+    padding: 20px 16px;
+  }
+
+  .publications button,
+  .publication-actions a {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }

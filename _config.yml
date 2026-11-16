@@ -10,3 +10,4 @@ exclude:
   - formatCat.py
   - screenshots/
   - data/
+  - config/

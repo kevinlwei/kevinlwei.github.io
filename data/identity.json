@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "last_updated": "2026-07-28",
-  "source_revision": "134e704",
+  "last_updated": "2026-11-16",
+  "source_revision": "b4c2384-working-tree",
   "verified_at": "2026-07-24",
   "full_name": "Kevin L. Wei",
   "common_name": "Kevin Wei",
@@ -68,6 +68,10 @@
     {
       "label": "Semantic Scholar author profile",
       "url": "https://www.semanticscholar.org/author/2367277958"
+    },
+    {
+      "label": "Matters of Scale newsletter",
+      "url": "https://ai.scal.ing"
     }
   ],
   "research_areas": [

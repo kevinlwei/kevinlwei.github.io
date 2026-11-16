@@ -2,12 +2,99 @@
   "schema_version": 1,
   "verified_at": "2026-07-24",
   "scholar_profile": "https://scholar.google.com/citations?user=28GYA-oAAAAJ&hl=en",
-  "scholar_unique_work_count": 22,
+  "scholar_unique_work_count": 25,
   "deduplication_policy": "One record per unique work; publication versions and duplicate Scholar rows are merged.",
   "work_defaults": {
     "inventory_source": "google-scholar"
   },
   "works": [
+    {
+      "citation_key": "singer2026trustverify",
+      "category": "policy",
+      "inventory_source": "terminal-public-writing",
+      "title": "Trust but Verify: Implementing Frontier AI Policy in California and Beyond",
+      "authors": [
+        "Scott R. Singer",
+        "Jon Bateman",
+        "Michael Chen",
+        "Stephen Clare",
+        "Mariano-Florentino (Tino) Cuéllar",
+        "Ian Klaus",
+        "Scott Kohler",
+        "Nada Madkour",
+        "Alasdair Phillips-Robins",
+        "Conrad Stosz",
+        "Kevin Wei",
+        "Sophie Williams",
+        "Marta Ziosi"
+      ],
+      "year": 2026,
+      "status": "Published report",
+      "venue": "Carnegie Endowment for International Peace",
+      "publisher_url": "https://carnegieendowment.org/research/2026/11/trust-but-verify-implementing-frontier-ai-policy-in-california-and-beyond#foundations-ai-assessment-and-evaluation",
+      "terminal_url": "https://carnegieendowment.org/research/2026/11/trust-but-verify-implementing-frontier-ai-policy-in-california-and-beyond#foundations-ai-assessment-and-evaluation",
+      "pdf_url": "https://assets.carnegieendowment.org/files/FrontierAI-v8.pdf",
+      "contribution": "Kevin Wei: Main author of the “Foundations: AI Assessment & Evaluation” chapter",
+      "bibtex_type": "techreport",
+      "bibtex_venue_field": "institution",
+      "verified_at": "2026-11-16",
+      "terminal_venue": "Carnegie Endowment for International Peace 2026",
+      "summary": "In the year since California’s Transparency in Frontier Artificial Intelligence Act passed, also known as Senate Bill 53 (SB 53), artificial intelligence (AI) has made striking advances in areas ranging from mathematics to coding. At the same time, previous hypothetical risks posed by frontier AI systems have become serious, documented concerns. For example, models have found and exploited previously unknown software vulnerabilities and gained unauthorized access to external databases. As AI capabilities continue to improve, such incidents are likely to become more frequent and consequential.\n\nPolicymakers recognize the need to respond but face an evidence dilemma: AI evolves so quickly that responding prematurely risks entrenching ineffective policies, while delaying action could leave society vulnerable to serious risks. SB 53 aims to alleviate this dilemma by generating more evidence about AI risks to inform future policies. It trusts frontier AI companies, which hold much of the relevant technical expertise, to design and implement appropriate risk management practices and disclose the evidence behind them. In parallel, the approach empowers government bodies to verify industry claims about risks and the effectiveness of those practices. This “trust but verify” approach, first outlined in the California Report on Frontier AI Policy, combines flexibility with independent accountability.\n\nThis report aims to guide the implementation of “trust but verify” approaches such as SB 53 and maximize the chances they accomplish their goals. The design choices California makes at the beginning of implementation—such as which companies should be subject to these policies, how detailed frontier AI frameworks should be, and how to triage information about AI incidents—will ground how California manages risks for years to come.\n\nThese questions matter not just in California but also around the world as governments grapple with the challenge of how to govern advanced AI systems. SB 53 has already inspired similar frameworks in New York and Illinois. Even where “trust but verify” frameworks are not adopted in their entirety, many of the most important questions this report examines will remain relevant. For example, many governments will want to have confidence that models have undergone appropriate safety testing before they allow models to be deployed, or receive incident reports when models cause serious harm within their borders. As the federal government grapples with similar questions, California’s experiment in frontier AI governance and implementation can offer real-world evidence to support thoughtful federal policy.\n\nSB 53 will not, and should not, be the final chapter in the story of how the United States governs advanced AI systems. California will need to strengthen its evaluation and assessment ecosystem, ensure that sufficient information on serious incidents is reported to the government, and respond to the novel challenges posed by potential recursive self-improvement—when AI fully automates AI R&D, potentially causing an intelligence explosion. However, it represents a critical first step that will inform the policies that follow. Given the profound uncertainty over the trajectory and pace of AI development, generating substantial evidence on AI’s capabilities and risks and developing a robust verification ecosystem can help policymakers make better decisions in the months and years to come."
+    },
+    {
+      "citation_key": "stelling2026evaluationgovernance",
+      "category": "academic",
+      "title": "The Promises and Limitations of Evaluation-Based AI Governance: Evidence from Expert Interviews",
+      "year": 2026,
+      "status": "Published",
+      "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 9(4):2421–2434",
+      "arxiv_id": "2611.00465",
+      "terminal_url": "https://arxiv.org/abs/2611.00465",
+      "bibtex_type": "inproceedings",
+      "verified_at": "2026-11-16",
+      "bibtex_venue_field": "booktitle",
+      "doi": "10.1609/aies.v9i4.43317",
+      "publisher_url": "https://ojs.aaai.org/index.php/AIES/article/view/43317",
+      "terminal_venue": "AIES 2026",
+      "scholar_title": "The Promises and Limitations of Evaluation-Based AI Governance: Evidence from Expert Interviews",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:ZuybSZzF8UAC"
+    },
+    {
+      "citation_key": "slater2026audittools",
+      "category": "academic",
+      "title": "Audit tools of the trade: Automated Auditor Elicitation Can Be Sensitive to the Context the Auditor Is Given",
+      "year": 2026,
+      "status": "Accepted workshop paper",
+      "venue": "NeurIPS 2026 Workshop on Agents in the Wild: Safety, Security, and Beyond (AIWILD)",
+      "arxiv_id": "2610.16911",
+      "terminal_url": "https://arxiv.org/abs/2610.16911",
+      "bibtex_type": "inproceedings",
+      "verified_at": "2026-11-16",
+      "terminal_venue": "NeurIPS 2026 AIWILD Workshop",
+      "scholar_title": "Audit tools of the trade: Automated Auditor Elicitation Can Be Sensitive to the Context the Auditor Is Given",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:N5tVd3kTz84C",
+      "bibtex_venue_field": "booktitle"
+    },
+    {
+      "citation_key": "wei2026fraudbench",
+      "category": "academic",
+      "title": "FraudBench: A Legal Evaluation of AI Deception",
+      "year": 2026,
+      "status": "Accepted",
+      "venue": "NeurIPS 2026 Datasets and Benchmarks Track",
+      "arxiv_id": "2611.12167",
+      "terminal_url": "https://arxiv.org/abs/2611.12167",
+      "bibtex_type": "inproceedings",
+      "verified_at": "2026-11-16",
+      "bibtex_venue_field": "booktitle",
+      "abstract": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts. We present each scenario to LLMs via three tasks at varying levels of autonomy: advising users, drafting messages for users to send, and acting directly on behalf of users (477 tasks total). In each scenario, FraudBench re-enacts the facts of a court case to give LLMs an opportunity, but no explicit instruction, to either misrepresent or conceal a material fact in a high-stakes commercial setting--e.g., whether to describe company-funded product testing as \"independent\" to customers (misrepresentation) or whether to hide unfavorable regulatory investigations from clients (concealment). We evaluate 20 LLMs across 25 experimental conditions (totaling >300,000 generations) and include a preregistered human baseline (2,957 annotations from 996 participants). We score a response as fraudulent when it engages in, assists with, or recommends misrepresentation or concealment. Key findings include: (1) across LLMs, fraud rates ranged from near 0% to over 40%; (2) LLM fraud rates increased with autonomy, with overall rates of 3.0% when advising, 14.7% when drafting, and 21.4% when acting directly, without applying pressure; (3) LLMs sometimes engaged in fraud despite recognizing legal risks; (4) LLMs more often engaged in fraud by concealment than by misrepresentation; and (5) prompt-based interventions substantially affected fraud rates, with a prompt to obey the law reducing fraud rates, while prompts to maximize profits and act agentically increased fraud rates.",
+      "prefer_manifest_fields": [
+        "abstract"
+      ],
+      "terminal_venue": "NeurIPS 2026",
+      "scholar_title": "FraudBench: A Legal Evaluation of AI Deception",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:1yQoGdGgb4wC"
+    },
     {
       "citation_key": "kolt2026legalalignment",
       "category": "academic",
@@ -25,7 +112,10 @@
           "label": "Legal Alignment project",
           "url": "https://www.legal-alignment.ai/"
         }
-      ]
+      ],
+      "terminal_venue": "TMLR 2026",
+      "scholar_title": "Legal Alignment for Safe and Ethical AI",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:Y5dfb0dijaUC"
     },
     {
       "citation_key": "dev2026autograders",
@@ -62,7 +152,11 @@
           "label": "Inputs and experiment outputs",
           "url": "https://github.com/RANDCorporation/autograders-rr-2026/tree/main/data"
         }
-      ]
+      ],
+      "terminal_venue": "RAND Research Report 2026",
+      "scholar_title": "Simpler Is Better for Autograders",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:5awf1xo2G04C",
+      "summary": "This report compares five approaches to using LLMs as graders of open-ended responses, across four expert-graded benchmarks and five models. A single rubric outperforms more complex methods, reducing normalized mean absolute error by 9–25 percentage points. In several settings it matches or exceeds nonexpert human grading while substantially reducing cost and time."
     },
     {
       "citation_key": "wei2026incidentreporting",
@@ -76,29 +170,40 @@
       "publisher_url": "https://ojs.aaai.org/index.php/AAAI/article/view/41139",
       "bibtex_type": "inproceedings",
       "bibtex_venue_field": "booktitle",
-      "terminal_url": "https://arxiv.org/abs/2511.05914"
+      "terminal_url": "https://arxiv.org/abs/2511.05914",
+      "terminal_venue": "AAAI 2026",
+      "scholar_title": "Designing Incident Reporting Systems for Harms from General-Purpose AI",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:SdhP9T11ey4C"
     },
     {
       "citation_key": "paskov2026rcts",
       "category": "academic",
-      "title": "RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions",
+      "title": "RCTs & Human Uplift Studies: Methodological Challenges and Practical Solutions for Frontier AI Evaluation",
       "year": 2026,
-      "status": "Published working paper; arXiv preprint",
-      "venue": "RAND Corporation Working Paper WR-A4869-1",
+      "status": "Published",
+      "venue": "Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society 9(3)",
       "arxiv_id": "2603.11001",
-      "doi": "10.7249/WRA4869-1",
-      "publisher_url": "https://www.rand.org/pubs/working_papers/WRA4869-1.html",
-      "preferred_citation": "Paskov, Patricia, Kevin Wei, Shen Zhou Hong, Dan Bateyko, Xavier Roberts-Gaal, Carson Ezell, Gailius Praninskas, Valerie Chen, Umang Bhatt, and Ella Guest, RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions. Santa Monica, CA: RAND Corporation, 2026. https://doi.org/10.7249/WRA4869-1.",
       "alternate_titles": [
+        "RCTs for Human-AI Evaluation: Methodological Challenges and Practical Solutions",
         "RCTs for Frontier AI Governance: Methodological Challenges and Solutions for Human Uplift Studies"
       ],
       "prefer_manifest_fields": [
         "title"
       ],
-      "bibtex_type": "techreport",
-      "bibtex_venue_field": "institution",
+      "bibtex_type": "inproceedings",
+      "bibtex_venue_field": "booktitle",
       "terminal_url": "https://arxiv.org/abs/2603.11001",
-      "metadata_note": "The interactive site labels this work AIES 2026; no official AIES program or proceedings record was located as of 2026-07-24."
+      "metadata_note": "Published title and AIES venue follow the Google Scholar profile reviewed on 2026-11-16. The linked arXiv record retains an earlier title; the RAND working paper is an earlier version.",
+      "terminal_venue": "AIES 2026",
+      "project_links": [
+        {
+          "label": "Earlier RAND working paper",
+          "url": "https://www.rand.org/pubs/working_papers/WRA4869-1.html"
+        }
+      ],
+      "verified_at": "2026-11-16",
+      "scholar_title": "RCTs & Human Uplift Studies: Methodological Challenges and Practical Solutions for Frontier AI Evaluation",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:9vf0nzSNQJEC"
     },
     {
       "citation_key": "mcfadyen2026inferencecompute",
@@ -110,7 +215,9 @@
       "arxiv_id": "2606.17930",
       "bibtex_type": "misc",
       "terminal_url": "https://arxiv.org/abs/2606.17930",
-      "metadata_note": "The interactive site labels this work AIES 2026; the current arXiv record does not mention acceptance and no official AIES record was located as of 2026-07-24."
+      "terminal_venue": "Preprint 2026",
+      "scholar_title": "How Inference Compute Shapes Frontier LLM Evaluation",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:WqliGbK-hY8C"
     },
     {
       "citation_key": "romero2026humanscales",
@@ -127,7 +234,11 @@
           "label": "ICML 2026 OpenReview submission",
           "url": "https://openreview.net/forum?id=3QmrFOiPCy"
         }
-      ]
+      ],
+      "terminal_url": "https://arxiv.org/abs/2602.18911",
+      "terminal_venue": "Preprint 2026",
+      "scholar_title": "From Human-Level AI Tales to AI Leveling Human Scales",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:_B80troHkn4C"
     },
     {
       "citation_key": "reuel2026socialimpacts",
@@ -152,7 +263,10 @@
           "label": "Annotated dataset",
           "url": "https://huggingface.co/datasets/evaleval/social_impact_eval_annotations"
         }
-      ]
+      ],
+      "terminal_venue": "ICML 2026",
+      "scholar_title": "Who Evaluates AI's Social Impacts? Mapping Coverage and Gaps in First and Third Party Evaluations",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:AXPGKjj_ei8C"
     },
     {
       "citation_key": "staufer2026agentindex",
@@ -182,7 +296,10 @@
           "label": "AI Agent Index",
           "url": "https://aiagentindex.mit.edu/"
         }
-      ]
+      ],
+      "terminal_venue": "FAccT 2026",
+      "scholar_title": "The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:PELIpwtuRlgC"
     },
     {
       "citation_key": "casper2025agentindex",
@@ -204,7 +321,11 @@
           "label": "2024 index methodology and further details",
           "url": "https://aiagentindex.mit.edu/2024/further-details/"
         }
-      ]
+      ],
+      "terminal_url": "https://arxiv.org/abs/2502.01635",
+      "terminal_venue": "Preprint 2025",
+      "scholar_title": "The AI Agent Index",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:8k81kl-MbHgC"
     },
     {
       "citation_key": "wei2025humanbaselines",
@@ -243,7 +364,10 @@
           "label": "Recommendations and reporting checklist",
           "url": "https://github.com/kevinlwei/human-baselines"
         }
-      ]
+      ],
+      "terminal_venue": "ICML 2025 Spotlight",
+      "scholar_title": "Position: Human Baselines in Model Evaluations Need Rigor and Transparency (With Recommendations & Reporting Checklist)",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:olpn-zPbct0C"
     },
     {
       "citation_key": "wei2025agenticevaluations",
@@ -269,7 +393,10 @@
           "label": "ICML workshop presentation",
           "url": "https://icml.cc/virtual/2025/48349"
         }
-      ]
+      ],
+      "terminal_venue": "ICML 2025 Technical AI Governance Workshop",
+      "scholar_title": "Methodological Challenges in Agentic Evaluations of AI Systems",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:bnK-pcrLprsC"
     },
     {
       "citation_key": "hatz2025localofficials",
@@ -297,7 +424,10 @@
           "label": "Documented deviations",
           "url": "https://osf.io/5kb23"
         }
-      ]
+      ],
+      "terminal_venue": "PLOS One 2025",
+      "scholar_title": "Local US officials’ views on the impacts and governance of AI: Evidence from 2022 and 2023 survey waves",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:WA5NYHcadZ8C"
     },
     {
       "citation_key": "chan2025infrastructure",
@@ -316,7 +446,10 @@
           "label": "GovAI publication page",
           "url": "https://www.governance.ai/research-paper/infrastructure-for-ai-agents"
         }
-      ]
+      ],
+      "terminal_venue": "TMLR 2025",
+      "scholar_title": "Infrastructure for AI Agents",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:YOwf2qJgpHMC"
     },
     {
       "citation_key": "wei2024finetunepolicy",
@@ -330,7 +463,10 @@
       "publisher_url": "https://ojs.aaai.org/index.php/AIES/article/view/31745",
       "bibtex_type": "inproceedings",
       "bibtex_venue_field": "booktitle",
-      "terminal_url": "https://arxiv.org/abs/2410.13042"
+      "terminal_url": "https://arxiv.org/abs/2410.13042",
+      "terminal_venue": "AIES 2024",
+      "scholar_title": "How Do AI Companies “Fine-Tune” Policy? Examining Regulatory Capture in AI Governance",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:M3ejUd6NZC8C"
     },
     {
       "citation_key": "chan2024visibility",
@@ -344,7 +480,10 @@
       "publisher_url": "https://dl.acm.org/doi/10.1145/3630106.3658948",
       "bibtex_type": "inproceedings",
       "bibtex_venue_field": "booktitle",
-      "terminal_url": "https://arxiv.org/abs/2401.13138"
+      "terminal_url": "https://arxiv.org/abs/2401.13138",
+      "terminal_venue": "FAccT 2024",
+      "scholar_title": "Visibility into AI agents",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:zYLM7Y9cAGgC"
     },
     {
       "citation_key": "casper2024blackbox",
@@ -358,7 +497,10 @@
       "publisher_url": "https://dl.acm.org/doi/10.1145/3630106.3659037",
       "bibtex_type": "inproceedings",
       "bibtex_venue_field": "booktitle",
-      "terminal_url": "https://arxiv.org/abs/2401.14446"
+      "terminal_url": "https://arxiv.org/abs/2401.14446",
+      "terminal_venue": "FAccT 2024",
+      "scholar_title": "Black-box access is insufficient for rigorous AI audits",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:Tyk-4Ss8FVUC"
     },
     {
       "citation_key": "trout2026insurance",
@@ -421,7 +563,10 @@
           "label": "Report website",
           "url": "https://www.underwriting-agents.com/"
         }
-      ]
+      ],
+      "terminal_venue": "Artificial Intelligence Underwriting Company 2026",
+      "scholar_title": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:LjlpjdlvIbIC"
     },
     {
       "citation_key": "wei2025gpai",
@@ -439,7 +584,13 @@
       ],
       "bibtex_type": "techreport",
       "bibtex_venue_field": "institution",
-      "terminal_url": "https://arxiv.org/abs/2508.00875"
+      "terminal_url": "https://arxiv.org/abs/2508.00875",
+      "terminal_venue": "RAND Expert Insight 2025",
+      "alternate_titles": [
+        "Preliminary Suggestions for Rigorous GPAI Model Evaluations"
+      ],
+      "scholar_title": "Preliminary suggestions for rigorous GPAI model evaluations",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:4TOpqqG69KYC"
     },
     {
       "citation_key": "homewood2025compliancereviews",
@@ -452,7 +603,10 @@
       "publisher_url": "https://www.governance.ai/research-paper/third-party-compliance-reviews-for-frontier-ai-safety-frameworks",
       "bibtex_type": "techreport",
       "bibtex_venue_field": "institution",
-      "terminal_url": "https://arxiv.org/abs/2505.01643"
+      "terminal_url": "https://arxiv.org/abs/2505.01643",
+      "terminal_venue": "GovAI 2025",
+      "scholar_title": "Third-party compliance reviews for frontier AI safety frameworks",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:ULOm3_A8WrAC"
     },
     {
       "citation_key": "wei2025datacommons",
@@ -469,7 +623,9 @@
       "publisher_url": "https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons",
       "bibtex_type": "misc",
       "bibtex_venue_field": "howpublished",
-      "terminal_url": "https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons"
+      "terminal_url": "https://www.lawfaremedia.org/article/beyond-big-tech--the-revolutionary-potential-of-state-data-commons",
+      "terminal_venue": "Lawfare 2025",
+      "summary": "State data commons could broaden access to the data needed to develop AI, allowing smaller organizations to build applications in areas such as education and health care. The article examines how states can support shared data infrastructure as an alternative to dependence on large technology companies."
     },
     {
       "citation_key": "guest2024governancegap",
@@ -487,7 +643,10 @@
       ],
       "bibtex_type": "techreport",
       "bibtex_venue_field": "institution",
-      "terminal_url": "https://arxiv.org/abs/2506.03497"
+      "terminal_url": "https://arxiv.org/abs/2506.03497",
+      "terminal_venue": "RAND Expert Insight 2024",
+      "scholar_title": "Bridging the Artificial Intelligence Governance Gap: The United States' and China's Divergent Approaches to Governing General-Purpose Artificial Intelligence",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:KlAtU1dfN6UC"
     },
     {
       "citation_key": "wei2024industryinfluence",
@@ -540,7 +699,13 @@
           "label": "Institute for Law & AI working-paper record",
           "url": "https://law-ai.org/open-sourcing-highly-capable-foundation-models/"
         }
-      ]
+      ],
+      "terminal_venue": "GovAI 2023",
+      "alternate_titles": [
+        "Open Sourcing Highly Capable Foundation Models"
+      ],
+      "scholar_title": "Open-Sourcing Highly Capable Foundation Models: An evaluation of risks, benefits, and alternative methods for pursuing open-source objectives",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:2osOgNQ5qMEC"
     },
     {
       "citation_key": "nsfc2023explainableai",
@@ -570,7 +735,12 @@
           "label": "Archived original source",
           "url": "https://perma.cc/9C45-MK52"
         }
-      ]
+      ],
+      "terminal_venue": "CSET Translation 2023",
+      "alternate_titles": [
+        "Translation: Notice on the Release of [China's] “Guide to the 2023 Annual Projects for the Major Research Program on Explainable and Generalizable Next-Generation Artificial Intelligence Methods”"
+      ],
+      "summary": "This translated notice sets out China’s 2023 funding priorities for research on explainable and generalizable AI. It covers research objectives, funding applications, and uses of AI in scientific disciplines including medicine, biology, physics, materials science, and mathematics."
     },
     {
       "citation_key": "most2023pilotzones",
@@ -604,7 +774,12 @@
           "label": "Original 2019 CSET translation",
           "url": "https://cset.georgetown.edu/publication/guidelines-for-national-new-generation-artificial-intelligence-innovation-and-development-pilot-zone-construction-work/"
         }
-      ]
+      ],
+      "terminal_venue": "CSET Translation 2023",
+      "alternate_titles": [
+        "Translation: Notice of the [Chinese] Ministry of Science and Technology on the Publication of the Guidelines for National New Generation Artificial Intelligence Innovation and Development Pilot Zone Construction Work (Revised Version)"
+      ],
+      "summary": "This translation presents revised Chinese guidelines for establishing AI innovation and development pilot zones. The guidelines describe how cities with established AI research and industry infrastructure can apply, and set out the objectives and procedures for developing these zones."
     },
     {
       "citation_key": "wei2020automateddecisions",
@@ -630,7 +805,11 @@
           "label": "Day One Project",
           "url": "https://fas.org/day-one-project/"
         }
-      ]
+      ],
+      "terminal_venue": "Federation of American Scientists, Day One Project Memo 2020",
+      "scholar_title": "Creating Transparency and Fairness in Automated Decision Systems for Administrative Agencies",
+      "scholar_citation_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=28GYA-oAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=28GYA-oAAAAJ:MXK_kJrjxJIC"
     }
-  ]
+  ],
+  "scholar_verified_at": "2026-11-16"
 }

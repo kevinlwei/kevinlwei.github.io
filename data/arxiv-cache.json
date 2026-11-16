@@ -912,6 +912,75 @@
       "html_url": "https://arxiv.org/html/2607.11999",
       "pdf_url": "https://arxiv.org/pdf/2607.11999",
       "verified_at": "2026-07-24"
+    },
+    "2611.12167": {
+      "arxiv_id": "2611.12167",
+      "version": "v1",
+      "title": "FraudBench: A Legal Evaluation of AI Deception",
+      "authors": [
+        "Kevin Wei",
+        "Sumaya Nur Adan",
+        "Stephan Llerena",
+        "Mark Gitau",
+        "Jakob Merane",
+        "Anita Srinivasan",
+        "Colette Le Brannan",
+        "Keethan Kleiner",
+        "Alessandro Tacconelli",
+        "Michael Tiu Jr.",
+        "Case Thomason",
+        "Kyle Emili",
+        "Natasza Gadowska",
+        "Alex Mark",
+        "Eric Ren",
+        "Umang Bhatt",
+        "Jatinder Singh",
+        "Jacy Reese Anthis",
+        "Doni Bloomfield",
+        "Noam Kolt"
+      ],
+      "abstract": "We introduce FraudBench, an evaluation of large language models' (LLMs) propensities to recommend, assist, or directly take actions that would constitute fraud under U.S. law. Our evaluation contains a novel dataset of 159 scenarios based on real-world U.S. court cases and validated by legal experts. We present each scenario to LLMs via three tasks at varying levels of autonomy: advising users, drafting messages for users to send, and acting directly on behalf of users (477 tasks total). In each scenario, FraudBench re-enacts the facts of a court case to give LLMs an opportunity, but no explicit instruction, to either misrepresent or conceal a material fact in a high-stakes commercial setting--e.g., whether to describe company-funded product testing as \"independent\" to customers (misrepresentation) or whether to hide unfavorable regulatory investigations from clients (concealment). We evaluate 20 LLMs across 25 experimental conditions (totaling >300,000 generations) and include a preregistered human baseline ($n_{\\texttt{annotations}} = 2{,}957$, $n_{\\texttt{humans}} = 996$). We score a response as fraudulent when it engages in, assists with, or recommends misrepresentation or concealment. Key findings include: (1) across LLMs, fraud rates ranged from near 0% to over 40%; (2) LLM fraud rates increased with autonomy, with overall rates of 3.0% when advising, 14.7% when drafting, and 21.4% when acting directly, without applying pressure; (3) LLMs sometimes engaged in fraud despite recognizing legal risks; (4) LLMs more often engaged in fraud by concealment than by misrepresentation; and (5) prompt-based interventions substantially affected fraud rates, with a prompt to obey the law reducing fraud rates, while prompts to maximize profits and act agentically increased fraud rates.",
+      "abstract_url": "https://arxiv.org/abs/2611.12167",
+      "html_url": "https://arxiv.org/html/2611.12167",
+      "pdf_url": "https://arxiv.org/pdf/2611.12167",
+      "verified_at": "2026-11-16",
+      "metadata_source": "https://arxiv.org/abs/2611.12167"
+    },
+    "2610.16911": {
+      "arxiv_id": "2610.16911",
+      "version": "v1",
+      "title": "Audit tools of the trade: Automated Auditor Elicitation Can Be Sensitive to the Context the Auditor Is Given",
+      "authors": [
+        "Ben Slater",
+        "Ryan Lundqvist",
+        "Leo Richter",
+        "Kevin Wei"
+      ],
+      "abstract": "Does providing additional context to automated AI auditors improve their effectiveness? Using the Petri tool to audit LLM coding agents, we test the impact of providing two types of resources (an external codebase and benchmark transcripts) to LLM auditors, across four auditor-target LLM pairs and three behaviours (harmful compliance, reward hacking, sycophancy). (1) External codebase: We provide the auditor LLM with a fixed, external open source codebase, which prior work finds improves the realism of synthetic audits. Providing this resource suppresses reward hacking in both auditor-target pairs whose baseline rate is above the floor (4.8 to 1.3 and 3.9 to 1.8 on Petri's default 1-10 scale); the remaining two pairs sit at the floor throughout. The suppression recurs in three of four pairs under a different scenario and resource bundle. (2) External benchmark transcripts: We provide the auditor with transcripts of the target's performance on benchmarks measuring similar behaviours, intended to inform the auditor about the target's behavioural patterns. Providing this resource raises reward hacking scores in all four pairs (from 1.7 to 6.1 in one case). However, subsequent experiments show that supplying only the related benchmark's abstract, without transcripts, also increases reward hacking, and the effect is absent under a different framing of the same behaviour. Overall, we find no consistent effect of either resource outside reward hacking, but we find substantial variability in judge-scored behaviour across conditions. Our results underscore the importance of careful piloting with tools such as Petri, as the measured rate of target behaviour is highly sensitive to configuration decisions. We hope our results inspire more research into the reliability and robustness of automated alignment auditing.",
+      "abstract_url": "https://arxiv.org/abs/2610.16911",
+      "html_url": "https://arxiv.org/html/2610.16911",
+      "pdf_url": "https://arxiv.org/pdf/2610.16911",
+      "verified_at": "2026-11-16",
+      "metadata_source": "https://arxiv.org/abs/2610.16911"
+    },
+    "2611.00465": {
+      "arxiv_id": "2611.00465",
+      "version": "v1",
+      "title": "The Promises and Limitations of Evaluation-Based AI Governance: Evidence from Expert Interviews",
+      "authors": [
+        "Lily Stelling",
+        "Jacob Charnock",
+        "Kevin L. Wei",
+        "David Krueger"
+      ],
+      "abstract": "We conducted 37 semi-structured expert interviews to examine how frontier AI evaluations reduce societal-level AI risks. Evaluations have become central to AI risk governance, despite their shortcomings being widely critiqued. Still, the case for how they reduce risks in practice remains largely implicit. Drawing on expert accounts, we reconstruct this case by identifying the mechanisms through which evaluations are expected to reduce risk, the assumptions underpinning those mechanisms, and the challenges those assumptions face. Our findings suggest that `evaluation-based governance' could contain foundational gaps which undermine risk-reduction strategies that depend on evaluations. Using thematic analysis, we identified three key pathways through which evaluations could reduce risk: by (i) making societal-level risks concrete to decision-makers and the public (raised in 18 out of 37 interviews), (ii) serving as a basis for governance commitments and regulation (18), and (iii) incentivizing a better risk culture within AI companies (16). However, these pathways often depended on shared assumptions that participants themselves doubted. The main challenges included, in order of frequency: (i) diminishing informativeness of evaluation results as model capabilities improve (21), (ii) measurement limitations that may be inherent to the evaluation paradigm (18), (iii) a lack of guarantees that evaluation results will be acted upon by companies or governments (16), and (iv) the degree of control and discretion AI companies retain over evaluation design, disclosure, and response (12). Participants also noted that evaluation-based governance could prove counterproductive, by functioning as a permission structure for developers' continued capability improvement (4). We finish by discussing the implications of our findings for evaluation-based governance, and what would improve its prospects.",
+      "abstract_url": "https://arxiv.org/abs/2611.00465",
+      "html_url": "https://arxiv.org/html/2611.00465",
+      "pdf_url": "https://arxiv.org/pdf/2611.00465",
+      "verified_at": "2026-11-16",
+      "metadata_source": "https://arxiv.org/abs/2611.00465",
+      "doi": "10.1609/aies.v9i4.43317"
     }
-  }
+  },
+  "metadata_note": "Existing records use the arXiv OAI API. Records with metadata_source use citation metadata from the linked arXiv abstract page."
 }

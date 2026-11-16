@@ -1,5 +1,74 @@
 $(document).ready(function() {
-	var jqconsole = $("#console").jqconsole("", "kwei> ");
+	var routes = {
+		"/about": "about",
+		"/bio": "bio",
+		"/contact": "contact",
+		"/help": "help",
+		"/pgp": "pgp",
+		"/research": "research",
+		"/social": "social"
+	};
+	var initialPath = window.location.pathname.replace(/\/+$/, "") || "/";
+	// GitHub Pages also serves 404.html for mistyped file URLs. Only known
+	// command routes should turn that error page into an interactive terminal.
+	if (initialPath !== "/" && initialPath !== "/index.html" && !routes[initialPath]) {
+		$("#console").remove();
+		return;
+	}
+	$("#not-found").remove();
+	$("#console").prop("hidden", false);
+
+	var jqconsole = $("#console").jqconsole("", "kwei> ", null, true);
+	var followPrompt = initialPath !== "/research";
+	var scrollToEnd = jqconsole._ScrollToEnd;
+	var scrollWindowToPrompt = jqconsole.ScrollWindowToPrompt;
+	// Research leaves the viewport at the start of its long output. Other
+	// commands retain jqconsole's normal cursor-following behavior.
+	jqconsole._ScrollToEnd = function() {
+		if (followPrompt) return scrollToEnd.call(this);
+		var position = this.$prompt_cursor.position();
+		this.$input_container.css({ left: position.left, top: position.top });
+	};
+	jqconsole.ScrollWindowToPrompt = function() {
+		// Also guard callbacks already queued before research was submitted.
+		if (followPrompt) return scrollWindowToPrompt.call(this);
+	};
+	jqconsole.Focus = function() {
+		if (!this.IsDisabled()) this.$input_source[0].focus({ preventScroll: true });
+	};
+	// The input is already visually clipped. The library's delayed iOS hide
+	// would drop keyboard focus while users type or return from a close button.
+	jqconsole.$input_source.off("focus").on("focus", function() {
+		jqconsole._ScrollToEnd();
+		jqconsole.$console_focused = true;
+		jqconsole.$console.removeClass("jqconsole-blurred");
+	});
+	jqconsole.auto_focus = true;
+	jqconsole.SetKeyPressHandler(function() {
+		followPrompt = true;
+	});
+	jqconsole.$input_source.on("paste", function() {
+		followPrompt = true;
+	});
+	// Let keyboard users leave the terminal input to browse the latest list.
+	jqconsole.SetControlKeyHandler(function(event) {
+		if (event.which === 13 && !event.shiftKey && !event.ctrlKey && !event.metaKey && !event.altKey) {
+			var command = findCommand(jqconsole.GetPromptText().toLowerCase().trim());
+			// Set this before jqconsole writes the submitted command itself.
+			followPrompt = !command || command.path !== "/research";
+		}
+		if (event.which === 9 && !event.ctrlKey && !event.metaKey && !event.altKey) {
+			var views = document.querySelectorAll('.publications');
+			var view = views[views.length - 1];
+			if (view) {
+				var controls = Array.from(view.querySelectorAll('button, a')).filter(function(control) {
+					return !control.closest('[hidden]');
+				});
+				controls[event.shiftKey ? controls.length - 1 : 0].focus();
+				return false;
+			}
+		}
+	});
 	var commands = [
 		{ aliases: ["help", "?", "ls", "commands"], callback: buildLambda("help"), path: "/help" },
 		{ aliases: ["hello", "kevin", "kwei", "hi", "mission", "description", "why", "intro", "info", "about"], callback: buildLambda("intro"), path: "/about" },
@@ -10,27 +79,20 @@ $(document).ready(function() {
 		{ aliases: ["pgp", "publickey", "public key"], callback: buildLambda("pgp"), path: "/pgp" },
 		{ aliases: ["clear", "cls"], callback: function() { jqconsole.Clear(); return introOutput(); }, path: "/" },
 		{ aliases: ["cats", "cat", "meow"], callback: function() {
-			var cat = prompts['cats'][Math.floor(Math.random()*prompts['cats'].length)];
-			return "\n<span class='preformatted ascii-art'>" + escapeHtml(cat) + "</span>\n\n";
+			return renderCat(jqconsole.$console[0]);
 		}}
 	];
-
-	var routes = {
-		"/about": "about",
-		"/bio": "bio",
-		"/contact": "contact",
-		"/help": "help",
-		"/pgp": "pgp",
-		"/research": "research",
-		"/social": "social"
-	};
 
 	var introOutput = () => {
 		return prompts['unformatted_intro'].trim() + "\n\n";
 	};
 
 	var writeOutput = (content) => {
-		jqconsole.Write("<span class='wrapper'>" + content + "</span>", "jqconsole-output", false);
+		var output = jqconsole.Write("<span class='wrapper'>" + content + "</span>", "jqconsole-output", false);
+		initializePublications(output[0]);
+		output.find('.cat-credits').on('mouseup click', function(event) {
+			event.stopPropagation();
+		});
 	};
 
 	var findCommand = (input) => {
@@ -91,6 +153,7 @@ $(document).ready(function() {
 		if (input) {
 			var trimmed = input.toLowerCase().trim();
 			var matchedCommand = findCommand(trimmed);
+			followPrompt = !matchedCommand || matchedCommand.path !== "/research";
 			writeOutput(process(trimmed));
 			updatePath(trimmed);
 			if (matchedCommand && typeof gtag === "function") {
@@ -99,6 +162,7 @@ $(document).ready(function() {
 				});
 			}
 		} else {
+			followPrompt = true;
 			writeOutput("\nHere is a list of commands:\n" + format("help"));
 		}
 		startPrompt();
@@ -115,6 +179,7 @@ $(document).ready(function() {
 
 	var renderPath = (path) => {
 		var command = commandForPath(path);
+		followPrompt = command !== "research";
 		writeOutput(introOutput());
 		if (command) {
 			jqconsole.Write("kwei> " + command + "\n", "jqconsole-old-prompt", false);
@@ -123,6 +188,7 @@ $(document).ready(function() {
 	};
 
 	window.addEventListener("popstate", function() {
+		followPrompt = commandForPath(window.location.pathname) !== "research";
 		jqconsole.AbortPrompt();
 		jqconsole.Clear();
 		renderPath(window.location.pathname);

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- GitHub Pages serves this app shell for unknown paths, including command links. -->
+  <!-- Known command routes initialize the terminal; other paths remain errors. -->
   <meta charset="UTF-8">
+  <meta name="robots" content="noindex, follow">
   <!-- Defense-in-depth copy of the CSP; the authoritative header (which adds
        frame-ancestors) is set by a Cloudflare response-header transform rule.
        Keep the two in sync. frame-ancestors is omitted here because it is
@@ -17,6 +18,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>K. Wei</title>
   <meta name="description" content="I am an AI researcher focused on the science of evals and legal AI safety/alignment. I also work on questions in technical AI governance.">
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="AI-readable site index">
+  <link rel="alternate" type="application/json" href="/ai/index.json" title="AI resource manifest">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://kevinlwei.com/">
@@ -44,6 +47,12 @@
   <script type="text/javascript" src="/js/index.js"></script>
 </head>
 <body>
-  <div id="console" role="application" aria-label="Interactive terminal for Kevin Wei's personal site. Type 'help' to see available commands."></div>
+  <div id="not-found" class="not-found">
+    <h1>Page not found</h1>
+    <p>AI-readable files use <code>.txt</code>, not <code>.text</code>.</p>
+    <p>Fetch the <a href="/ai/index.txt">plain-text index</a> or <a href="/ai/research.txt">research text</a> directly. No JavaScript is needed.</p>
+    <p><a href="/">Return to the website</a></p>
+  </div>
+  <div id="console" hidden role="application" aria-label="Interactive terminal for Kevin Wei's personal site. Type 'help' to see available commands."></div>
 </body>
 </html>

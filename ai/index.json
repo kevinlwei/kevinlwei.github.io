@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "canonical_site": "https://kevinlwei.com/",
+  "last_updated": "2026-11-16",
+  "requires_javascript": false,
+  "authentication_required": false,
+  "preferred_ai_email": "contact.me@kevinlwei.com",
+  "resources": [
+    {
+      "url": "https://kevinlwei.com/llms.txt",
+      "format": "text",
+      "description": "Site overview and reading instructions"
+    },
+    {
+      "url": "https://kevinlwei.com/llms-full.txt",
+      "format": "text",
+      "description": "Complete site content with XML section delimiters"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/index.txt",
+      "format": "text",
+      "description": "Plain-text resource index"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/index.json",
+      "format": "json",
+      "description": "Machine-readable resource manifest"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/home.txt",
+      "format": "text",
+      "description": "Home"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/help.txt",
+      "format": "text",
+      "description": "Help"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/about.txt",
+      "format": "text",
+      "description": "About"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/bio.txt",
+      "format": "text",
+      "description": "Bio"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/research.txt",
+      "format": "text",
+      "description": "Research"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/social.txt",
+      "format": "text",
+      "description": "Social"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/contact.txt",
+      "format": "text",
+      "description": "Contact"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/pgp.txt",
+      "format": "text",
+      "description": "PGP"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/cats.txt",
+      "format": "text",
+      "description": "Cats"
+    },
+    {
+      "url": "https://kevinlwei.com/ai/research.bib",
+      "format": "bibtex",
+      "description": "Publication citations"
+    },
+    {
+      "url": "https://kevinlwei.com/sitemap-ai.txt",
+      "format": "text",
+      "description": "Legacy resource URL list; not a search sitemap"
+    }
+  ]
+}

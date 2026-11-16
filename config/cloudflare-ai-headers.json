@@ -1,0 +1,19 @@
+{
+  "ref": "ai_resources_noindex",
+  "description": "Keep AI resources readable by HTTP clients and out of search results",
+  "expression": "(http.host in {\"kevinlwei.com\" \"www.kevinlwei.com\"} and (starts_with(http.request.uri.path, \"/ai/\") or http.request.uri.path in {\"/ai\" \"/llms.txt\" \"/llms-full.txt\" \"/sitemap-ai.txt\"}))",
+  "action": "rewrite",
+  "action_parameters": {
+    "headers": {
+      "x-robots-tag": {
+        "operation": "set",
+        "value": "noindex"
+      },
+      "x-content-type-options": {
+        "operation": "set",
+        "value": "nosniff"
+      }
+    }
+  },
+  "enabled": true
+}

@@ -3,8 +3,8 @@
 Source command: social
 Canonical site: https://kevinlwei.com/
 Maintainer: Kevin L. Wei
-Last updated: 2026-07-28
-Generated from source revision: 134e704
+Last updated: 2026-11-16
+Generated from source revision: b4c2384-working-tree
 
 ## Command output
 
@@ -38,6 +38,7 @@ Generated from source revision: 134e704
   - SSRN author profile: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2952657
   - ACM author profile: https://dl.acm.org/profile/99661227408
   - Semantic Scholar author profile: https://www.semanticscholar.org/author/2367277958
+  - Matters of Scale newsletter: https://ai.scal.ing
 - Primary research areas:
   - Science and methodology of AI evaluations
   - Legal AI safety, legal alignment, and law-following AI

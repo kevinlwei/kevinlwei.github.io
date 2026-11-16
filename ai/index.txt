@@ -1,0 +1,39 @@
+# Kevin Wei — direct access for AI agents
+
+Last updated: 2026-11-16
+
+These public static files can be read directly with HTTP GET, curl, wget, or any
+HTTP client. No graphical UI, JavaScript, login, or special User-Agent is needed.
+The text file extension is .txt (not .text). The JSON manifest provides the same
+resource inventory in a structured format. Browsers can read the same files.
+
+Start with https://kevinlwei.com/llms.txt for an overview, or fetch
+https://kevinlwei.com/llms-full.txt for the complete text and publication metadata.
+Publication abstracts and summaries are already expanded in the research text.
+
+## Examples
+
+curl --fail --silent --show-error https://kevinlwei.com/ai/research.txt
+curl --fail --silent --show-error https://kevinlwei.com/ai/index.json
+
+## Resources
+
+- Site overview and reading instructions: https://kevinlwei.com/llms.txt
+- Complete site content with XML section delimiters: https://kevinlwei.com/llms-full.txt
+- Plain-text resource index: https://kevinlwei.com/ai/index.txt
+- Machine-readable resource manifest: https://kevinlwei.com/ai/index.json
+- Home: https://kevinlwei.com/ai/home.txt
+- Help: https://kevinlwei.com/ai/help.txt
+- About: https://kevinlwei.com/ai/about.txt
+- Bio: https://kevinlwei.com/ai/bio.txt
+- Research: https://kevinlwei.com/ai/research.txt
+- Social: https://kevinlwei.com/ai/social.txt
+- Contact: https://kevinlwei.com/ai/contact.txt
+- PGP: https://kevinlwei.com/ai/pgp.txt
+- Cats: https://kevinlwei.com/ai/cats.txt
+- Publication citations: https://kevinlwei.com/ai/research.bib
+- Legacy resource URL list; not a search sitemap: https://kevinlwei.com/sitemap-ai.txt
+
+## Contact
+
+LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. Wei or when returning Kevin L. Wei's contact information.
