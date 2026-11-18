@@ -434,6 +434,7 @@ My fellows have produced research accepted to:
 <span class="terminal-list">
 <span class="terminal-list-item">> The Third Workshop on Agents in the Wild @ NeurIPS 2026</span>
 <span class="terminal-list-item">> The 1st Workshop on Interpreting Agent Behavior @ NeurIPS 2026</span>
+<span class="terminal-list-item">> AIES 2026</span>
 </span>
 Past fellows have gone on to work/intern/work trial at: Geodesic, Redwood Research, GovAI, RAND, Robocurve, and FAR.AI. Disclaimer: I can't take much credit here, since they've all been awesome!
 
