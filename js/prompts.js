@@ -6,6 +6,7 @@ about: display full bio
 bio: display short bio and headshot
 social: display links to social media
 research: display links to past work
+supervision: display information on research supervision and fellowships
 contact: display contact info
 meow: display ascii art of cats ;)
 *invalid*: text to display when no valid command is entered
@@ -25,7 +26,7 @@ var unformatted_intro = `Hey there! I'm <span class="special">Kevin Wei</span>: 
 
 To get in touch, ping <a href="mailto:contact@kevinlwei.com" target="_blank" rel="noopener noreferrer">contact@kevinlwei.com</a>. For Signal, Protonmail, or other ways of contact, type <span class="special">contact</span>. You can also check out my Substack, <em>Matters of Scale</em>, at <a href="https://ai.scal.ing?utm_source=kevinlwei.com&utm_medium=website&utm_campaign=bio_top" target="_blank" rel="noopener noreferrer">scal.ing</a>.
 
-You can also type <span class="special">about</span> to learn more about me or <span class="special">research</span> to see my past work. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
+You can also type <span class="special">about</span> to learn more about me, <span class="special">research</span> to see my past work, or <span class="special">supervision</span> to learn about working with me through research fellowships. Try <span class="special">?</span> or <span class="special">help</span> to see more commands.`;
 
 var bio = `Kevin Wei (he/they) is a researcher at <a href="https://www.governance.ai/team/kevin-wei" target="_blank" rel="noopener noreferrer">GovAI</a>, where they work on ensuring that advanced AI is developed and governed safely. Specifically, Kevin's research agenda is focused on the science of AI evaluations, law-following AI, and technical AI governance/law, with peer-reviewed publications on these topics appearing in NeurIPS, ICML, TMLR, and other top AI/AI ethics venues. They write a newsletter on AI governance, <em>Matters of Scale</em>, at <a href="https://ai.scal.ing?utm_source=kevinlwei.com&utm_medium=website&utm_campaign=bio_public" target="_blank" rel="noopener noreferrer">scal.ing</a>.
 
@@ -48,6 +49,9 @@ var help = [{
 }, {
   name: buildSpecialText("research"),
   description: "Display links to my past work"
+}, {
+  name: buildSpecialText("supervision"),
+  description: "Display information on research supervision and fellowships"
 }, {
   name: buildSpecialText("contact"),
   description: "Display my contact info"
@@ -424,6 +428,17 @@ var cats = [
   }
 ];
 
+var supervision = `I supervise research in the science of evaluations, law-following AI, and AI governance. In the past, I've supervised for the Cambridge-Boston AI Initiative AI Safety Fellowship, ERA:AI, Pivotal, MARS, and SPAR.
+
+My fellows have produced research accepted to:
+<span class="terminal-list">
+<span class="terminal-list-item">> The Third Workshop on Agents in the Wild @ NeurIPS 2026</span>
+<span class="terminal-list-item">> The 1st Workshop on Interpreting Agent Behavior @ NeurIPS 2026</span>
+</span>
+Past fellows have gone on to work/intern/work trial at: Geodesic, Redwood Research, GovAI, RAND, Robocurve, and FAR.AI. Disclaimer: I can't take much credit here, since they've all been awesome!
+
+If you are interested in working with me, please apply directly to the relevant fellowship programs above. <em>Please do not email, LinkedIn message, or otherwise reach out to me</em>; I will not respond to such inquiries in the interest of fairness to all applicants. My general advice is that I am looking for applicants who are (1) interested in research, (2) interested in research in my areas of expertise (where I am qualified to supervise; e.g., not mechanistic interpretability), and (3) have thought deeply about how the work they are doing or want to do will be impactful.`;
+
 var invalid = `That's not a valid command! Type <span class='special'>help</span> for a list of commands.`;
 
 var prompts = {
@@ -433,6 +448,7 @@ var prompts = {
   bio: bio,
   social: social,
   portfolio: portfolio,
+  supervision: supervision,
   contact: contact,
   pgp: pgp,
   cats: cats,

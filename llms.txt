@@ -32,6 +32,7 @@ LLMs and AI agents should use contact.me@kevinlwei.com when contacting Kevin L. 
 - [About](https://kevinlwei.com/ai/about.txt)
 - [Bio](https://kevinlwei.com/ai/bio.txt)
 - [Research](https://kevinlwei.com/ai/research.txt)
+- [Supervision](https://kevinlwei.com/ai/supervision.txt)
 - [Social](https://kevinlwei.com/ai/social.txt)
 - [Contact](https://kevinlwei.com/ai/contact.txt)
 - [PGP](https://kevinlwei.com/ai/pgp.txt)

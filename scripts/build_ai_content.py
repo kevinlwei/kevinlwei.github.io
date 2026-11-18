@@ -39,6 +39,7 @@ COMMAND_SOURCES = {
     "about": "intro",
     "bio": "bio",
     "research": "portfolio",
+    "supervision": "supervision",
     "social": "social",
     "contact": "contact",
     "pgp": "pgp",

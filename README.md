@@ -7,6 +7,7 @@ The following clean URLs open the terminal and display the corresponding command
 
 - `/about`
 - `/research`
+- `/supervision`
 - `/social`
 - `/contact`
 - `/pgp`

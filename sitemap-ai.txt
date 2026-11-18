@@ -7,6 +7,7 @@ https://kevinlwei.com/ai/help.txt
 https://kevinlwei.com/ai/about.txt
 https://kevinlwei.com/ai/bio.txt
 https://kevinlwei.com/ai/research.txt
+https://kevinlwei.com/ai/supervision.txt
 https://kevinlwei.com/ai/social.txt
 https://kevinlwei.com/ai/contact.txt
 https://kevinlwei.com/ai/pgp.txt

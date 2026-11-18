@@ -52,6 +52,11 @@
       "description": "Research"
     },
     {
+      "url": "https://kevinlwei.com/ai/supervision.txt",
+      "format": "text",
+      "description": "Supervision"
+    },
+    {
       "url": "https://kevinlwei.com/ai/social.txt",
       "format": "text",
       "description": "Social"

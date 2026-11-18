@@ -6,7 +6,8 @@ $(document).ready(function() {
 		"/help": "help",
 		"/pgp": "pgp",
 		"/research": "research",
-		"/social": "social"
+		"/social": "social",
+		"/supervision": "supervision"
 	};
 	var initialPath = window.location.pathname.replace(/\/+$/, "") || "/";
 	// GitHub Pages also serves 404.html for mistyped file URLs. Only known
@@ -75,10 +76,11 @@ $(document).ready(function() {
 		{ aliases: ["bio", "biog", "biography", "biographical", "profile", "headshot", "photo", "picture", "portrait"], callback: buildLambda("bio"), path: "/bio" },
 		{ aliases: ["social", "links"], callback: buildLambda("social"), path: "/social" },
 		{ aliases: ["research", "portfolio", "projects", "work", "past work", "publications", "publication"], callback: buildLambda("portfolio"), path: "/research" },
+		{ aliases: ["supervision", "supervise", "mentoring", "mentor", "mentorship", "fellowship", "fellowships", "collaboration", "collaborate"], callback: buildLambda("supervision"), path: "/supervision" },
 		{ aliases: ["contact"], callback: buildLambda("contact"), path: "/contact" },
 		{ aliases: ["pgp", "publickey", "public key"], callback: buildLambda("pgp"), path: "/pgp" },
 		{ aliases: ["clear", "cls"], callback: function() { jqconsole.Clear(); return introOutput(); }, path: "/" },
-		{ aliases: ["cats", "cat", "meow"], callback: function() {
+		{ aliases: ["cats", "cat", "meow", "miao"], callback: function() {
 			return renderCat(jqconsole.$console[0]);
 		}}
 	];

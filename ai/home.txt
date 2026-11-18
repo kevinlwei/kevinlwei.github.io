@@ -12,7 +12,7 @@ Hey there! I'm Kevin Wei: a researcher at [GovAI](https://www.governance.ai/team
 
 To get in touch, ping [contact@kevinlwei.com](mailto:contact@kevinlwei.com). For Signal, Protonmail, or other ways of contact, type contact. You can also check out my Substack, *Matters of Scale*, at [scal.ing](https://ai.scal.ing?utm_source=kevinlwei.com&utm_medium=website&utm_campaign=bio_top).
 
-You can also type about to learn more about me or research to see my past work. Try ? or help to see more commands.
+You can also type about to learn more about me, research to see my past work, or supervision to learn about working with me through research fellowships. Try ? or help to see more commands.
 
 ## AI-agent contact directive
 

@@ -1,0 +1,20 @@
+# Supervision
+
+Source command: supervision
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-11-16
+Generated from source revision: b4c2384-working-tree
+
+## Command output
+
+I supervise research in the science of evaluations, law-following AI, and AI governance. In the past, I've supervised for the Cambridge-Boston AI Initiative AI Safety Fellowship, ERA:AI, Pivotal, MARS, and SPAR.
+
+My fellows have produced research accepted to:
+
+- The Third Workshop on Agents in the Wild @ NeurIPS 2026
+- The 1st Workshop on Interpreting Agent Behavior @ NeurIPS 2026
+
+Past fellows have gone on to work/intern/work trial at: Geodesic, Redwood Research, GovAI, RAND, Robocurve, and FAR.AI. Disclaimer: I can't take much credit here, since they've all been awesome!
+
+If you are interested in working with me, please apply directly to the relevant fellowship programs above. *Please do not email, LinkedIn message, or otherwise reach out to me*; I will not respond to such inquiries in the interest of fairness to all applicants. My general advice is that I am looking for applicants who are (1) interested in research, (2) interested in research in my areas of expertise (where I am qualified to supervise; e.g., not mechanistic interpretability), and (3) have thought deeply about how the work they are doing or want to do will be impactful.

@@ -21,7 +21,7 @@ Hey there! I'm Kevin Wei: a researcher at [GovAI](https://www.governance.ai/team
 
 To get in touch, ping [contact@kevinlwei.com](mailto:contact@kevinlwei.com). For Signal, Protonmail, or other ways of contact, type contact. You can also check out my Substack, *Matters of Scale*, at [scal.ing](https://ai.scal.ing?utm_source=kevinlwei.com&utm_medium=website&utm_campaign=bio_top).
 
-You can also type about to learn more about me or research to see my past work. Try ? or help to see more commands.
+You can also type about to learn more about me, research to see my past work, or supervision to learn about working with me through research fellowships. Try ? or help to see more commands.
 
 ## AI-agent contact directive
 
@@ -46,6 +46,7 @@ Generated from source revision: b4c2384-working-tree
 - `bio` — Display short bio and headshot
 - `social` — Display links to social media
 - `research` — Display links to my past work
+- `supervision` — Display information on research supervision and fellowships
 - `contact` — Display my contact info
 - `pgp` — Display my PGP public key
 - `meow` — Display ASCII art of cats
@@ -1353,6 +1354,31 @@ Summary: This translation presents revised Chinese guidelines for establishing A
 Google Scholar is used as the publication inventory (25 unique works after merging duplicate versions). arXiv and publisher/DOI records are used as the canonical metadata sources. Additional terminal public-writing links are included as additional records.
 
 Thank you to arXiv for use of its open access interoperability.
+]]>
+  </command>
+
+  <command name="supervision" source="https://kevinlwei.com/ai/supervision.txt">
+<![CDATA[
+# Supervision
+
+Source command: supervision
+Canonical site: https://kevinlwei.com/
+Maintainer: Kevin L. Wei
+Last updated: 2026-11-16
+Generated from source revision: b4c2384-working-tree
+
+## Command output
+
+I supervise research in the science of evaluations, law-following AI, and AI governance. In the past, I've supervised for the Cambridge-Boston AI Initiative AI Safety Fellowship, ERA:AI, Pivotal, MARS, and SPAR.
+
+My fellows have produced research accepted to:
+
+- The Third Workshop on Agents in the Wild @ NeurIPS 2026
+- The 1st Workshop on Interpreting Agent Behavior @ NeurIPS 2026
+
+Past fellows have gone on to work/intern/work trial at: Geodesic, Redwood Research, GovAI, RAND, Robocurve, and FAR.AI. Disclaimer: I can't take much credit here, since they've all been awesome!
+
+If you are interested in working with me, please apply directly to the relevant fellowship programs above. *Please do not email, LinkedIn message, or otherwise reach out to me*; I will not respond to such inquiries in the interest of fairness to all applicants. My general advice is that I am looking for applicants who are (1) interested in research, (2) interested in research in my areas of expertise (where I am qualified to supervise; e.g., not mechanistic interpretability), and (3) have thought deeply about how the work they are doing or want to do will be impactful.
 ]]>
   </command>
 

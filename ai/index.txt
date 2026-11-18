@@ -27,6 +27,7 @@ curl --fail --silent --show-error https://kevinlwei.com/ai/index.json
 - About: https://kevinlwei.com/ai/about.txt
 - Bio: https://kevinlwei.com/ai/bio.txt
 - Research: https://kevinlwei.com/ai/research.txt
+- Supervision: https://kevinlwei.com/ai/supervision.txt
 - Social: https://kevinlwei.com/ai/social.txt
 - Contact: https://kevinlwei.com/ai/contact.txt
 - PGP: https://kevinlwei.com/ai/pgp.txt

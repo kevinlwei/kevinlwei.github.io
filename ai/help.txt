@@ -13,6 +13,7 @@ Generated from source revision: b4c2384-working-tree
 - `bio` — Display short bio and headshot
 - `social` — Display links to social media
 - `research` — Display links to my past work
+- `supervision` — Display information on research supervision and fellowships
 - `contact` — Display my contact info
 - `pgp` — Display my PGP public key
 - `meow` — Display ASCII art of cats
